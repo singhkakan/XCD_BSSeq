@@ -1,0 +1,347 @@
+mkdir: cannot create directory ‘/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup’: File exists
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/
+Processing paired-end Bismark output file(s) (SAM format):
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam
+
+
+If there are several alignments to a single position in the genome the first alignment will be chosen. Since the input files are not in any way sorted this is a near-enough random selection of reads.
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam<< for signs of file truncation...
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam:	96564971
+Total number duplicated alignments removed:	51323468 (53.15%)
+Duplicated alignments were found at:	18559831 different position(s)
+
+Total count of deduplicated leftover sequences: 45241503 (46.85% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950173_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950173_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950173_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam:	144261003
+Total number duplicated alignments removed:	88012765 (61.01%)
+Duplicated alignments were found at:	27160551 different position(s)
+
+Total count of deduplicated leftover sequences: 56248238 (38.99% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950174_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950174_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950174_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam:	42097673
+Total number duplicated alignments removed:	16545831 (39.30%)
+Duplicated alignments were found at:	6427323 different position(s)
+
+Total count of deduplicated leftover sequences: 25551842 (60.70% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950175_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950175_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950175_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam:	24276897
+Total number duplicated alignments removed:	15939052 (65.66%)
+Duplicated alignments were found at:	4356407 different position(s)
+
+Total count of deduplicated leftover sequences: 8337845 (34.34% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950176_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950176_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950176_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam:	19959691
+Total number duplicated alignments removed:	12557950 (62.92%)
+Duplicated alignments were found at:	3834436 different position(s)
+
+Total count of deduplicated leftover sequences: 7401741 (37.08% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950177_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950177_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950177_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Use of uninitialized value $_ in split at /home/groups/ximenac/XCD_BSSeq/GSE134873/Bismark-0.24.2/deduplicate_bismark line 452, <IN> line 697445011.
+Use of uninitialized value $start in join or string at /home/groups/ximenac/XCD_BSSeq/GSE134873/Bismark-0.24.2/deduplicate_bismark line 454, <IN> line 697445011.
+Use of uninitialized value $_ in string at /home/groups/ximenac/XCD_BSSeq/GSE134873/Bismark-0.24.2/deduplicate_bismark line 471, <IN> line 697445011.
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam:	21562187
+Total number duplicated alignments removed:	9858651 (45.72%)
+Duplicated alignments were found at:	3351305 different position(s)
+
+Total count of deduplicated leftover sequences: 11703536 (54.28% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950178_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam:	19194325
+Total number duplicated alignments removed:	11939233 (62.20%)
+Duplicated alignments were found at:	3728492 different position(s)
+
+Total count of deduplicated leftover sequences: 7255092 (37.80% of total)
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam<< for signs of file truncation...
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950179_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950179_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950179_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam
+
+
+
+Now testing Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam:	3962715
+Total number duplicated alignments removed:	1187532 (29.97%)
+Duplicated alignments were found at:	699883 different position(s)
+
+Total count of deduplicated leftover sequences: 2775183 (70.03% of total)
+
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:1	LN:195154279
+skipping header line:	@SQ	SN:2	LN:181755017
+skipping header line:	@SQ	SN:3	LN:159745316
+skipping header line:	@SQ	SN:4	LN:156860686
+skipping header line:	@SQ	SN:5	LN:151758149
+skipping header line:	@SQ	SN:6	LN:149588044
+skipping header line:	@SQ	SN:7	LN:144995196
+skipping header line:	@SQ	SN:8	LN:130127694
+skipping header line:	@SQ	SN:9	LN:124359700
+skipping header line:	@SQ	SN:10	LN:130530862
+skipping header line:	@SQ	SN:11	LN:121973369
+skipping header line:	@SQ	SN:12	LN:120092757
+skipping header line:	@SQ	SN:13	LN:120883175
+skipping header line:	@SQ	SN:14	LN:125139656
+skipping header line:	@SQ	SN:15	LN:104073951
+skipping header line:	@SQ	SN:16	LN:98008968
+skipping header line:	@SQ	SN:17	LN:95294699
+skipping header line:	@SQ	SN:18	LN:90720763
+skipping header line:	@SQ	SN:19	LN:61420004
+skipping header line:	@SQ	SN:X	LN:169476592
+skipping header line:	@SQ	SN:Y	LN:91455967
+skipping header line:	@SQ	SN:MT	LN:16299
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950180_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950180_2.fastq.gz"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950180_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam
