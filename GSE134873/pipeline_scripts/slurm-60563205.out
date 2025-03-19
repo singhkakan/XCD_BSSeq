@@ -1,0 +1,2117 @@
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+Cutadapt version: 1.18
+Cutadapt version: 1.18
+Cutadapt version: 1.18
+Cutadapt version: 1.18
+Cutadapt version: 1.18
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt version: 1.18
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Please provide an even number of input files for paired-end FastQ trimming! Aborting ...
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Proceeding with 'pigz -p 4' for decompression
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Please provide an even number of input files for paired-end FastQ trimming! Aborting ...
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833662_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833667_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833662_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_1.fastq.gz <<< 
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833663_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833663_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833667_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_1.fastq.gz <<< 
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833666_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833663_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833663_1.fastq.gz <<< 
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833669_1.fastq.gz_trimming_report.txt'
+Writing final adapter and quality trimmed output to SRR9833666_1_trimmed.fq.gz
+
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_1.fastq.gz
+Cutadapt version: 1.18
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_1.fastq.gz <<< 
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833669_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_1.fastq.gz <<< 
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Cutadapt version: 1.18
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Cutadapt version: 1.18
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 4 cores
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 4 cores
+
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+Adapter2 sequence given as >A{10}< expanded to: >AAAAAAAAAA<
+Output will be written into the directory: /scratch/groups/ximenac/GSE134873/trim_galore_out/
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833668_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833668_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_1.fastq.gz <<< 
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833665_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833665_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_1.fastq.gz <<< 
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833664_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 4
+Writing final adapter and quality trimmed output to SRR9833664_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_1.fastq.gz <<< 
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+10000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+30000000 sequences processed
+30000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+20000000 sequences processed
+40000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+40000000 sequences processed
+30000000 sequences processed
+50000000 sequences processed
+50000000 sequences processed
+50000000 sequences processed
+30000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+60000000 sequences processed
+60000000 sequences processed
+60000000 sequences processed
+50000000 sequences processed
+70000000 sequences processed
+40000000 sequences processed
+40000000 sequences processed
+70000000 sequences processed
+70000000 sequences processed
+60000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+80000000 sequences processed
+80000000 sequences processed
+80000000 sequences processed
+70000000 sequences processed
+50000000 sequences processed
+50000000 sequences processed
+50000000 sequences processed
+90000000 sequences processed
+90000000 sequences processed
+90000000 sequences processed
+60000000 sequences processed
+80000000 sequences processed
+100000000 sequences processed
+100000000 sequences processed
+100000000 sequences processed
+90000000 sequences processed
+60000000 sequences processed
+60000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+110000000 sequences processed
+110000000 sequences processed
+110000000 sequences processed
+100000000 sequences processed
+70000000 sequences processed
+120000000 sequences processed
+120000000 sequences processed
+70000000 sequences processed
+120000000 sequences processed
+110000000 sequences processed
+70000000 sequences processed
+80000000 sequences processed
+130000000 sequences processed
+130000000 sequences processed
+130000000 sequences processed
+120000000 sequences processed
+80000000 sequences processed
+80000000 sequences processed
+140000000 sequences processed
+140000000 sequences processed
+130000000 sequences processed
+80000000 sequences processed
+140000000 sequences processed
+90000000 sequences processed
+150000000 sequences processed
+90000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+150000000 sequences processed
+90000000 sequences processed
+100000000 sequences processed
+90000000 sequences processed
+160000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+160000000 sequences processed
+100000000 sequences processed
+170000000 sequences processed
+160000000 sequences processed
+170000000 sequences processed
+170000000 sequences processed
+100000000 sequences processed
+110000000 sequences processed
+100000000 sequences processed
+180000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+180000000 sequences processed
+110000000 sequences processed
+190000000 sequences processed
+180000000 sequences processed
+110000000 sequences processed
+190000000 sequences processed
+120000000 sequences processed
+190000000 sequences processed
+110000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 4547.15 s (23 us/read; 2.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             194,975,557
+Reads with adapters:                67,709,063 (34.7%)
+Reads written (passing filters):   194,975,557 (100.0%)
+
+Total basepairs processed: 24,566,920,182 bp
+Quality-trimmed:             223,099,946 bp (0.9%)
+Total written (filtered):  23,972,650,263 bp (97.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 67709063 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.6%
+  C: 18.5%
+  G: 13.0%
+  T: 37.6%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	40268578	48743889.2	0	40268578
+2	9959113	12185972.3	0	9959113
+3	3761816	3046493.1	0	3761816
+4	2152111	761623.3	0	2152111
+5	564766	190405.8	0	564766
+6	555134	47601.5	0	555134
+7	419655	11900.4	0	419655
+8	460592	2975.1	0	460592
+9	655175	743.8	0	652229 2946
+10	332346	185.9	1	317072 15274
+11	481484	46.5	1	460205 21279
+12	377850	11.6	1	362365 15485
+13	360743	2.9	1	346923 13820
+14	422169	2.9	1	403048 19121
+15	323405	2.9	1	310165 13240
+16	311466	2.9	1	295225 16241
+17	382652	2.9	1	362000 20652
+18	245490	2.9	1	237515 7975
+19	367726	2.9	1	342826 24900
+20	188420	2.9	1	183531 4889
+21	385745	2.9	1	356160 29585
+22	185949	2.9	1	176795 9154
+23	233078	2.9	1	222182 10896
+24	264246	2.9	1	250153 14093
+25	189705	2.9	1	183594 6111
+26	190673	2.9	1	177490 13183
+27	198530	2.9	1	188744 9786
+28	175466	2.9	1	168342 7124
+29	178216	2.9	1	170513 7703
+30	109512	2.9	1	105981 3531
+31	177052	2.9	1	165906 11146
+32	175542	2.9	1	168773 6769
+33	69527	2.9	1	66525 3002
+34	152419	2.9	1	146251 6168
+35	107573	2.9	1	103061 4512
+36	66135	2.9	1	64168 1967
+37	110420	2.9	1	105454 4966
+38	82427	2.9	1	78149 4278
+39	89946	2.9	1	85721 4225
+40	118352	2.9	1	112922 5430
+41	52433	2.9	1	50896 1537
+42	86292	2.9	1	82609 3683
+43	110769	2.9	1	107728 3041
+44	27356	2.9	1	26055 1301
+45	41311	2.9	1	40168 1143
+46	31618	2.9	1	30325 1293
+47	56460	2.9	1	54363 2097
+48	36968	2.9	1	36053 915
+49	52492	2.9	1	50325 2167
+50	40073	2.9	1	38836 1237
+51	57282	2.9	1	55257 2025
+52	14316	2.9	1	13728 588
+53	36298	2.9	1	34885 1413
+54	47855	2.9	1	45889 1966
+55	33211	2.9	1	32377 834
+56	11957	2.9	1	11338 619
+57	32808	2.9	1	31956 852
+58	26902	2.9	1	26047 855
+59	16924	2.9	1	16222 702
+60	30040	2.9	1	29271 769
+61	24561	2.9	1	23762 799
+62	7944	2.9	1	7623 321
+63	29012	2.9	1	28265 747
+64	18029	2.9	1	17468 561
+65	16048	2.9	1	15511 537
+66	15871	2.9	1	15484 387
+67	15435	2.9	1	15022 413
+68	15977	2.9	1	15569 408
+69	18141	2.9	1	17637 504
+70	17666	2.9	1	17179 487
+71	18792	2.9	1	18290 502
+72	21504	2.9	1	20913 591
+73	24647	2.9	1	23981 666
+74	33552	2.9	1	32688 864
+75	58764	2.9	1	57224 1540
+76	131581	2.9	1	129040 2541
+77	143825	2.9	1	141744 2081
+78	65260	2.9	1	64164 1096
+79	37744	2.9	1	37046 698
+80	22467	2.9	1	22036 431
+81	12711	2.9	1	12427 284
+82	7234	2.9	1	7085 149
+83	4526	2.9	1	4414 112
+84	3601	2.9	1	3499 102
+85	3272	2.9	1	3169 103
+86	3130	2.9	1	3051 79
+87	3086	2.9	1	2998 88
+88	3021	2.9	1	2921 100
+89	3411	2.9	1	3333 78
+90	3174	2.9	1	3081 93
+91	3547	2.9	1	3464 83
+92	3516	2.9	1	3425 91
+93	4669	2.9	1	4587 82
+94	4747	2.9	1	4652 95
+95	6396	2.9	1	6267 129
+96	8188	2.9	1	8011 177
+97	9699	2.9	1	9510 189
+98	10100	2.9	1	9888 212
+99	10679	2.9	1	10447 232
+100	9084	2.9	1	8905 179
+101	6877	2.9	1	6762 115
+102	5427	2.9	1	5319 108
+103	5755	2.9	1	5621 134
+104	5035	2.9	1	4905 130
+105	4415	2.9	1	4302 113
+106	3774	2.9	1	3649 125
+107	3800	2.9	1	3708 92
+108	3618	2.9	1	3557 61
+109	4038	2.9	1	3954 84
+110	4632	2.9	1	4548 84
+111	5308	2.9	1	5208 100
+112	6104	2.9	1	5998 106
+113	5801	2.9	1	5705 96
+114	5160	2.9	1	5077 83
+115	4647	2.9	1	4586 61
+116	4249	2.9	1	4175 74
+117	3905	2.9	1	3816 89
+118	3568	2.9	1	3485 83
+119	3132	2.9	1	3039 93
+120	3206	2.9	1	3133 73
+121	3670	2.9	1	3580 90
+122	3062	2.9	1	2974 88
+123	1950	2.9	1	1847 103
+124	7002	2.9	1	6721 281
+125	8674	2.9	1	7909 765
+126	43074	2.9	1	38580 4494
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_1.fastq.gz
+=============================================
+194975557 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833669_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833669_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_2.fastq.gz <<< 
+200000000 sequences processed
+190000000 sequences processed
+200000000 sequences processed
+10000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 4805.79 s (24 us/read; 2.47 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             198,056,601
+Reads with adapters:                69,896,539 (35.3%)
+Reads written (passing filters):   198,056,601 (100.0%)
+
+Total basepairs processed: 24,955,131,726 bp
+Quality-trimmed:             233,896,938 bp (0.9%)
+Total written (filtered):  24,279,955,006 bp (97.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 69896539 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 29.4%
+  C: 20.6%
+  G: 12.5%
+  T: 37.1%
+  none/other: 0.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	40072213	49514150.2	0	40072213
+2	10044507	12378537.6	0	10044507
+3	3825420	3094634.4	0	3825420
+4	2269696	773658.6	0	2269696
+5	620801	193414.6	0	620801
+6	623353	48353.7	0	623353
+7	496285	12088.4	0	496285
+8	533432	3022.1	0	533432
+9	716017	755.5	0	712969 3048
+10	413011	188.9	1	395885 17126
+11	550397	47.2	1	527727 22670
+12	447779	11.8	1	430174 17605
+13	421372	3.0	1	406326 15046
+14	482160	3.0	1	461982 20178
+15	367729	3.0	1	353492 14237
+16	387259	3.0	1	368513 18746
+17	433872	3.0	1	412430 21442
+18	267309	3.0	1	259394 7915
+19	469485	3.0	1	440168 29317
+20	205350	3.0	1	200282 5068
+21	463843	3.0	1	430570 33273
+22	221406	3.0	1	211146 10260
+23	265950	3.0	1	254863 11087
+24	322756	3.0	1	306951 15805
+25	188787	3.0	1	183260 5527
+26	253329	3.0	1	238047 15282
+27	230023	3.0	1	219792 10231
+28	217084	3.0	1	209249 7835
+29	210578	3.0	1	202467 8111
+30	116724	3.0	1	113182 3542
+31	202152	3.0	1	191215 10937
+32	165506	3.0	1	159970 5536
+33	112424	3.0	1	108323 4101
+34	147132	3.0	1	140115 7017
+35	227269	3.0	1	216328 10941
+36	96171	3.0	1	93066 3105
+37	89445	3.0	1	87192 2253
+38	97719	3.0	1	93788 3931
+39	82150	3.0	1	80165 1985
+40	115612	3.0	1	110464 5148
+41	140746	3.0	1	137024 3722
+42	36687	3.0	1	34708 1979
+43	71530	3.0	1	69681 1849
+44	42993	3.0	1	41339 1654
+45	76292	3.0	1	73698 2594
+46	48973	3.0	1	47873 1100
+47	64961	3.0	1	62300 2661
+48	51965	3.0	1	50523 1442
+49	70407	3.0	1	67758 2649
+50	27466	3.0	1	26617 849
+51	48708	3.0	1	46843 1865
+52	64710	3.0	1	62210 2500
+53	38226	3.0	1	37368 858
+54	15717	3.0	1	15018 699
+55	45323	3.0	1	44243 1080
+56	30010	3.0	1	29184 826
+57	20538	3.0	1	19751 787
+58	32502	3.0	1	31817 685
+59	28696	3.0	1	27757 939
+60	14485	3.0	1	14074 411
+61	29875	3.0	1	29082 793
+62	27106	3.0	1	26243 863
+63	25094	3.0	1	24223 871
+64	16804	3.0	1	16422 382
+65	16832	3.0	1	16352 480
+66	18727	3.0	1	18187 540
+67	21622	3.0	1	20983 639
+68	21332	3.0	1	20683 649
+69	25918	3.0	1	25222 696
+70	28891	3.0	1	28183 708
+71	28180	3.0	1	27537 643
+72	31973	3.0	1	31153 820
+73	51043	3.0	1	49123 1920
+74	173147	3.0	1	169250 3897
+75	224905	3.0	1	221322 3583
+76	127953	3.0	1	125697 2256
+77	88627	3.0	1	87042 1585
+78	57307	3.0	1	56302 1005
+79	31365	3.0	1	30817 548
+80	17584	3.0	1	17226 358
+81	8877	3.0	1	8709 168
+82	5863	3.0	1	5715 148
+83	4591	3.0	1	4448 143
+84	4531	3.0	1	4412 119
+85	4446	3.0	1	4319 127
+86	4367	3.0	1	4244 123
+87	4261	3.0	1	4141 120
+88	3971	3.0	1	3856 115
+89	3784	3.0	1	3666 118
+90	3821	3.0	1	3718 103
+91	4560	3.0	1	4463 97
+92	4650	3.0	1	4545 105
+93	5561	3.0	1	5441 120
+94	6630	3.0	1	6505 125
+95	8392	3.0	1	8242 150
+96	10873	3.0	1	10673 200
+97	13528	3.0	1	13264 264
+98	13990	3.0	1	13728 262
+99	13474	3.0	1	13197 277
+100	11953	3.0	1	11727 226
+101	9446	3.0	1	9296 150
+102	8303	3.0	1	8156 147
+103	8283	3.0	1	8114 169
+104	7319	3.0	1	7170 149
+105	6415	3.0	1	6234 181
+106	5703	3.0	1	5528 175
+107	5889	3.0	1	5732 157
+108	6315	3.0	1	6187 128
+109	6814	3.0	1	6695 119
+110	7917	3.0	1	7800 117
+111	8202	3.0	1	8079 123
+112	8678	3.0	1	8541 137
+113	7661	3.0	1	7501 160
+114	6366	3.0	1	6256 110
+115	5631	3.0	1	5524 107
+116	4990	3.0	1	4877 113
+117	4629	3.0	1	4518 111
+118	4857	3.0	1	4765 92
+119	4217	3.0	1	4114 103
+120	4523	3.0	1	4419 104
+121	5768	3.0	1	5635 133
+122	5299	3.0	1	5142 157
+123	4069	3.0	1	3927 142
+124	20044	3.0	1	19505 539
+125	11058	3.0	1	9987 1071
+126	67293	3.0	1	60491 6802
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_1.fastq.gz
+=============================================
+198056601 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833662_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833662_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833662_2.fastq.gz <<< 
+120000000 sequences processed
+210000000 sequences processed
+210000000 sequences processed
+20000000 sequences processed
+120000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 4993.07 s (23 us/read; 2.60 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             216,781,216
+Reads with adapters:                75,073,392 (34.6%)
+Reads written (passing filters):   216,781,216 (100.0%)
+
+Total basepairs processed: 27,314,433,216 bp
+Quality-trimmed:             244,515,708 bp (0.9%)
+Total written (filtered):  26,690,939,894 bp (97.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 75073392 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.6%
+  C: 18.3%
+  G: 13.1%
+  T: 37.8%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	44599673	54195304.0	0	44599673
+2	11159813	13548826.0	0	11159813
+3	4266761	3387206.5	0	4266761
+4	2408916	846801.6	0	2408916
+5	643382	211700.4	0	643382
+6	662021	52925.1	0	662021
+7	529541	13231.3	0	529541
+8	558991	3307.8	0	558991
+9	711599	827.0	0	708239 3360
+10	460881	206.7	1	441964 18917
+11	536399	51.7	1	514631 21768
+12	447539	12.9	1	430304 17235
+13	425811	3.2	1	410527 15284
+14	486929	3.2	1	466924 20005
+15	377205	3.2	1	363028 14177
+16	341988	3.2	1	326117 15871
+17	435534	3.2	1	414231 21303
+18	268103	3.2	1	260218 7885
+19	437249	3.2	1	410533 26716
+20	206727	3.2	1	201620 5107
+21	429880	3.2	1	399724 30156
+22	217670	3.2	1	207653 10017
+23	251981	3.2	1	241466 10515
+24	289193	3.2	1	275447 13746
+25	193209	3.2	1	187517 5692
+26	216765	3.2	1	203891 12874
+27	211744	3.2	1	202164 9580
+28	211440	3.2	1	203371 8069
+29	176258	3.2	1	169386 6872
+30	122486	3.2	1	118797 3689
+31	167601	3.2	1	158409 9192
+32	169031	3.2	1	163143 5888
+33	97800	3.2	1	93970 3830
+34	173323	3.2	1	167538 5785
+35	55703	3.2	1	53175 2528
+36	145060	3.2	1	139919 5141
+37	88367	3.2	1	84637 3730
+38	74401	3.2	1	72208 2193
+39	95137	3.2	1	90987 4150
+40	86688	3.2	1	83726 2962
+41	124737	3.2	1	121504 3233
+42	33729	3.2	1	32236 1493
+43	51485	3.2	1	50142 1343
+44	33735	3.2	1	32528 1207
+45	62251	3.2	1	60047 2204
+46	41403	3.2	1	40390 1013
+47	53230	3.2	1	51009 2221
+48	44251	3.2	1	42975 1276
+49	57828	3.2	1	55681 2147
+50	22858	3.2	1	22169 689
+51	40888	3.2	1	39306 1582
+52	53589	3.2	1	51511 2078
+53	31497	3.2	1	30804 693
+54	12527	3.2	1	11917 610
+55	38483	3.2	1	37545 938
+56	25203	3.2	1	24479 724
+57	15584	3.2	1	14983 601
+58	28075	3.2	1	27502 573
+59	22733	3.2	1	21944 789
+60	11710	3.2	1	11388 322
+61	25190	3.2	1	24479 711
+62	22363	3.2	1	21669 694
+63	19869	3.2	1	19146 723
+64	13462	3.2	1	13117 345
+65	13464	3.2	1	13074 390
+66	14893	3.2	1	14440 453
+67	16766	3.2	1	16221 545
+68	16054	3.2	1	15564 490
+69	17394	3.2	1	16874 520
+70	17092	3.2	1	16627 465
+71	21184	3.2	1	20646 538
+72	22223	3.2	1	21660 563
+73	33687	3.2	1	32654 1033
+74	90503	3.2	1	88374 2129
+75	131615	3.2	1	129517 2098
+76	64223	3.2	1	63138 1085
+77	36165	3.2	1	35434 731
+78	22882	3.2	1	22449 433
+79	13181	3.2	1	12896 285
+80	8093	3.2	1	7906 187
+81	4231	3.2	1	4106 125
+82	3064	3.2	1	2977 87
+83	2530	3.2	1	2437 93
+84	2477	3.2	1	2383 94
+85	2596	3.2	1	2516 80
+86	2712	3.2	1	2624 88
+87	2530	3.2	1	2454 76
+88	2468	3.2	1	2386 82
+89	2465	3.2	1	2384 81
+90	2437	3.2	1	2353 84
+91	2821	3.2	1	2744 77
+92	2724	3.2	1	2659 65
+93	3443	3.2	1	3358 85
+94	3704	3.2	1	3601 103
+95	4930	3.2	1	4801 129
+96	6017	3.2	1	5826 191
+97	7185	3.2	1	6969 216
+98	7619	3.2	1	7401 218
+99	7416	3.2	1	7167 249
+100	6312	3.2	1	6129 183
+101	5081	3.2	1	4973 108
+102	4340	3.2	1	4227 113
+103	4213	3.2	1	4074 139
+104	3701	3.2	1	3567 134
+105	3230	3.2	1	3109 121
+106	2886	3.2	1	2760 126
+107	3038	3.2	1	2923 115
+108	3281	3.2	1	3194 87
+109	3533	3.2	1	3456 77
+110	3954	3.2	1	3862 92
+111	4083	3.2	1	3982 101
+112	4073	3.2	1	3995 78
+113	3705	3.2	1	3593 112
+114	2935	3.2	1	2853 82
+115	2634	3.2	1	2565 69
+116	2397	3.2	1	2331 66
+117	2263	3.2	1	2190 73
+118	2404	3.2	1	2342 62
+119	2115	3.2	1	2040 75
+120	2309	3.2	1	2228 81
+121	2830	3.2	1	2747 83
+122	2242	3.2	1	2143 99
+123	1554	3.2	1	1438 116
+124	5096	3.2	1	4813 283
+125	7648	3.2	1	6718 930
+126	43268	3.2	1	37492 5776
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_1.fastq.gz
+=============================================
+216781216 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833664_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833664_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833664_2.fastq.gz <<< 
+10000000 sequences processed
+30000000 sequences processed
+130000000 sequences processed
+220000000 sequences processed
+10000000 sequences processed
+140000000 sequences processed
+20000000 sequences processed
+130000000 sequences processed
+40000000 sequences processed
+230000000 sequences processed
+30000000 sequences processed
+20000000 sequences processed
+130000000 sequences processed
+50000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+40000000 sequences processed
+30000000 sequences processed
+140000000 sequences processed
+240000000 sequences processed
+60000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 5779.53 s (23 us/read; 2.56 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             246,235,899
+Reads with adapters:                87,247,644 (35.4%)
+Reads written (passing filters):   246,235,899 (100.0%)
+
+Total basepairs processed: 31,025,723,274 bp
+Quality-trimmed:             307,760,374 bp (1.0%)
+Total written (filtered):  30,188,612,095 bp (97.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 87247644 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 29.1%
+  C: 21.9%
+  G: 12.4%
+  T: 36.4%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	49655187	61558974.8	0	49655187
+2	12186170	15389743.7	0	12186170
+3	4766005	3847435.9	0	4766005
+4	2890428	961859.0	0	2890428
+5	845913	240464.7	0	845913
+6	843625	60116.2	0	843625
+7	642150	15029.0	0	642150
+8	724387	3757.3	0	724387
+9	991121	939.3	0	987350 3771
+10	556369	234.8	1	531432 24937
+11	761865	58.7	1	727391 34474
+12	607822	14.7	1	582076 25746
+13	539057	3.7	1	517899 21158
+14	694444	3.7	1	663146 31298
+15	441789	3.7	1	423043 18746
+16	576451	3.7	1	545838 30613
+17	570392	3.7	1	538904 31488
+18	421163	3.7	1	406532 14631
+19	562197	3.7	1	522207 39990
+20	323438	3.7	1	314184 9254
+21	566931	3.7	1	522837 44094
+22	288187	3.7	1	273899 14288
+23	380904	3.7	1	361331 19573
+24	442165	3.7	1	416105 26060
+25	278840	3.7	1	269122 9718
+26	345159	3.7	1	320237 24922
+27	313303	3.7	1	297429 15874
+28	278130	3.7	1	266783 11347
+29	277145	3.7	1	265517 11628
+30	151077	3.7	1	146106 4971
+31	293533	3.7	1	275129 18404
+32	248433	3.7	1	239510 8923
+33	103329	3.7	1	98688 4641
+34	312642	3.7	1	299874 12768
+35	32822	3.7	1	30601 2221
+36	168251	3.7	1	160165 8086
+37	195948	3.7	1	186381 9567
+38	132574	3.7	1	126852 5722
+39	178875	3.7	1	172665 6210
+40	89492	3.7	1	85158 4334
+41	171846	3.7	1	166662 5184
+42	35480	3.7	1	33327 2153
+43	94346	3.7	1	91711 2635
+44	43792	3.7	1	41795 1997
+45	97519	3.7	1	93467 4052
+46	58088	3.7	1	56447 1641
+47	78425	3.7	1	74904 3521
+48	66240	3.7	1	64013 2227
+49	89265	3.7	1	85602 3663
+50	29207	3.7	1	28046 1161
+51	62354	3.7	1	59749 2605
+52	82571	3.7	1	78873 3698
+53	43222	3.7	1	42065 1157
+54	17803	3.7	1	16897 906
+55	58316	3.7	1	56678 1638
+56	36219	3.7	1	35000 1219
+57	20337	3.7	1	19376 961
+58	42939	3.7	1	41865 1074
+59	33672	3.7	1	32319 1353
+60	16506	3.7	1	15940 566
+61	38535	3.7	1	37308 1227
+62	34011	3.7	1	32806 1205
+63	30150	3.7	1	28940 1210
+64	19580	3.7	1	19013 567
+65	20178	3.7	1	19519 659
+66	22631	3.7	1	21871 760
+67	26282	3.7	1	25390 892
+68	26895	3.7	1	25983 912
+69	32922	3.7	1	31911 1011
+70	34832	3.7	1	33832 1000
+71	47730	3.7	1	46422 1308
+72	58073	3.7	1	56784 1289
+73	62923	3.7	1	61038 1885
+74	143194	3.7	1	139781 3413
+75	189431	3.7	1	186088 3343
+76	109603	3.7	1	107420 2183
+77	74206	3.7	1	72711 1495
+78	49554	3.7	1	48562 992
+79	26318	3.7	1	25755 563
+80	14636	3.7	1	14314 322
+81	7711	3.7	1	7489 222
+82	5387	3.7	1	5200 187
+83	4204	3.7	1	4051 153
+84	4079	3.7	1	3947 132
+85	4015	3.7	1	3901 114
+86	4245	3.7	1	4099 146
+87	4223	3.7	1	4102 121
+88	4088	3.7	1	3973 115
+89	4108	3.7	1	3982 126
+90	3943	3.7	1	3828 115
+91	4711	3.7	1	4595 116
+92	4655	3.7	1	4538 117
+93	5494	3.7	1	5378 116
+94	6094	3.7	1	5948 146
+95	7684	3.7	1	7526 158
+96	9450	3.7	1	9235 215
+97	11651	3.7	1	11362 289
+98	12061	3.7	1	11762 299
+99	11438	3.7	1	11135 303
+100	9775	3.7	1	9533 242
+101	7535	3.7	1	7383 152
+102	6770	3.7	1	6618 152
+103	6528	3.7	1	6345 183
+104	6131	3.7	1	5950 181
+105	5743	3.7	1	5561 182
+106	5209	3.7	1	5029 180
+107	5170	3.7	1	5006 164
+108	5605	3.7	1	5464 141
+109	5854	3.7	1	5735 119
+110	6337	3.7	1	6199 138
+111	6721	3.7	1	6579 142
+112	6906	3.7	1	6775 131
+113	6127	3.7	1	5973 154
+114	5129	3.7	1	5017 112
+115	4672	3.7	1	4567 105
+116	4355	3.7	1	4217 138
+117	4143	3.7	1	4044 99
+118	4231	3.7	1	4121 110
+119	3798	3.7	1	3696 102
+120	4216	3.7	1	4113 103
+121	5865	3.7	1	5712 153
+122	4529	3.7	1	4364 165
+123	2356	3.7	1	2193 163
+124	9184	3.7	1	8739 445
+125	10102	3.7	1	9008 1094
+126	57868	3.7	1	51243 6625
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_1.fastq.gz
+=============================================
+246235899 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833665_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833665_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833665_2.fastq.gz <<< 
+50000000 sequences processed
+40000000 sequences processed
+140000000 sequences processed
+70000000 sequences processed
+160000000 sequences processed
+60000000 sequences processed
+150000000 sequences processed
+10000000 sequences processed
+150000000 sequences processed
+50000000 sequences processed
+80000000 sequences processed
+70000000 sequences processed
+20000000 sequences processed
+60000000 sequences processed
+90000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+80000000 sequences processed
+30000000 sequences processed
+160000000 sequences processed
+70000000 sequences processed
+170000000 sequences processed
+100000000 sequences processed
+90000000 sequences processed
+40000000 sequences processed
+80000000 sequences processed
+110000000 sequences processed
+160000000 sequences processed
+100000000 sequences processed
+170000000 sequences processed
+50000000 sequences processed
+170000000 sequences processed
+90000000 sequences processed
+180000000 sequences processed
+120000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 6887.07 s (38 us/read; 1.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             180,620,401
+Reads with adapters:                61,645,250 (34.1%)
+Reads written (passing filters):   180,620,401 (100.0%)
+
+Total basepairs processed: 22,758,170,526 bp
+Quality-trimmed:             205,422,579 bp (0.9%)
+Total written (filtered):  22,211,016,841 bp (97.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 61645250 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.8%
+  C: 17.9%
+  G: 13.1%
+  T: 37.9%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	36927060	45155100.2	0	36927060
+2	9075474	11288775.1	0	9075474
+3	3406402	2822193.8	0	3406402
+4	1955733	705548.4	0	1955733
+5	488508	176387.1	0	488508
+6	480431	44096.8	0	480431
+7	366567	11024.2	0	366567
+8	399782	2756.0	0	399782
+9	562180	689.0	0	559644 2536
+10	291596	172.3	1	277936 13660
+11	428756	43.1	1	410064 18692
+12	329980	10.8	1	316283 13697
+13	302006	2.7	1	290457 11549
+14	376929	2.7	1	360390 16539
+15	273088	2.7	1	262099 10989
+16	266973	2.7	1	253254 13719
+17	344562	2.7	1	325809 18753
+18	197281	2.7	1	190872 6409
+19	349391	2.7	1	325551 23840
+20	158681	2.7	1	154260 4421
+21	336642	2.7	1	309986 26656
+22	173855	2.7	1	164654 9201
+23	199903	2.7	1	190797 9106
+24	231626	2.7	1	219313 12313
+25	169786	2.7	1	164425 5361
+26	157452	2.7	1	146657 10795
+27	174837	2.7	1	166507 8330
+28	158359	2.7	1	152032 6327
+29	152365	2.7	1	145894 6471
+30	101070	2.7	1	97857 3213
+31	143530	2.7	1	134671 8859
+32	149422	2.7	1	143647 5775
+33	71735	2.7	1	68637 3098
+34	134069	2.7	1	128788 5281
+35	72182	2.7	1	69440 2742
+36	126633	2.7	1	120609 6024
+37	51295	2.7	1	49725 1570
+38	87296	2.7	1	82676 4620
+39	81181	2.7	1	77943 3238
+40	96668	2.7	1	92622 4046
+41	47320	2.7	1	45620 1700
+42	67830	2.7	1	64915 2915
+43	114112	2.7	1	109935 4177
+44	31096	2.7	1	29716 1380
+45	32398	2.7	1	31554 844
+46	29861	2.7	1	28774 1087
+47	50003	2.7	1	48095 1908
+48	35100	2.7	1	34171 929
+49	46203	2.7	1	44299 1904
+50	38017	2.7	1	36790 1227
+51	52505	2.7	1	50596 1909
+52	13901	2.7	1	13350 551
+53	33331	2.7	1	31951 1380
+54	43867	2.7	1	41984 1883
+55	30557	2.7	1	29838 719
+56	11833	2.7	1	11225 608
+57	30090	2.7	1	29326 764
+58	25083	2.7	1	24298 785
+59	16534	2.7	1	15826 708
+60	27755	2.7	1	27018 737
+61	23289	2.7	1	22481 808
+62	7984	2.7	1	7682 302
+63	26781	2.7	1	26031 750
+64	16417	2.7	1	15910 507
+65	14962	2.7	1	14436 526
+66	14905	2.7	1	14526 379
+67	14287	2.7	1	13888 399
+68	14447	2.7	1	14013 434
+69	16778	2.7	1	16246 532
+70	16178	2.7	1	15713 465
+71	17008	2.7	1	16487 521
+72	18900	2.7	1	18403 497
+73	20701	2.7	1	20141 560
+74	25605	2.7	1	24937 668
+75	31618	2.7	1	30507 1111
+76	99315	2.7	1	97118 2197
+77	129154	2.7	1	126971 2183
+78	87215	2.7	1	85702 1513
+79	61910	2.7	1	60717 1193
+80	46795	2.7	1	46011 784
+81	26457	2.7	1	25980 477
+82	15680	2.7	1	15381 299
+83	7371	2.7	1	7195 176
+84	4534	2.7	1	4422 112
+85	3784	2.7	1	3679 105
+86	3774	2.7	1	3665 109
+87	3619	2.7	1	3507 112
+88	3379	2.7	1	3281 98
+89	3327	2.7	1	3224 103
+90	3025	2.7	1	2954 71
+91	3058	2.7	1	2956 102
+92	3122	2.7	1	3031 91
+93	4293	2.7	1	4198 95
+94	4245	2.7	1	4168 77
+95	5785	2.7	1	5677 108
+96	7721	2.7	1	7563 158
+97	8971	2.7	1	8781 190
+98	9551	2.7	1	9330 221
+99	10269	2.7	1	10057 212
+100	8914	2.7	1	8709 205
+101	6498	2.7	1	6376 122
+102	5382	2.7	1	5251 131
+103	5543	2.7	1	5381 162
+104	5112	2.7	1	4991 121
+105	4705	2.7	1	4576 129
+106	4068	2.7	1	3937 131
+107	4015	2.7	1	3915 100
+108	3957	2.7	1	3894 63
+109	4171	2.7	1	4086 85
+110	4719	2.7	1	4639 80
+111	5470	2.7	1	5377 93
+112	6559	2.7	1	6452 107
+113	6495	2.7	1	6392 103
+114	5993	2.7	1	5912 81
+115	5673	2.7	1	5583 90
+116	5001	2.7	1	4907 94
+117	4299	2.7	1	4231 68
+118	4175	2.7	1	4104 71
+119	3414	2.7	1	3349 65
+120	3459	2.7	1	3385 74
+121	4135	2.7	1	4036 99
+122	3416	2.7	1	3308 108
+123	2057	2.7	1	1960 97
+124	6918	2.7	1	6654 264
+125	8599	2.7	1	7785 814
+126	47607	2.7	1	42407 5200
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_1.fastq.gz
+=============================================
+180620401 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833668_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833668_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833668_2.fastq.gz <<< 
+110000000 sequences processed
+60000000 sequences processed
+100000000 sequences processed
+130000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+10000000 sequences processed
+180000000 sequences processed
+70000000 sequences processed
+120000000 sequences processed
+110000000 sequences processed
+140000000 sequences processed
+20000000 sequences processed
+80000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 7476.53 s (40 us/read; 1.52 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             188,886,108
+Reads with adapters:                70,110,195 (37.1%)
+Reads written (passing filters):   188,886,108 (100.0%)
+
+Total basepairs processed: 23,799,649,608 bp
+Quality-trimmed:             226,958,133 bp (1.0%)
+Total written (filtered):  23,062,576,106 bp (96.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 70110195 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 27.6%
+  C: 25.8%
+  G: 11.9%
+  T: 34.5%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	37620262	47221527.0	0	37620262
+2	9432544	11805381.8	0	9432544
+3	3684667	2951345.4	0	3684667
+4	2273871	737836.4	0	2273871
+5	705888	184459.1	0	705888
+6	707340	46114.8	0	707340
+7	556905	11528.7	0	556905
+8	610542	2882.2	0	610542
+9	859196	720.5	0	856061 3135
+10	475387	180.1	1	455743 19644
+11	649551	45.0	1	622713 26838
+12	538343	11.3	1	516998 21345
+13	506034	2.8	1	487226 18808
+14	611680	2.8	1	585499 26181
+15	449589	2.8	1	431649 17940
+16	483052	2.8	1	458756 24296
+17	548946	2.8	1	520506 28440
+18	360081	2.8	1	348697 11384
+19	601935	2.8	1	562913 39022
+20	283273	2.8	1	275890 7383
+21	599443	2.8	1	555119 44324
+22	294386	2.8	1	280434 13952
+23	375825	2.8	1	358746 17079
+24	440316	2.8	1	416930 23386
+25	287262	2.8	1	278056 9206
+26	352186	2.8	1	329166 23020
+27	327615	2.8	1	312365 15250
+28	296931	2.8	1	285733 11198
+29	295575	2.8	1	283495 12080
+30	192813	2.8	1	186679 6134
+31	300036	2.8	1	281917 18119
+32	281291	2.8	1	271202 10089
+33	136674	2.8	1	131080 5594
+34	221319	2.8	1	210562 10757
+35	279328	2.8	1	266297 13031
+36	230536	2.8	1	221750 8786
+37	100964	2.8	1	97103 3861
+38	183924	2.8	1	178707 5217
+39	103346	2.8	1	98179 5167
+40	168858	2.8	1	163258 5600
+41	217872	2.8	1	211977 5895
+42	47688	2.8	1	45342 2346
+43	104157	2.8	1	101468 2689
+44	54153	2.8	1	52012 2141
+45	114492	2.8	1	110386 4106
+46	70218	2.8	1	68439 1779
+47	93562	2.8	1	89682 3880
+48	77293	2.8	1	74947 2346
+49	103313	2.8	1	99445 3868
+50	36332	2.8	1	35082 1250
+51	71471	2.8	1	68652 2819
+52	92673	2.8	1	88958 3715
+53	50749	2.8	1	49472 1277
+54	20681	2.8	1	19709 972
+55	63554	2.8	1	62051 1503
+56	39967	2.8	1	38829 1138
+57	24845	2.8	1	23905 940
+58	44180	2.8	1	43208 972
+59	36047	2.8	1	34800 1247
+60	17977	2.8	1	17429 548
+61	38680	2.8	1	37566 1114
+62	33376	2.8	1	32313 1063
+63	30025	2.8	1	28987 1038
+64	18966	2.8	1	18463 503
+65	19883	2.8	1	19363 520
+66	21432	2.8	1	20735 697
+67	24783	2.8	1	24034 749
+68	24881	2.8	1	24125 756
+69	28402	2.8	1	27565 837
+70	30721	2.8	1	29916 805
+71	29118	2.8	1	28391 727
+72	36517	2.8	1	35676 841
+73	48712	2.8	1	47491 1221
+74	133345	2.8	1	130591 2754
+75	224301	2.8	1	221339 2962
+76	100859	2.8	1	99347 1512
+77	55391	2.8	1	54543 848
+78	31966	2.8	1	31469 497
+79	17620	2.8	1	17326 294
+80	10335	2.8	1	10161 174
+81	5792	2.8	1	5690 102
+82	4242	2.8	1	4132 110
+83	3482	2.8	1	3371 111
+84	3571	2.8	1	3489 82
+85	3352	2.8	1	3279 73
+86	3506	2.8	1	3417 89
+87	3284	2.8	1	3188 96
+88	3298	2.8	1	3218 80
+89	3194	2.8	1	3100 94
+90	3349	2.8	1	3276 73
+91	3956	2.8	1	3857 99
+92	4174	2.8	1	4085 89
+93	4858	2.8	1	4751 107
+94	5866	2.8	1	5760 106
+95	7244	2.8	1	7113 131
+96	9961	2.8	1	9780 181
+97	13036	2.8	1	12794 242
+98	14074	2.8	1	13773 301
+99	13577	2.8	1	13315 262
+100	12542	2.8	1	12291 251
+101	11068	2.8	1	10893 175
+102	10448	2.8	1	10299 149
+103	9323	2.8	1	9179 144
+104	8346	2.8	1	8231 115
+105	7584	2.8	1	7461 123
+106	6868	2.8	1	6770 98
+107	7491	2.8	1	7386 105
+108	8082	2.8	1	7973 109
+109	8794	2.8	1	8685 109
+110	9149	2.8	1	9020 129
+111	8366	2.8	1	8228 138
+112	7318	2.8	1	7232 86
+113	6265	2.8	1	6154 111
+114	5384	2.8	1	5296 88
+115	4549	2.8	1	4456 93
+116	4252	2.8	1	4166 86
+117	4106	2.8	1	4017 89
+118	4210	2.8	1	4126 84
+119	3489	2.8	1	3396 93
+120	3862	2.8	1	3765 97
+121	4451	2.8	1	4359 92
+122	2994	2.8	1	2897 97
+123	2024	2.8	1	1921 103
+124	5357	2.8	1	5055 302
+125	10978	2.8	1	10068 910
+126	50828	2.8	1	45469 5359
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_1.fastq.gz
+=============================================
+188886108 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833666_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833666_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833666_2.fastq.gz <<< 
+180000000 sequences processed
+150000000 sequences processed
+190000000 sequences processed
+30000000 sequences processed
+90000000 sequences processed
+140000000 sequences processed
+130000000 sequences processed
+160000000 sequences processed
+40000000 sequences processed
+100000000 sequences processed
+10000000 sequences processed
+150000000 sequences processed
+140000000 sequences processed
+190000000 sequences processed
+170000000 sequences processed
+200000000 sequences processed
+50000000 sequences processed
+110000000 sequences processed
+160000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_1.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 8084.21 s (40 us/read; 1.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             203,523,504
+Reads with adapters:                69,036,321 (33.9%)
+Reads written (passing filters):   203,523,504 (100.0%)
+
+Total basepairs processed: 25,643,961,504 bp
+Quality-trimmed:             237,101,033 bp (0.9%)
+Total written (filtered):  25,084,568,268 bp (97.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 69036321 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 31.3%
+  C: 16.5%
+  G: 13.4%
+  T: 38.6%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	42170701	50880876.0	0	42170701
+2	10367193	12720219.0	0	10367193
+3	3915622	3180054.8	0	3915622
+4	2206018	795013.7	0	2206018
+5	540942	198753.4	0	540942
+6	530164	49688.4	0	530164
+7	404717	12422.1	0	404717
+8	445578	3105.5	0	445578
+9	605017	776.4	0	602042 2975
+10	339954	194.1	1	323364 16590
+11	459468	48.5	1	438140 21328
+12	361857	12.1	1	346133 15724
+13	331294	3.0	1	317873 13421
+14	405401	3.0	1	386796 18605
+15	282249	3.0	1	270220 12029
+16	307655	3.0	1	290925 16730
+17	351641	3.0	1	331771 19870
+18	222219	3.0	1	214464 7755
+19	353594	3.0	1	328485 25109
+20	171248	3.0	1	166397 4851
+21	345583	3.0	1	318141 27442
+22	162858	3.0	1	154456 8402
+23	217597	3.0	1	206404 11193
+24	247061	3.0	1	232839 14222
+25	161159	3.0	1	155488 5671
+26	189161	3.0	1	175719 13442
+27	177347	3.0	1	168182 9165
+28	156738	3.0	1	150162 6576
+29	154593	3.0	1	147795 6798
+30	92748	3.0	1	89635 3113
+31	157157	3.0	1	146858 10299
+32	142906	3.0	1	137453 5453
+33	69131	3.0	1	66026 3105
+34	130802	3.0	1	125265 5537
+35	97514	3.0	1	92906 4608
+36	75959	3.0	1	73720 2239
+37	64570	3.0	1	61293 3277
+38	83967	3.0	1	80431 3536
+39	78601	3.0	1	75049 3552
+40	67065	3.0	1	64130 2935
+41	67023	3.0	1	64365 2658
+42	72105	3.0	1	68644 3461
+43	110277	3.0	1	106089 4188
+44	31826	3.0	1	30599 1227
+45	22666	3.0	1	22007 659
+46	21616	3.0	1	20812 804
+47	45954	3.0	1	44035 1919
+48	30618	3.0	1	29783 835
+49	41070	3.0	1	39317 1753
+50	36211	3.0	1	34923 1288
+51	47218	3.0	1	45489 1729
+52	10587	3.0	1	10101 486
+53	30513	3.0	1	29202 1311
+54	39738	3.0	1	37901 1837
+55	26842	3.0	1	26101 741
+56	9995	3.0	1	9482 513
+57	28676	3.0	1	27892 784
+58	21929	3.0	1	21194 735
+59	13470	3.0	1	12827 643
+60	25179	3.0	1	24398 781
+61	19967	3.0	1	19222 745
+62	6647	3.0	1	6412 235
+63	24821	3.0	1	24112 709
+64	14816	3.0	1	14333 483
+65	13252	3.0	1	12721 531
+66	12183	3.0	1	11867 316
+67	12607	3.0	1	12227 380
+68	12615	3.0	1	12229 386
+69	14561	3.0	1	14062 499
+70	13677	3.0	1	13208 469
+71	14149	3.0	1	13689 460
+72	15028	3.0	1	14526 502
+73	17287	3.0	1	16834 453
+74	16644	3.0	1	16111 533
+75	23325	3.0	1	22423 902
+76	81700	3.0	1	79951 1749
+77	89951	3.0	1	88516 1435
+78	50746	3.0	1	49839 907
+79	32048	3.0	1	31456 592
+80	22291	3.0	1	21909 382
+81	11884	3.0	1	11662 222
+82	6984	3.0	1	6834 150
+83	3476	3.0	1	3390 86
+84	2442	3.0	1	2361 81
+85	2125	3.0	1	2055 70
+86	2224	3.0	1	2153 71
+87	2063	3.0	1	1997 66
+88	2025	3.0	1	1950 75
+89	1931	3.0	1	1865 66
+90	1836	3.0	1	1766 70
+91	1975	3.0	1	1903 72
+92	2000	3.0	1	1930 70
+93	2440	3.0	1	2345 95
+94	2467	3.0	1	2357 110
+95	3064	3.0	1	2960 104
+96	3837	3.0	1	3698 139
+97	4353	3.0	1	4180 173
+98	4570	3.0	1	4367 203
+99	4784	3.0	1	4592 192
+100	4173	3.0	1	4028 145
+101	3038	3.0	1	2942 96
+102	2532	3.0	1	2418 114
+103	2651	3.0	1	2501 150
+104	2225	3.0	1	2113 112
+105	2102	3.0	1	1961 141
+106	1984	3.0	1	1860 124
+107	1866	3.0	1	1781 85
+108	1889	3.0	1	1802 87
+109	1885	3.0	1	1812 73
+110	2036	3.0	1	1958 78
+111	2222	3.0	1	2149 73
+112	2629	3.0	1	2556 73
+113	2601	3.0	1	2495 106
+114	2323	3.0	1	2253 70
+115	2157	3.0	1	2071 86
+116	2000	3.0	1	1916 84
+117	1829	3.0	1	1771 58
+118	1894	3.0	1	1831 63
+119	1589	3.0	1	1533 56
+120	1804	3.0	1	1736 68
+121	2478	3.0	1	2411 67
+122	1784	3.0	1	1719 65
+123	937	3.0	1	845 92
+124	3317	3.0	1	3124 193
+125	4022	3.0	1	3375 647
+126	22997	3.0	1	19126 3871
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_1.fastq.gz
+=============================================
+203523504 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/groups/ximenac/GSE134873/trim_galore_out/SRR9833667_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Python version: 3.6.1
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 10 bp
+Removing Ns from the start and end of reads
+All Read 1 sequences will be trimmed by 8 bp from their 5' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 16 bp from their 5' end to avoid poor qualities or biases (e.g. M-bias for BS-Seq applications)
+All Read 1 sequences will be trimmed by 10 bp from their 3' end to avoid poor qualities or biases
+All Read 2 sequences will be trimmed by 5 bp from their 3' end to avoid poor qualities or biases
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 4
+Writing final adapter and quality trimmed output to SRR9833667_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AAAAAAAAAA' from file /scratch/groups/ximenac/GSE134873/fastq/SRR9833667_2.fastq.gz <<< 
+20000000 sequences processed
+180000000 sequences processed
+60000000 sequences processed
+120000000 sequences processed
+170000000 sequences processed
+150000000 sequences processed
+200000000 sequences processed
+190000000 sequences processed
+70000000 sequences processed
+10000000 sequences processed
+130000000 sequences processed
+30000000 sequences processed
+180000000 sequences processed
+This is cutadapt 1.18 with Python 3.6.1
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 --trim-n -a AAAAAAAAAA /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_2.fastq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 3896.60 s (20 us/read; 3.00 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             194,975,557
+Reads with adapters:               137,705,301 (70.6%)
+Reads written (passing filters):   194,975,557 (100.0%)
+
+Total basepairs processed: 24,566,920,182 bp
+Quality-trimmed:             319,966,754 bp (1.3%)
+Total written (filtered):  16,552,689,602 bp (67.4%)
+
+=== Adapter 1 ===
+
+Sequence: AAAAAAAAAA; Type: regular 3'; Length: 10; Trimmed: 137705301 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 32.2%
+  G: 9.5%
+  T: 57.4%
+  none/other: 0.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	16779682	48743889.2	0	16779682
+2	9075595	12185972.3	0	9075595
+3	4904982	3046493.1	0	4904982
+4	2562864	761623.3	0	2562864
+5	1380505	190405.8	0	1380505
+6	711634	47601.5	0	711634
+7	363496	11900.4	0	363496
+8	179138	2975.1	0	179138
+9	438081	743.8	0	438081
+10	1041140	185.9	1	665329 375811
+11	738777	185.9	1	400745 338032
+12	662099	185.9	1	322235 339864
+13	648852	185.9	1	306951 341901
+14	625227	185.9	1	278664 346563
+15	627795	185.9	1	275885 351910
+16	620921	185.9	1	265310 355611
+17	615348	185.9	1	255792 359556
+18	613306	185.9	1	251903 361403
+19	616417	185.9	1	250502 365915
+20	617119	185.9	1	244261 372858
+21	614269	185.9	1	243736 370533
+22	618491	185.9	1	243040 375451
+23	621514	185.9	1	242487 379027
+24	618193	185.9	1	238422 379771
+25	627863	185.9	1	240351 387512
+26	635540	185.9	1	246797 388743
+27	639783	185.9	1	242624 397159
+28	642130	185.9	1	243055 399075
+29	640026	185.9	1	239293 400733
+30	640771	185.9	1	235589 405182
+31	640978	185.9	1	232720 408258
+32	642730	185.9	1	232310 410420
+33	644642	185.9	1	231923 412719
+34	650642	185.9	1	237194 413448
+35	651942	185.9	1	235457 416485
+36	659102	185.9	1	235422 423680
+37	660387	185.9	1	232334 428053
+38	667809	185.9	1	238743 429066
+39	673973	185.9	1	239608 434365
+40	677382	185.9	1	237213 440169
+41	676951	185.9	1	238680 438271
+42	678636	185.9	1	237413 441223
+43	681271	185.9	1	235984 445287
+44	684481	185.9	1	235435 449046
+45	683353	185.9	1	230333 453020
+46	688873	185.9	1	232988 455885
+47	688872	185.9	1	230537 458335
+48	692823	185.9	1	228750 464073
+49	700528	185.9	1	232856 467672
+50	702612	185.9	1	232658 469954
+51	706064	185.9	1	233499 472565
+52	715826	185.9	1	234838 480988
+53	714579	185.9	1	233532 481047
+54	724534	185.9	1	238167 486367
+55	726744	185.9	1	238374 488370
+56	729464	185.9	1	235196 494268
+57	745711	185.9	1	238817 506894
+58	729627	185.9	1	234903 494724
+59	741796	185.9	1	237685 504111
+60	756220	185.9	1	240403 515817
+61	756774	185.9	1	240769 516005
+62	769012	185.9	1	245222 523790
+63	777746	185.9	1	247281 530465
+64	794834	185.9	1	245323 549511
+65	781994	185.9	1	243781 538213
+66	798225	185.9	1	247012 551213
+67	800419	185.9	1	246355 554064
+68	824581	185.9	1	261622 562959
+69	823336	185.9	1	249744 573592
+70	822911	185.9	1	247522 575389
+71	842235	185.9	1	250736 591499
+72	843058	185.9	1	250289 592769
+73	857142	185.9	1	250742 606400
+74	868163	185.9	1	251308 616855
+75	871232	185.9	1	252228 619004
+76	885220	185.9	1	253147 632073
+77	896961	185.9	1	254859 642102
+78	914477	185.9	1	257664 656813
+79	904114	185.9	1	258889 645225
+80	920452	185.9	1	260012 660440
+81	931625	185.9	1	262799 668826
+82	925222	185.9	1	266902 658320
+83	944912	185.9	1	267015 677897
+84	940983	185.9	1	266757 674226
+85	968445	185.9	1	273428 695017
+86	953748	185.9	1	274173 679575
+87	984662	185.9	1	274890 709772
+88	972525	185.9	1	275812 696713
+89	977200	185.9	1	278554 698646
+90	1002499	185.9	1	282243 720256
+91	1014255	185.9	1	285100 729155
+92	1011929	185.9	1	287550 724379
+93	987317	185.9	1	287963 699354
+94	1023362	185.9	1	293130 730232
+95	1015315	185.9	1	292917 722398
+96	1043022	185.9	1	298359 744663
+97	1065330	185.9	1	299734 765596
+98	1070852	185.9	1	304985 765867
+99	1076021	185.9	1	305567 770454
+100	1084084	185.9	1	312265 771819
+101	1114731	185.9	1	318244 796487
+102	1131212	185.9	1	323884 807328
+103	1155465	185.9	1	333132 822333
+104	1180778	185.9	1	340775 840003
+105	1177065	185.9	1	341801 835264
+106	1217713	185.9	1	347697 870016
+107	1224155	185.9	1	356206 867949
+108	1211839	185.9	1	360327 851512
+109	1256659	185.9	1	387765 868894
+110	1316665	185.9	1	412208 904457
+111	1331068	185.9	1	409780 921288
+112	1344820	185.9	1	418783 926037
+113	1350114	185.9	1	409281 940833
+114	1340009	185.9	1	403891 936118
+115	1384129	185.9	1	404869 979260
+116	1433534	185.9	1	408527 1025007
+117	1390746	185.9	1	399085 991661
+118	1389549	185.9	1	389236 1000313
+119	1357442	185.9	1	381721 975721
+120	1318441	185.9	1	365795 952646
+121	1127809	185.9	1	304398 823411
+122	1191309	185.9	1	299374 891935
+123	821921	185.9	1	208740 613181
+124	410255	185.9	1	145049 265206
+125	280892	185.9	1	196732 84160
+126	640677	185.9	1	601846 38831
+
+
+RUN STATISTICS FOR INPUT FILE: /scratch/groups/ximenac/GSE134873/fastq/SRR9833669_2.fastq.gz
+=============================================
+194975557 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files SRR9833669_1_trimmed.fq.gz and SRR9833669_2_trimmed.fq.gz
+file_1: SRR9833669_1_trimmed.fq.gz, file_2: SRR9833669_2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: SRR9833669_1_trimmed.fq.gz and SRR9833669_2_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to SRR9833669_1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to SRR9833669_2_val_2.fq.gz
+
+160000000 sequences processed
+80000000 sequences processed
