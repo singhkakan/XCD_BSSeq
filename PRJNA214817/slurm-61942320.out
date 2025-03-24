@@ -1,0 +1,700 @@
+mkdir: cannot create directory ‘/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract’: File exists
+
+ *** Bismark methylation extractor version v0.24.2 ***
+
+
+ *** Bismark methylation extractor version v0.24.2 ***
+
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+
+ *** Bismark methylation extractor version v0.24.2 ***
+
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+Setting option '--no_overlap' since this is (normally) the right thing to do for paired-end data
+
+Setting option '--no_overlap' since this is (normally) the right thing to do for paired-end data
+
+Summarising Bismark methylation extractor parameters:
+===============================================================
+Bismark paired-end SAM format specified (default)
+Number of cores to be used: 10
+First 8 bp will be disregarded when processing the methylation call string of Read 1
+First 8 bp will be disregarded when processing the methylation call string of Read 2
+Summarising Bismark methylation extractor parameters:
+Last 8 bp will be disregarded when processing the methylation call string of Read 1
+Last 8 bp will be disregarded when processing the methylation call string of Read 2
+===============================================================
+Strand-specific outputs will be skipped. Separate output files for cytosines in CpG, CHG and CHH context will be generated
+Bismark paired-end SAM format specified (default)
+Output path specified as: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+Number of cores to be used: 10
+
+First 8 bp will be disregarded when processing the methylation call string of Read 1
+First 8 bp will be disregarded when processing the methylation call string of Read 2
+Last 8 bp will be disregarded when processing the methylation call string of Read 1
+Last 8 bp will be disregarded when processing the methylation call string of Read 2
+Strand-specific outputs will be skipped. Separate output files for cytosines in CpG, CHG and CHH context will be generated
+Output path specified as: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+Setting option '--no_overlap' since this is (normally) the right thing to do for paired-end data
+
+Summarising Bismark methylation extractor parameters:
+===============================================================
+Bismark paired-end SAM format specified (default)
+Number of cores to be used: 10
+First 8 bp will be disregarded when processing the methylation call string of Read 1
+First 8 bp will be disregarded when processing the methylation call string of Read 2
+Last 8 bp will be disregarded when processing the methylation call string of Read 1
+Last 8 bp will be disregarded when processing the methylation call string of Read 2
+Strand-specific outputs will be skipped. Separate output files for cytosines in CpG, CHG and CHH context will be generated
+Output path specified as: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+
+
+...passed!
+...passed!
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950178_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950179_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950179_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950179_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950179_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950179_1_bismark_bt2_pe.deduplicated.bam
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950180_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950180_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950180_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950180_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950180_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3000000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950180_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+Processed lines: 3000000
+
+Processed 2775183 lines in total
+Total number of methylation call strings processed: 5550366
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	88135507
+
+Total methylated C's in CpG context:	3711164
+Total methylated C's in CHG context:	85475
+Total methylated C's in CHH context:	317046
+
+Total C to T conversions in CpG context:	940513
+Total C to T conversions in CHG context:	20319483
+Total C to T conversions in CHH context:	62761826
+
+C methylated in CpG context:	79.8%
+C methylated in CHG context:	0.4%
+C methylated in CHH context:	0.5%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 85
+Maximum read length of Read 2: 85
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 85
+Maximum read length of Read 2: 85
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950180_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 5000000
+Processed lines: 4000000
+Processed lines: 5000000
+Processed lines: 4000000
+Processed lines: 5000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5500000
+Processed lines: 4500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 6000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 6000000
+Processed lines: 5000000
+Processed lines: 6000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 6000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.54_HWI-ST601:6:1101:2133:2215/1) and Read 2 (SRR950178.60_HWI-ST601:6:1101:2433:2071/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 7000000
+Processed lines: 6000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.66_HWI-ST601:6:1101:2376:2210/1) and Read 2 (SRR950178.72_HWI-ST601:6:1101:2515:2057/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.18_HWI-ST601:6:1101:1448:2181/1) and Read 2 (SRR950178.30_HWI-ST601:6:1101:1582:2231/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.6_HWI-ST601:6:1101:1037:2110/1) and Read 2 (SRR950178.12_HWI-ST601:6:1101:1290:2076/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.17189603_HWI-ST601:6:1206:9619:184358/1) and Read 2 (SRR950178.6_HWI-ST601:6:1101:1037:2110/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.30_HWI-ST601:6:1101:1582:2231/1) and Read 2 (SRR950178.42_HWI-ST601:6:1101:2047:2039/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.60_HWI-ST601:6:1101:2433:2071/1) and Read 2 (SRR950178.66_HWI-ST601:6:1101:2376:2210/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.48_HWI-ST601:6:1101:2154:2145/1) and Read 2 (SRR950178.54_HWI-ST601:6:1101:2133:2215/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.12_HWI-ST601:6:1101:1290:2076/1) and Read 2 (SRR950178.18_HWI-ST601:6:1101:1448:2181/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.42_HWI-ST601:6:1101:2047:2039/1) and Read 2 (SRR950178.48_HWI-ST601:6:1101:2154:2145/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Finished processing child process. Exiting..
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950179_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 7255092 lines in total
+Total number of methylation call strings processed: 14510184
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	224458323
+
+Total methylated C's in CpG context:	8799404
+Total methylated C's in CHG context:	156641
+Total methylated C's in CHH context:	614861
+
+Total C to T conversions in CpG context:	2208722
+Total C to T conversions in CHG context:	50608387
+Total C to T conversions in CHH context:	162070308
+
+C methylated in CpG context:	79.9%
+C methylated in CHG context:	0.3%
+C methylated in CHH context:	0.4%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
