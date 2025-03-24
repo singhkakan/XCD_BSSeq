@@ -1,0 +1,3703 @@
+
+ *** Bismark methylation extractor version v0.24.2 ***
+
+Output directory Local/ doesn't exist, creating it for you...
+
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+Setting option '--no_overlap' since this is (normally) the right thing to do for paired-end data
+
+Summarising Bismark methylation extractor parameters:
+===============================================================
+Bismark paired-end SAM format specified (default)
+Number of cores to be used: 10
+First 8 bp will be disregarded when processing the methylation call string of Read 1
+First 8 bp will be disregarded when processing the methylation call string of Read 2
+Last 8 bp will be disregarded when processing the methylation call string of Read 1
+Last 8 bp will be disregarded when processing the methylation call string of Read 2
+Strand-specific outputs will be skipped. Separate output files for cytosines in CpG, CHG and CHH context will be generated
+Output path specified as: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950173_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950173_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950173_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950173_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950173_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29500000
+Processed lines: 29000000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 30000000
+Processed lines: 29500000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30500000
+Processed lines: 30000000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 31000000
+Processed lines: 30500000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31500000
+Processed lines: 31000000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 32000000
+Processed lines: 31500000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32500000
+Processed lines: 32000000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 33000000
+Processed lines: 32500000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33500000
+Processed lines: 33000000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 34000000
+Processed lines: 33500000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34500000
+Processed lines: 34000000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 35000000
+Processed lines: 34500000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35500000
+Processed lines: 35000000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 36000000
+Processed lines: 35500000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36500000
+Processed lines: 36000000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 37000000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37500000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 38000000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38500000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 39000000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 39000000
+Processed lines: 38500000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39500000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39500000
+Processed lines: 39000000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 40000000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 40000000
+Processed lines: 39500000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40500000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40500000
+Processed lines: 40000000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 41000000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 41000000
+Processed lines: 40500000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41500000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41500000
+Processed lines: 41000000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 42000000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 42000000
+Processed lines: 41500000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42500000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42500000
+Processed lines: 42000000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 43000000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 43000000
+Processed lines: 42500000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43500000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43500000
+Processed lines: 43000000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 44000000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 44000000
+Processed lines: 43500000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44500000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44500000
+Processed lines: 44000000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 45000000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 45000000
+Processed lines: 44500000
+Processed lines: 45000000
+Finished processing child process. Exiting..
+Processed lines: 45000000
+Processed lines: 45000000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Processed lines: 45000000
+Processed lines: 45000000
+Finished processing child process. Exiting..
+Processed lines: 45000000
+Now waiting for all child processes to complete
+Processed lines: 45000000
+Finished processing child process. Exiting..
+Processed lines: 45000000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950173_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 45241503 lines in total
+Total number of methylation call strings processed: 90483006
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1208165497
+
+Total methylated C's in CpG context:	50122276
+Total methylated C's in CHG context:	1923444
+Total methylated C's in CHH context:	6550701
+
+Total C to T conversions in CpG context:	9818302
+Total C to T conversions in CHG context:	294297474
+Total C to T conversions in CHH context:	845453300
+
+C methylated in CpG context:	83.6%
+C methylated in CHG context:	0.6%
+C methylated in CHH context:	0.8%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950174_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950174_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950174_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950174_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950174_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26000000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 26500000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27000000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 27500000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28000000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 28500000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29000000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 29500000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30000000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 30500000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31000000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 31500000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32000000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 32500000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33000000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 33500000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34000000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 34500000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35000000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 35500000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36000000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 36500000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37000000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 37500000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38000000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 38500000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39000000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 39500000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40000000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 40500000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41000000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 41500000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42000000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 42500000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43000000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 43500000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44000000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 44500000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45000000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 45500000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46000000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 46500000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47000000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 47500000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48000000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 48500000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49000000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 49500000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50000000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 50500000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51000000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 51500000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52000000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 52500000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53000000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 53500000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54000000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 54500000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55000000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 55500000
+Processed lines: 56000000
+Processed lines: 56000000
+Processed lines: 56000000
+Processed lines: 56000000
+Finished processing child process. Exiting..
+Processed lines: 56000000
+Processed lines: 56000000
+Finished processing child process. Exiting..
+Processed lines: 56000000
+Processed lines: 56000000
+Processed lines: 56000000
+Processed lines: 56000000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Now waiting for all child processes to complete
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950174_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 56248238 lines in total
+Total number of methylation call strings processed: 112496476
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1504337106
+
+Total methylated C's in CpG context:	61109591
+Total methylated C's in CHG context:	2284976
+Total methylated C's in CHH context:	7800102
+
+Total C to T conversions in CpG context:	11968387
+Total C to T conversions in CHG context:	362415060
+Total C to T conversions in CHH context:	1058758990
+
+C methylated in CpG context:	83.6%
+C methylated in CHG context:	0.6%
+C methylated in CHH context:	0.7%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950175_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950175_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950175_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950175_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950175_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 8500000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9000000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 9500000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10000000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 10500000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11000000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 11500000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12000000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 12500000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13000000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 13500000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14000000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 14500000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15000000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 15500000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16000000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 16500000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17000000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 17500000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18000000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 18500000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19000000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 19500000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20000000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 20500000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21000000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 21500000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22000000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 22500000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23000000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 23500000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24000000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 24500000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25000000
+Processed lines: 25500000
+Finished processing child process. Exiting..
+Processed lines: 25500000
+Processed lines: 25500000
+Finished processing child process. Exiting..
+Processed lines: 25500000
+Processed lines: 25500000
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Processed lines: 25500000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Processed lines: 25500000
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950175_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 25551842 lines in total
+Total number of methylation call strings processed: 51103684
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	676865443
+
+Total methylated C's in CpG context:	28820986
+Total methylated C's in CHG context:	1136678
+Total methylated C's in CHH context:	3913950
+
+Total C to T conversions in CpG context:	5919264
+Total C to T conversions in CHG context:	167792596
+Total C to T conversions in CHH context:	469281969
+
+C methylated in CpG context:	83.0%
+C methylated in CHG context:	0.7%
+C methylated in CHH context:	0.8%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950176_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950176_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950176_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950176_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950176_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 7500000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Processed lines: 8000000
+Finished processing child process. Exiting..
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950176_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 8337845 lines in total
+Total number of methylation call strings processed: 16675690
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	255420219
+
+Total methylated C's in CpG context:	9860433
+Total methylated C's in CHG context:	180667
+Total methylated C's in CHH context:	711671
+
+Total C to T conversions in CpG context:	2590426
+Total C to T conversions in CHG context:	57289756
+Total C to T conversions in CHH context:	184787266
+
+C methylated in CpG context:	79.2%
+C methylated in CHG context:	0.3%
+C methylated in CHH context:	0.4%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950177_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950177_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950177_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950177_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950177_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: '/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/SRR950177_1_bismark_bt2_pe.deduplicated_splitting_report.txt'
+Merging from these individual files:
+
+Processed 7401741 lines in total
+Total number of methylation call strings processed: 14803482
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	228643743
+
+Total methylated C's in CpG context:	8941129
+Total methylated C's in CHG context:	154807
+Total methylated C's in CHH context:	609532
+
+Total C to T conversions in CpG context:	2249849
+Total C to T conversions in CHG context:	51519671
+Total C to T conversions in CHH context:	165168755
+
+C methylated in CpG context:	79.9%
+C methylated in CHG context:	0.3%
+C methylated in CHH context:	0.4%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 10 individual files:
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read lengths for M-Bias plots
+Maximum read length of Read 1: 84
+Maximum read length of Read 2: 84
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz contains data ->	kept
+
+
+Checking file >>/scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam<< for signs of file truncation...
+
+...passed!
+Writing result file containing methylation information for C in CpG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHG context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+Writing result file containing methylation information for C in CHH context to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Local/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+Warning: unable to close filehandle IN properly.
+
+Now reading in Bismark result file /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+
+Warning: unable to close filehandle IN properly.
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:1	LN:195154279
+skipping SAM header line:	@SQ	SN:2	LN:181755017
+skipping SAM header line:	@SQ	SN:3	LN:159745316
+skipping SAM header line:	@SQ	SN:4	LN:156860686
+skipping SAM header line:	@SQ	SN:5	LN:151758149
+skipping SAM header line:	@SQ	SN:6	LN:149588044
+skipping SAM header line:	@SQ	SN:7	LN:144995196
+skipping SAM header line:	@SQ	SN:8	LN:130127694
+skipping SAM header line:	@SQ	SN:9	LN:124359700
+skipping SAM header line:	@SQ	SN:10	LN:130530862
+skipping SAM header line:	@SQ	SN:11	LN:121973369
+skipping SAM header line:	@SQ	SN:12	LN:120092757
+skipping SAM header line:	@SQ	SN:13	LN:120883175
+skipping SAM header line:	@SQ	SN:14	LN:125139656
+skipping SAM header line:	@SQ	SN:15	LN:104073951
+skipping SAM header line:	@SQ	SN:16	LN:98008968
+skipping SAM header line:	@SQ	SN:17	LN:95294699
+skipping SAM header line:	@SQ	SN:18	LN:90720763
+skipping SAM header line:	@SQ	SN:19	LN:61420004
+skipping SAM header line:	@SQ	SN:X	LN:169476592
+skipping SAM header line:	@SQ	SN:Y	LN:91455967
+skipping SAM header line:	@SQ	SN:MT	LN:16299
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --gzip --multicore 6 -p 2 --genome_folder /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble --local --path_to_bowtie /share/software/user/open/bowtie2/2.3.4.1/bin/ --Output_dir /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global -q -1 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_1.fastq.gz -2 /scratch/groups/ximenac/PRJNA214817/fastq/SRR950178_2.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Global/SRR950178_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h --threads 1 /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/SRR950178_1_bismark_bt2_pe.bam
+skipping SAM header line:	@PG	ID:samtools.4	PN:samtools	PP:samtools.3	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -bS --threads 1 -
+skipping SAM header line:	@PG	ID:samtools.5	PN:samtools	PP:samtools.4	VN:1.16.1	CL:/share/software/user/open/samtools/1.16.1/bin/samtools view -h /scratch/groups/ximenac/PRJNA214817/Bismark_Dedup/SRR950178_1_bismark_bt2_pe.deduplicated.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5000000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 5500000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6000000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 6500000
+Processed lines: 7000000
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.42_HWI-ST601:6:1101:2047:2039/1) and Read 2 (SRR950178.48_HWI-ST601:6:1101:2154:2145/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.48_HWI-ST601:6:1101:2154:2145/1) and Read 2 (SRR950178.54_HWI-ST601:6:1101:2133:2215/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.18_HWI-ST601:6:1101:1448:2181/1) and Read 2 (SRR950178.30_HWI-ST601:6:1101:1582:2231/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.6_HWI-ST601:6:1101:1037:2110/1) and Read 2 (SRR950178.12_HWI-ST601:6:1101:1290:2076/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.60_HWI-ST601:6:1101:2433:2071/1) and Read 2 (SRR950178.66_HWI-ST601:6:1101:2376:2210/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.30_HWI-ST601:6:1101:1582:2231/1) and Read 2 (SRR950178.42_HWI-ST601:6:1101:2047:2039/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.66_HWI-ST601:6:1101:2376:2210/1) and Read 2 (SRR950178.72_HWI-ST601:6:1101:2515:2057/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.12_HWI-ST601:6:1101:1290:2076/1) and Read 2 (SRR950178.18_HWI-ST601:6:1101:1448:2181/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+Processed lines: 7000000
+Processed lines: 7000000
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.17189603_HWI-ST601:6:1206:9619:184358/1) and Read 2 (SRR950178.6_HWI-ST601:6:1101:1037:2110/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
+[FATAL ERROR:] The IDs of Read 1 (SRR950178.54_HWI-ST601:6:1101:2133:2215/1) and Read 2 (SRR950178.60_HWI-ST601:6:1101:2433:2071/1) are not the same. This might be the result of sorting the BAM files by chromosomal position or merging several files with Samtools sort, and this is not compatible with correct methylation extraction. Please use an unsorted file instead or sort the file by name using the command 'samtools sort -n'. Paired-end files may be merged properly (without risking this error) using either 'samtools merge -n' or 'samtools cat'.
+
