@@ -1,0 +1,1717 @@
+mkdir: cannot create directory ‘/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned’: File exists
+mkdir: cannot create directory ‘/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local’: File exists
+Bowtie 2 seems to be working fine (tested command '/share/software/user/open/bowtie2/2.3.4.1/bin/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/share/software/user/open/samtools/1.16.1/bin/samtools'
+Reference genome folder provided is /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/	(absolute path is '/home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/)'
+FastQ format specified
+Each Bowtie 2 instance is going to be run with 2 threads. Please monitor performance closely and tune down if necessary!
+
+Input files to be analysed (in current folder '/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local'):
+/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz
+/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+Library is assumed to be strand-specific (directional), alignments to strands complementary to the original top or bottom strands will be ignored (i.e. not performed!)
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/
+Summary of all aligner options:	-q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Running Bismark Parallel version. Number of parallel instances to be spawned: 8
+
+Current working directory is: /scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local
+
+Now reading in and storing sequence information of the genome specified in: /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/
+
+chr 1 (195154279 bp)
+chr 2 (181755017 bp)
+chr 3 (159745316 bp)
+chr 4 (156860686 bp)
+chr 5 (151758149 bp)
+chr 6 (149588044 bp)
+chr 7 (144995196 bp)
+chr 8 (130127694 bp)
+chr 9 (124359700 bp)
+chr 10 (130530862 bp)
+chr 11 (121973369 bp)
+chr 12 (120092757 bp)
+chr 13 (120883175 bp)
+chr 14 (125139656 bp)
+chr 15 (104073951 bp)
+chr 16 (98008968 bp)
+chr 17 (95294699 bp)
+chr 18 (90720763 bp)
+chr 19 (61420004 bp)
+chr X (169476592 bp)
+chr Y (91455967 bp)
+chr MT (16299 bp)
+
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+The provided filenames for paired-end alignments are /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz and /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 3 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.3.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 4 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.4.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 125653 and offset 8 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.8.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 6 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.6.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 5 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.5.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 2 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.2.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 7 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.7.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz for PID: 0 and offset 1 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_1.fastq.gz.temp.1.gz< as new in-file 1 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_1.fastq.gz<)
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 3 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.3.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.3.gz to SRR9016926_1.fastq.gz.temp.3.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 6 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.6.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.6.gz to SRR9016926_1.fastq.gz.temp.6.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 5 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.5.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.5.gz to SRR9016926_1.fastq.gz.temp.5.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 2 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.2.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.2.gz to SRR9016926_1.fastq.gz.temp.2.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 4 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.4.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.4.gz to SRR9016926_1.fastq.gz.temp.4.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 7 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.7.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 125653 and offset 8 (sequences written out: 37698900)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.8.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.7.gz to SRR9016926_1.fastq.gz.temp.7.gz_C_to_T.fastq.gz
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.8.gz to SRR9016926_1.fastq.gz.temp.8.gz_C_to_T.fastq.gz
+Finished subdividing /scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz for PID: 0 and offset 1 (sequences written out: 37698901)
+
+Using the subset file >SRR9016926_2.fastq.gz.temp.1.gz< as new in-file 2 (instead of >/scratch/groups/ximenac/PRJNA541237/fastq/SRR9016926_2.fastq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file SRR9016926_1.fastq.gz.temp.1.gz to SRR9016926_1.fastq.gz.temp.1.gz_C_to_T.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.3.gz (37698901 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.3.gz to SRR9016926_2.fastq.gz.temp.3.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.6.gz (37698900 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.6.gz to SRR9016926_2.fastq.gz.temp.6.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.5.gz (37698900 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.5.gz to SRR9016926_2.fastq.gz.temp.5.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.2.gz (37698901 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.2.gz to SRR9016926_2.fastq.gz.temp.2.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.8.gz (37698900 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.8.gz to SRR9016926_2.fastq.gz.temp.8.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.4.gz (37698901 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.4.gz to SRR9016926_2.fastq.gz.temp.4.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.7.gz (37698900 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.7.gz to SRR9016926_2.fastq.gz.temp.7.gz_G_to_A.fastq.gz
+
+Created C -> T converted version of the FastQ file SRR9016926_1.fastq.gz.temp.1.gz (37698901 sequences in total)
+
+Writing a G -> A converted version of the input file SRR9016926_2.fastq.gz.temp.1.gz to SRR9016926_2.fastq.gz.temp.1.gz_G_to_A.fastq.gz
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.3.gz (37698901 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.3.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.3.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.3.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.3.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.5.gz (37698900 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.5.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.5.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.5.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.5.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.2.gz (37698901 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.2.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.2.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.2.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.2.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.4.gz (37698901 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.4.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.4.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.4.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.4.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.7.gz (37698900 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.7.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.7.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.7.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.7.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.6.gz (37698900 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.6.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.6.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.6.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.6.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+SRR9016926.7_7/1/1	99	2_CT_converted	69725120	11	100M	=	69725148	128	GGTAATTGAATTATAAAAGAATTTATATGATATGTATTTATTGATAAGTGGATATTAGTTTAGAAATTTAGTATATTTAAGATATAAGATATAATTTGTA	AAAFFFAAF<FFFJ<FAFJJF<JAJ<FFJFJJ-JJJ-F-AJ-F<AJJ<-<F7<FFFAAFJJFF<<<-7-FF--7-<JJFJFJJJJJJJ-AFAFJF<A<FF	AS:i:200	XS:i:192	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YS:i:184	YT:Z:CP
+SRR9016926.7_7/2/2	147	2_CT_converted	69725148	11	92M8S	=	69725120	-128	GATATGTATTTATTGATAAGTGGATATTAGTTTAGAAATTTAGTATATTTAAGATATAAGATATAATTTGTAAAATATATGAAATTTAAGAATTTTTTTT	A-A<-F-A<-7JAA<FAJJF<FFFFF-JJF-<-JAJJF-<AF<AA<7-AFJFF<-JJJJFJFJJJJFJFJAJFJJFF<7-FFJF<<FJJJJJ7AAFA-<A	AS:i:184	XS:i:176	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:92	YS:i:200	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.7.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.7.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.4_4/1/1	99	2_CT_converted	98497106	1	99M1S	=	98497147	141	ATTGTAGGGTGTGAAATATGGTAAGAAAATTGAAAATTATGGAAAATGAGAAATATTATTTTGATGATTTGTAAAATGATAAAGTTATTAAAAAATGTGT	A<AAFAAJJAA<AAAAF<AJJAF7-77A-7-7AA<FJJJFJJJJ-7-A-F-7<JAFJJ-FFJJJ<<<---<-<-FJF<A<<JJJ<JJA-A<FJ<JF<<<7	AS:i:134	XS:i:134	XN:i:0	XM:i:8	XO:i:0	XG:i:0	NM:i:8	MD:Z:8A4G5T37T0A12A8G2A15	YS:i:146	YT:Z:CP
+SRR9016926.4_4/2/2	147	2_CT_converted	98497147	1	97M3S	=	98497106	-141	GAAAATGAGAAATATTATTTTGATGATTTGAAAAATGATAAAGTTATTAAAAAATGTGTAAAATGAGAAATGTATATTGAAGGATTTGGAATATGGTTTT	FFJF<7AF-AF7<F-<7-777777A<-A-JFA-FA<<A-FA-F7-A7-FA777<<FFFJFAFF-FFFFFFJJ<JFJJJFJF-<F--JJJFJ7JAAAA-<-	AS:i:146	XS:i:146	XN:i:0	XM:i:6	XO:i:0	XG:i:0	NM:i:6	MD:Z:16T0A21G2A15A6T31	YS:i:134	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.4.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.4.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.3_3/1/1	99	17_CT_converted	25781655	44	100M	=	25781736	181	TATAGGTAAGTTTTATTTATAGTGAGTATTTTGTATTTTTAAGTAGTATTTTTAGTTTGGTGTGGTTGTATATATTGAGGAGATAGAGGTAGGGTGGTTT	A<A--F7AAA7<-FF-AF-A<J-FFF-A--F<<<-AA<<FFF<JAFJF-F<-FJFJJ<<7-A77AF--7<-FF<<<F7FJJJ-7-<A7<-<AJ--7AA7-	AS:i:192	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:66G33	YS:i:168	YT:Z:CP
+SRR9016926.3_3/2/2	147	17_CT_converted	25781736	44	96M4S	=	25781655	-181	GATAGAGGTAGGGTGTTTTTAGTTTGAGGTTAATTTTGTTTTTATAGTGAGTATTAAAGTTATGTAGAGAGAGATTTTGTTGATAGATAGATAGATTGTT	JA-JJFF<7---7-7-----77--77---7-7---7-77----7-<A77---<<FJJJJ<7FJJJFFJFFJAF--FA7--FJJFFJJJJJJJF77-A-AA	AS:i:168	XN:i:0	XM:i:3	XO:i:0	XG:i:0	NM:i:3	MD:Z:15G3G16G59	YS:i:192	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.3.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.3.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.2_2/1/1	99	11_CT_converted	17424848	1	97M3S	=	17425019	270	ATTGATATAAAAAGAGTGTTGTATTTGAATGTAATTTTTTAAAGTGAGTATTAGATTGATAATATAGAAGAAAATAAAGTAGTTAGGTGATATATTAGTT	AAA<FA<J<FFJFJAF-FF<AJ<F<AF7FJ7---F-FJFFFJFF-FAJ-FAJJJF<FA<JFFA<FFJJFJ-<JFFAJJFFFF-<-AJFJ<AAJJAJAJJ-	AS:i:122	XS:i:136	XN:i:0	XM:i:9	XO:i:0	XG:i:0	NM:i:9	MD:Z:9G1G31T1T3T7T0T2T17A17	YS:i:154	YT:Z:CP
+SRR9016926.2_2/2/2	147	11_CT_converted	17425019	1	1S97M2S	=	17424848	-270	GGTTATAAAAGAGAAAAAAGGTGGTTTTTTTTAAAGTTAGTTATTATAGGAGTTAGGTGAGGATTTTATATTTTAGTTATAATTTATGTTTTTTTTTTTT	--7-A-F7---F-A-JFJAAJJFFJF<JA-FAJJJJJJJFF<JJFFFJJFJFFFJAJJJJJAJJFJ<JJJJFJJFFF-JFAJFFAFAJF<JJJAF<<AA<	AS:i:154	XS:i:140	XN:i:0	XM:i:5	XO:i:0	XG:i:0	NM:i:5	MD:Z:7T0T4T2T72A7	YS:i:122	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.2.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.2.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.5_5/1/1	99	9_CT_converted	3018314	1	100M	=	3018324	110	TTTTTGTAATATTTTATGTTTTATAGTGGATATTTTTAAATTTTTTATTTTTTTTAGTTTTTTTTGTTATATTTTATGTTTTAAAGTGTGTATTTTTTAT	<AAAFJJJJJFJF<-A--A-A<JJ-FF-<A-FA<7AFF-A--7F-<-F-JFJFF--A7-7-<<J<7<<<A-F-7-<<<<<7-<F<-<-7A---7-F<<FF	AS:i:192	XS:i:192	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:7T92	YS:i:166	YT:Z:CP
+SRR9016926.5_5/2/2	147	9_CT_converted	3018324	1	95M5S	=	3018314	-110	ATTTTATGTTTTATGGTGTATATTTTTAAATTTTTTATTTTTTTTAGTTTTTTTTGTTATATTTTATGTTTTAAAGTGTGTATTTTATATTTTTTTTTTT	----F-<FFFJFA--7A--AJJJFJA7-<-FFFFF<<JJFJJJF7FFJFF<<<-<FF-J<JJ<<7<<AJJJJJ7JFA7-JJJ<<F<JFJFFFAAA-A-A-	AS:i:166	XS:i:166	XN:i:0	XM:i:3	XO:i:0	XG:i:0	NM:i:3	MD:Z:14A3G67T8	YS:i:192	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.5.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.5.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.6_6/1/1	99	9_CT_converted	35216606	1	100M	=	35216724	218	TGAAAAAGTTGGAAAATTTAGAAATGTATATTGTAGGATATGGAATATGGTAAGAAAATTGAAAATTATGGAAAATGAGAAAAATTTATTTGAGGATTTG	A<AFFJJJJJJFFFFFFJJ<FF-A-AFFAF-7<-<FJ<FJ--FFJJA--<FFJJJJA7F-FFAJJJJ-FJJAF<FJFJJFJFFJFFFJFJAFJ<FJAFAA	AS:i:160	XS:i:168	XN:i:0	XM:i:5	XO:i:0	XG:i:0	NM:i:5	MD:Z:8G18T1T52T10T6	YS:i:106	YT:Z:CP
+SRR9016926.6_6/2/2	147	9_CT_converted	35216724	1	93M7S	=	35216606	-218	AAAAAATTTGAAAAATGAGGAATGTATATTGTAGGATTTGGAATATGGTAATAAAGTTGAAAATAATGGAAAATGATAAATATATATTTTAGGGTTTTTT	JJAFA<<7-FJJJJFA7-JJF7-F-A7<--JAF<-7-FF-AFF<<<FJAJJ<JA<---FJJFA<J<<JJJJFFA-F-FFJJJJFJJFFFFJJJFAFA-<A	AS:i:106	XS:i:122	XN:i:0	XM:i:10	XO:i:0	XG:i:0	NM:i:10	MD:Z:7G11A5T5A16G0G1G3A8T11G16	YS:i:160	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.6.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.6.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.8.gz (37698900 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.8.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.8.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.8.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.8.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+SRR9016926.8_8/1/1	99	7_CT_converted	112653463	44	100M	=	112653610	247	TATATATTATATAATAATATTTGATTGATTAATGATTGTGTATATGAGGGTGATTATGTAAGATTATGTGGTTAATTGGTAATATTATAAGATAAAGGTT	AA-AAAAAAAAJFFJ<FJ<JFJJJJAA----<AF--A7-<<7-77F<FFJ-AAA---F<<AF-<7JFJ<JJFJJFJJAFFJFFJFJA<JFJJJJJFJJ-7	AS:i:192	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:39A60	YS:i:194	YT:Z:CP
+SRR9016926.8_8/2/2	147	7_CT_converted	112653610	44	97M3S	=	112653463	-247	ATGTTTAAGTATAGTAATATAAATATAAGTAGTGTGTGGTGTTTGGTATTTATAATATTGGATATATTTTTTTATTATTTATTTTGATATATATTTTTTT	-7A--AJAA-F-AA-<FAJJJAA<JF-AFAFA-77F<<JAA<JFJJJJJFFJJJJJFFFFJFJJFJJF<JF<<JJ-<---<<--<<F7JAJFFJAA7FAA	AS:i:194	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:97	YS:i:192	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.8.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.8.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.2_2/1/1	83	2_GA_converted	95622672	17	100M	=	95622504	-270	AACTAATATATCACCTAACTACTTTATTTTCTTCTATATTATCAATCTAATACTCACTTTAAAAAATTACATTCAAATACAACACTCTTTTTATATCAAT	-JJAJAJJAA<JFJA-<-FFFFJJAFFJ<-JFJJFF<AFFJ<AF<FJJJAF-JAF-FFJFFFJF-F---7JF7FA<F<JA<FF-FAJFJFF<J<AF<AAA	AS:i:200	XS:i:168	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YS:i:164	YT:Z:CP
+SRR9016926.2_2/2/2	163	2_GA_converted	95622504	17	2S98M	=	95622672	270	AAAAAAAAAAAACATAAATTATAACTAAAATATAAAATCCTCACCTAACTCCTATAATAACTAACTTTAAAAAAAACCACCTTTTTTCTCTTTTATAACC	<AA<<FAJJJ<FJAFAFFJAFJ-FFFJJFJJJJ<JFJJAJJJJJAJFFFJFJJFFFJJ<FFJJJJJJJAF-AJ<FJFFJJAAJFJ-A-F---7F-A-7--	AS:i:164	XS:i:117	XN:i:0	XM:i:4	XO:i:0	XG:i:0	NM:i:4	MD:Z:7T75A4A0A8	YS:i:200	YT:Z:CP
+Found first alignment:
+SRR9016926.7_7/1/1	83	10_GA_converted	73122192	11	100M	=	73122171	-128	TACAAATTATATCTTATATCTTAAATATACTAAATTTCTAAACTAATATCCACTTATCAATAAATACATATCATATAAATTCTTTTATAATTCAATTACC	FF<A<FJFAFA-JJJJJJJFJFJJ<-7--FF-7-<<<FFJJFAAFFF<7F<-<JJA<F-JA-F-JJJ-JJFJFF<JAJ<FJJFAF<JFFF<FAAFFFAAA	AS:i:192	XS:i:192	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:92A7	YS:i:186	YT:Z:CP
+SRR9016926.7_7/2/2	163	10_GA_converted	73122171	11	7S93M	=	73122192	128	AAAAAAAATTCTTAAATTTCATATATTTTACAAATTATATCTTATATCTTAAATATACTAAATTTCTAAACTAATATCCACTTATCAATAAATACATATC	A<-AFAA7JJJJJF<<FJFF-7<FFJJFJAJFJFJJJJFJFJJJJ-<FFJFA-7<AA<FA<-FJJAJ-<-FJJ-FFFFF<FJJAF<AAJ7-<A-F-<A-A	AS:i:186	XS:i:176	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:93	YS:i:192	YT:Z:CP
+Found first alignment:
+SRR9016926.8_8/1/1	77	*	0	0	*	*	0	0	TATATATTATATAATAATATTTGATTGATTAATGATTGTGTATATGAGGGTGATTATGTAAGATTATGTGGTTAATTGGTAATATTATAAGATAAAGGTT	AA-AAAAAAAAJFFJ<FJ<JFJJJJAA----<AF--A7-<<7-77F<FFJ-AAA---F<<AF-<7JFJ<JJFJJFJJAFFJFFJFJA<JFJJJJJFJJ-7	YT:Z:UP
+SRR9016926.8_8/2/2	141	*	0	0	*	*	0	0	AAAAAAATATATATCAAAATAAATAATAAAAAAATATATCCAATATTATAAATACCAAACACCACACACTACTTATATTTATATTACTATACTTAAACAT	AAF7AAJFFJAJ7F<<--<<---<-JJ<<FJ<FJJFJJFJFFFFJJJJJFFJJJJJFJ<AAJ<<F77-AFAFA-FJ<AAJJJAF<-AA-F-AAJA--A7-	YT:Z:UP
+Found first alignment:
+SRR9016926.3_3/1/1	77	*	0	0	*	*	0	0	TATAGGTAAGTTTTATTTATAGTGAGTATTTTGTATTTTTAAGTAGTATTTTTAGTTTGGTGTGGTTGTATATATTGAGGAGATAGAGGTAGGGTGGTTT	A<A--F7AAA7<-FF-AF-A<J-FFF-A--F<<<-AA<<FFF<JAFJF-F<-FJFJJ<<7-A77AF--7<-FF<<<F7FJJJ-7-<A7<-<AJ--7AA7-	YT:Z:UP
+SRR9016926.3_3/2/2	141	*	0	0	*	*	0	0	AACAATCTATCTATCTATCAACAAAATCTCTCTCTACATAACTTTAATACTCACTATAAAAACAAAATTAACCTCAAACTAAAAACACCCTACCTCTATC	AA-A-77FJJJJJJJFFJJF--7AF--FAJFFJFFJJJF7<JJJJF<<---77A<-7----77-7---7-7---77--77-----7-7---7<FFJJ-AJ	YT:Z:UP
+Found first alignment:
+SRR9016926.4_4/1/1	83	2_GA_converted	98492607	11	1S97M2S	=	98492580	-141	ACACATTTTTTAATAACTTTATCATTTTACAAATCATCAAAATAATATTTCTCATTTTCCATAATTTTCAATTTTCTTACCATATTTCACACCCTACAAT	7<<<FJ<JF<A-AJJ<JJJ<<A<FJF-<-<---<<<JJJFF-JJFAJ<7-F-A-7-JJJJFJJJF<AA7-7-A77-7FAJJA<FAAAA<AAJJAAFAA<A	AS:i:138	XS:i:120	XN:i:0	XM:i:7	XO:i:0	XG:i:0	NM:i:7	MD:Z:15T2C8T12T0A43C4T6	YS:i:130	YT:Z:CP
+SRR9016926.4_4/2/2	163	2_GA_converted	98492580	11	15S85M	=	98492607	141	AAAACCATATTCCAAATCCTTCAATATACATTTCTCATTTTACACATTTTTTAATAACTTTATCATTTTTCAAATCATCAAAATAATATTTCTCATTTTC	-<-AAAAJ7JFJJJ--F<-FJFJJJFJ<JJFFFFFF-FFAFJFFF<<777AF-7A-7F-AF-A<<AF-AFJ-A-<A777777-7<-F<7FA-FA7<FJFF	AS:i:130	XS:i:122	XN:i:0	XM:i:5	XO:i:0	XG:i:0	NM:i:5	MD:Z:26T15T2C21T0A16	YS:i:138	YT:Z:CP
+Found first alignment:
+SRR9016926.6_6/1/1	83	9_GA_converted	3002046	11	100M	=	3001701	-452	CAAATCCTCAAATAAATTTTTCTCATTTTCCATAATTTTCAATTTTCTTACCATATTCCATATCCTACAATATACATTTCTAAATTTTCCAACTTTTTCA	AAFAJF<JFAJFJFFFJFFJFJJFJF<FAJJF-JJJJAFF-F7AJJJJFF<--AJJFF--JF<JF<-<7-FAFFA-A-FF<JJFFFFFFJJJJJJFFA<A	AS:i:176	XS:i:184	XN:i:0	XM:i:3	XO:i:0	XG:i:0	NM:i:3	MD:Z:6A10A54A27	YS:i:120	YT:Z:CP
+SRR9016926.6_6/2/2	163	9_GA_converted	3001701	11	7S92M1S	=	3002046	452	AAAAAACCCTAAAATATATATTTATCATTTTCCATTATTTTCAACTTTATTACCATATTCCAAATCCTACAATATACATTCCTCATTTTTCAAATTTTTT	A<-AFAFJJJFFFFJJFJJJJFF-F-AFFJJJJ<<J<AFJJF---<AJ<JJAJF<<<FFA-FF-7-<FAJ--<7A-F-7FJJ-7AFJJJJF-7<<AFAJJ	AS:i:120	XS:i:136	XN:i:0	XM:i:8	XO:i:0	XG:i:0	NM:i:8	MD:Z:11A4C11A8T3C1C29T11C6	YS:i:176	YT:Z:CP
+Found first alignment:
+SRR9016926.5_5/1/1	83	2_GA_converted	98497267	1	100M	=	98497262	-110	ATAAAAAATACACACTTTAAAACATAAAATATAACAAAAAAAACTAAAAAAAATAAAAAATTTAAAAATATCCACTATAAAACATAAAATATTACAAAAA	FF<<F-7---A7-<-<F<-7<<<<<-7-F-A<<<7<J<<-7-7A--FFJFJ-F-<-F7--A-FFA7<AF-A<-FF-JJ<A-A--A-<FJFJJJJJFAAA<	AS:i:192	XS:i:192	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:92A7	YS:i:166	YT:Z:CP
+SRR9016926.5_5/2/2	163	2_GA_converted	98497262	1	5S95M	=	98497267	110	AAAAAAAAAAATATAAAATACACACTTTAAAACATAAAATATAACAAAAAAAACTAAAAAAAATAAAAAATTTAAAAATATACACCATAAAACATAAAAT	-A-A-AAAFFFJFJ<F<<JJJ-7AFJ7JJJJJA<<7<<JJ<J-FF<-<<<FFJFF7FJJJFJJ<<FFFFF-<-7AJFJJJA--A7--AFJFFF<-F----	AS:i:166	XS:i:166	XN:i:0	XM:i:3	XO:i:0	XG:i:0	NM:i:3	MD:Z:8A67C3T14	YS:i:192	YT:Z:CP
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_pe.bam <<<
+
+
+Created G -> A converted version of the FastQ file SRR9016926_2.fastq.gz.temp.1.gz (37698901 sequences in total)
+
+Input files are SRR9016926_1.fastq.gz.temp.1.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.1.gz_G_to_A.fastq.gz (FastQ)
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/ with the specified options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.1.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.1.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.8.gz and SRR9016926_2.fastq.gz.temp.8.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.3.gz and SRR9016926_2.fastq.gz.temp.3.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.5.gz and SRR9016926_2.fastq.gz.temp.5.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.6.gz and SRR9016926_2.fastq.gz.temp.6.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.7.gz and SRR9016926_2.fastq.gz.temp.7.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.4.gz and SRR9016926_2.fastq.gz.temp.4.gz
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.2.gz and SRR9016926_2.fastq.gz.temp.2.gz
+Found first alignment:
+SRR9016926.1_1/1/1	77	*	0	0	*	*	0	0	AATGTTTTGAATAAAGTTGGTTATGGTATGAGATTTTAGTTTGTTTTAGTTTTAAATTTTATATTTTTGGGTTTTATGGTTTGTGGAGTGGTAAATGTTG	A<A<FJAJJ<JJJJ<J--A-7FFJ<F-F-<-F7-F<J<A---7<-FJ--77FJJAFJ--FFJ-F<-<FFJF-7FFAJ<7<-7FFJ7---7A<-7-7--77	YT:Z:UP
+SRR9016926.1_1/2/2	141	*	0	0	*	*	0	0	AAACAATAACCCTCCAAAACTATCAACTCCAAATACATACTTTCTTTTAAAAATTATCTTAATCATAATATCATACCACAACATTTACCACTCCACAAAC	A----A<7FAJJJJF7-<---<-F--AFJJ<A<FFFAJFJJJFJFJ<JA<-7-7FFFJA7<7A7-7--7-7-F<JJF--7-<FFJJFF7<FAF<FA<<-A	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from SRR9016926_1.fastq.gz.temp.1.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.1.gz_G_to_A.fastq.gz, with the options: -q --local --score-min G,20,8 -p 2 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+SRR9016926.1_1/1/1	83	6_GA_converted	108628565	44	100M	=	108628493	-178	CAACATTTACCACTCCACAAACCATAAAACCCAAAAATATAAAATTTAAAACTAAAACAAACTAAAATCTCATACCATAACCAACTTTATTCAAAACATT	77--7-7-<A7---7JFF7-<7<JAFF7-FJFF<-<F-JFF--JFAJJF77--JF-<7---A<J<F-7F-<-F-F<JFF7-A--J<JJJJ<JJAJF<A<A	AS:i:200	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YS:i:188	YT:Z:CP
+SRR9016926.1_1/2/2	163	6_GA_converted	108628493	44	6S94M	=	108628565	178	AAACAATAACCCTCCAAAACTATCAACTCCAAATACATACTTTCTTTTAAAAATTATCTTAATCATAATATCATACCACAACATTTACCACTCCACAAAC	A----A<7FAJJJJF7-<---<-F--AFJJ<A<FFFAJFJJJFJFJ<JA<-7-7FFFJA7<7A7-7--7-7-F<JJF--7-<FFJJFF7<FAF<FA<<-A	AS:i:188	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:94	YS:i:200	YT:Z:CP
+
+>>> Writing bisulfite mapping results to SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam <<<
+
+
+Reading in the sequence files SRR9016926_1.fastq.gz.temp.1.gz and SRR9016926_2.fastq.gz.temp.1.gz
+Chromosomal sequence could not be extracted for	SRR9016926.57400_57400/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.57854_57854/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.363098_363098/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.628181_628181/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.915180_915180/1	MT	16202
+Chromosomal sequence could not be extracted for	SRR9016926.921604_921604/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.1124271_1124271/1	MT	16233
+Chromosomal sequence could not be extracted for	SRR9016926.1496812_1496812/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.2829879_2829879/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.3123787_3123787/1	MT	16226
+Chromosomal sequence could not be extracted for	SRR9016926.3151606_3151606/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.3809502_3809502/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.3870452_3870452/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.3860090_3860090/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.5071824_5071824/1	MT	16268
+Chromosomal sequence could not be extracted for	SRR9016926.5174509_5174509/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.5563113_5563113/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.6185435_6185435/1	MT	16227
+Chromosomal sequence could not be extracted for	SRR9016926.6371292_6371292/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.6274095_6274095/1	MT	16216
+Chromosomal sequence could not be extracted for	SRR9016926.7806172_7806172/1	MT	16269
+Chromosomal sequence could not be extracted for	SRR9016926.7880340_7880340/1	MT	16207
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.9082451_9082451/1	MT	16239
+Chromosomal sequence could not be extracted for	SRR9016926.9102930_9102930/1	MT	16271
+Chromosomal sequence could not be extracted for	SRR9016926.9534168_9534168/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.9535385_9535385/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.9882198_9882198/1	MT	16238
+Chromosomal sequence could not be extracted for	SRR9016926.9783189_9783189/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.9729327_9729327/1	MT	16239
+Chromosomal sequence could not be extracted for	SRR9016926.9855663_9855663/1	MT	16220
+Chromosomal sequence could not be extracted for	SRR9016926.11068578_11068578/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.11389471_11389471/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.11998611_11998611/1	MT	16253
+Chromosomal sequence could not be extracted for	SRR9016926.12760485_12760485/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.13463715_13463715/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.13333718_13333718/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.13578548_13578548/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.13961532_13961532/1	MT	16231
+Chromosomal sequence could not be extracted for	SRR9016926.13513938_13513938/1	MT	16213
+Chromosomal sequence could not be extracted for	SRR9016926.13856416_13856416/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.14324113_14324113/1	MT	16233
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.15933209_15933209/1	MT	16209
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.16238965_16238965/1	MT	16243
+Chromosomal sequence could not be extracted for	SRR9016926.16807900_16807900/1	MT	16239
+Chromosomal sequence could not be extracted for	SRR9016926.17221510_17221510/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.17961008_17961008/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.18731651_18731651/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.18682526_18682526/1	MT	16233
+Chromosomal sequence could not be extracted for	SRR9016926.18592880_18592880/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.18866559_18866559/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.19738342_19738342/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.20603180_20603180/1	MT	16234
+Chromosomal sequence could not be extracted for	SRR9016926.22422811_22422811/1	MT	16266
+Chromosomal sequence could not be extracted for	SRR9016926.22777568_22777568/1	MT	16266
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.25130284_25130284/1	MT	16269
+Chromosomal sequence could not be extracted for	SRR9016926.24953721_24953721/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.25074185_25074185/1	MT	16269
+Chromosomal sequence could not be extracted for	SRR9016926.25511913_25511913/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.27235112_27235112/1	MT	16214
+Chromosomal sequence could not be extracted for	SRR9016926.26972223_26972223/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.27481109_27481109/1	MT	16233
+Chromosomal sequence could not be extracted for	SRR9016926.27783143_27783143/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.28848324_28848324/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.28927957_28927957/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.29249433_29249433/1	MT	16219
+Chromosomal sequence could not be extracted for	SRR9016926.29078959_29078959/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.29977266_29977266/1	MT	16220
+Chromosomal sequence could not be extracted for	SRR9016926.31308548_31308548/1	MT	16240
+Chromosomal sequence could not be extracted for	SRR9016926.30735074_30735074/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.31058016_31058016/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.31541380_31541380/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.31028493_31028493/1	MT	16210
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.31470749_31470749/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.31622549_31622549/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.32477275_32477275/1	MT	16218
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.32996008_32996008/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.32587935_32587935/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.34268483_34268483/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.33960504_33960504/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.34239924_34239924/1	MT	16199
+Chromosomal sequence could not be extracted for	SRR9016926.33418255_33418255/1	MT	16261
+Chromosomal sequence could not be extracted for	SRR9016926.34205848_34205848/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.35358321_35358321/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.35747455_35747455/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.36451530_36451530/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.36782265_36782265/1	MT	16214
+Chromosomal sequence could not be extracted for	SRR9016926.37905116_37905116/1	MT	16222
+Chromosomal sequence could not be extracted for	SRR9016926.39167414_39167414/1	MT	16238
+Processed 5000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.38979109_38979109/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.39580988_39580988/1	MT	16243
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.40918903_40918903/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.41329794_41329794/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.42620291_42620291/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.42000296_42000296/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.42622258_42622258/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.44263830_44263830/1	MT	16247
+Chromosomal sequence could not be extracted for	SRR9016926.44230948_44230948/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.43512423_43512423/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.44246945_44246945/1	MT	16263
+Chromosomal sequence could not be extracted for	SRR9016926.44243367_44243367/1	MT	16248
+Chromosomal sequence could not be extracted for	SRR9016926.44318031_44318031/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.45802285_45802285/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.46165593_46165593/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.46607776_46607776/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.47207676_47207676/1	MT	1
+Processed 6000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.46318295_46318295/1	MT	16217
+Processed 6000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.47582601_47582601/1	MT	1
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.48185023_48185023/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.49817832_49817832/1	MT	16217
+Chromosomal sequence could not be extracted for	SRR9016926.49817385_49817385/1	MT	16217
+Chromosomal sequence could not be extracted for	SRR9016926.49545362_49545362/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.50093385_50093385/1	MT	16246
+Chromosomal sequence could not be extracted for	SRR9016926.50402632_50402632/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.50257327_50257327/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.50402631_50402631/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.52190508_52190508/1	MT	16205
+Chromosomal sequence could not be extracted for	SRR9016926.51968208_51968208/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.52025785_52025785/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.52991852_52991852/1	MT	16220
+Chromosomal sequence could not be extracted for	SRR9016926.52668481_52668481/1	MT	16225
+Chromosomal sequence could not be extracted for	SRR9016926.53863419_53863419/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.53450280_53450280/1	MT	16262
+Chromosomal sequence could not be extracted for	SRR9016926.54654107_54654107/1	MT	16218
+Chromosomal sequence could not be extracted for	SRR9016926.54390038_54390038/1	MT	16248
+Chromosomal sequence could not be extracted for	SRR9016926.54976774_54976774/1	MT	16229
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.55626289_55626289/1	MT	16270
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.60603436_60603436/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.60754801_60754801/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.61063800_61063800/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.61738731_61738731/1	MT	16249
+Chromosomal sequence could not be extracted for	SRR9016926.61961198_61961198/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.61969782_61969782/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.60833741_60833741/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.63003550_63003550/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.63585604_63585604/1	MT	16209
+Chromosomal sequence could not be extracted for	SRR9016926.63826995_63826995/1	MT	16212
+Processed 8000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.64042054_64042054/1	MT	1
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.65848118_65848118/1	MT	16205
+Chromosomal sequence could not be extracted for	SRR9016926.65889486_65889486/1	MT	16211
+Chromosomal sequence could not be extracted for	SRR9016926.66505492_66505492/1	MT	16206
+Chromosomal sequence could not be extracted for	SRR9016926.66407962_66407962/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.67258817_67258817/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.68435950_68435950/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.68636056_68636056/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.67544527_67544527/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.68546295_68546295/1	MT	16225
+Chromosomal sequence could not be extracted for	SRR9016926.70355947_70355947/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.69829898_69829898/1	MT	16225
+Chromosomal sequence could not be extracted for	SRR9016926.70438002_70438002/1	MT	1
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.72350900_72350900/1	MT	16222
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.72441922_72441922/1	MT	16258
+Processed 9000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.74034582_74034582/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.73157157_73157157/1	MT	16242
+Chromosomal sequence could not be extracted for	SRR9016926.73197357_73197357/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.73656957_73656957/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.74635147_74635147/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.75290494_75290494/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.74903085_74903085/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.75129413_75129413/1	MT	16229
+Chromosomal sequence could not be extracted for	SRR9016926.75326901_75326901/1	MT	16218
+Chromosomal sequence could not be extracted for	SRR9016926.76119502_76119502/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.76323937_76323937/1	MT	16255
+Chromosomal sequence could not be extracted for	SRR9016926.77527724_77527724/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.76152839_76152839/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.79096686_79096686/1	MT	1
+Processed 10000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.79600366_79600366/1	MT	1
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.80213808_80213808/1	MT	1
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.80802320_80802320/1	MT	16216
+Processed 10000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.82762022_82762022/1	MT	16240
+Chromosomal sequence could not be extracted for	SRR9016926.83283765_83283765/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.83730770_83730770/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.82767831_82767831/1	MT	16247
+Chromosomal sequence could not be extracted for	SRR9016926.84705304_84705304/1	MT	16240
+Chromosomal sequence could not be extracted for	SRR9016926.84788384_84788384/1	MT	16215
+Chromosomal sequence could not be extracted for	SRR9016926.86050436_86050436/1	MT	16222
+Chromosomal sequence could not be extracted for	SRR9016926.84786838_84786838/1	MT	16215
+Chromosomal sequence could not be extracted for	SRR9016926.84679075_84679075/1	MT	16240
+Chromosomal sequence could not be extracted for	SRR9016926.84770186_84770186/1	MT	16215
+Chromosomal sequence could not be extracted for	SRR9016926.84193943_84193943/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.84794015_84794015/1	MT	1
+Processed 11000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.88018428_88018428/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.86483254_86483254/1	MT	16223
+Chromosomal sequence could not be extracted for	SRR9016926.85666031_85666031/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.89233364_89233364/1	MT	16208
+Processed 11000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.87873553_87873553/1	MT	16265
+Chromosomal sequence could not be extracted for	SRR9016926.87800654_87800654/1	MT	1
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.88879681_88879681/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.89332161_89332161/1	MT	1
+Processed 11000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.90229435_90229435/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.91661989_91661989/1	MT	16268
+Chromosomal sequence could not be extracted for	SRR9016926.91355307_91355307/1	MT	16206
+Chromosomal sequence could not be extracted for	SRR9016926.92295889_92295889/1	MT	16228
+Chromosomal sequence could not be extracted for	SRR9016926.95432524_95432524/1	MT	1
+Processed 12000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.92505895_92505895/1	MT	16272
+Chromosomal sequence could not be extracted for	SRR9016926.98010868_98010868/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.93920259_93920259/1	MT	16217
+Chromosomal sequence could not be extracted for	SRR9016926.94027690_94027690/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.95549257_95549257/1	MT	1
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.96665822_96665822/1	MT	1
+Processed 12000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.97766339_97766339/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.98254358_98254358/1	MT	16247
+Chromosomal sequence could not be extracted for	SRR9016926.103542748_103542748/1	MT	16245
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.100032440_100032440/1	MT	2
+Chromosomal sequence could not be extracted for	SRR9016926.99249818_99249818/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.101065176_101065176/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.106110172_106110172/1	MT	16238
+Chromosomal sequence could not be extracted for	SRR9016926.106300276_106300276/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.101064661_101064661/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.99880727_99880727/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.107215324_107215324/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.101013555_101013555/1	MT	16270
+Chromosomal sequence could not be extracted for	SRR9016926.102929697_102929697/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.102303774_102303774/1	MT	16235
+Chromosomal sequence could not be extracted for	SRR9016926.102505934_102505934/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.102597254_102597254/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.102286971_102286971/1	MT	16235
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.104277336_104277336/1	MT	16225
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.109392452_109392452/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.103730741_103730741/1	MT	1
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.103205538_103205538/1	MT	16217
+Chromosomal sequence could not be extracted for	SRR9016926.103559482_103559482/1	MT	16245
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.110863820_110863820/1	MT	1
+Processed 13000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.105898597_105898597/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.105321154_105321154/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.105731526_105731526/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.105852971_105852971/1	MT	16266
+Chromosomal sequence could not be extracted for	SRR9016926.113786956_113786956/1	MT	16267
+Chromosomal sequence could not be extracted for	SRR9016926.106578854_106578854/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.108258089_108258089/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.108427565_108427565/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.107791050_107791050/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.109540105_109540105/1	MT	16215
+Chromosomal sequence could not be extracted for	SRR9016926.116396156_116396156/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.109648077_109648077/1	MT	16246
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.111222229_111222229/1	MT	1
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.110735402_110735402/1	MT	16272
+Chromosomal sequence could not be extracted for	SRR9016926.110942243_110942243/1	MT	16233
+Processed 14000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.111975514_111975514/1	MT	16247
+Processed 14000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.112941070_112941070/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.116163405_116163405/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.116412602_116412602/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.118910241_118910241/1	MT	1
+Processed 15000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.118121831_118121831/1	MT	16208
+Processed 15000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.129464876_129464876/1	MT	16227
+Chromosomal sequence could not be extracted for	SRR9016926.120203421_120203421/1	MT	16211
+Processed 15000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.123587553_123587553/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.132792428_132792428/1	MT	16245
+Chromosomal sequence could not be extracted for	SRR9016926.122111294_122111294/1	MT	16234
+Chromosomal sequence could not be extracted for	SRR9016926.124946737_124946737/1	MT	16232
+Chromosomal sequence could not be extracted for	SRR9016926.122679211_122679211/1	MT	16206
+Chromosomal sequence could not be extracted for	SRR9016926.123196655_123196655/1	MT	16234
+Chromosomal sequence could not be extracted for	SRR9016926.126148072_126148072/1	MT	1
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.124954062_124954062/1	MT	16232
+Chromosomal sequence could not be extracted for	SRR9016926.125427906_125427906/1	MT	1
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.138432500_138432500/1	MT	16223
+Chromosomal sequence could not be extracted for	SRR9016926.128598561_128598561/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.126677034_126677034/1	MT	1
+Processed 16000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.127141554_127141554/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.139367540_139367540/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.139429316_139429316/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.130046584_130046584/1	MT	1
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.128121595_128121595/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.130920489_130920489/1	MT	16210
+Chromosomal sequence could not be extracted for	SRR9016926.130037525_130037525/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.132662633_132662633/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.134720552_134720552/1	MT	1
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.134878512_134878512/1	MT	1
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.133375047_133375047/1	MT	1
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.146567204_146567204/1	MT	1
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.135319042_135319042/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.135308451_135308451/1	MT	16241
+Chromosomal sequence could not be extracted for	SRR9016926.135809475_135809475/1	MT	1
+Processed 17000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.136384202_136384202/1	MT	3
+Processed 17000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.139119048_139119048/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.137639410_137639410/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.138755549_138755549/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.138828675_138828675/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.139045555_139045555/1	MT	16268
+Chromosomal sequence could not be extracted for	SRR9016926.141612832_141612832/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.139483195_139483195/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.140066931_140066931/1	MT	16256
+Processed 19000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.154048052_154048052/1	MT	16233
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.142541023_142541023/1	MT	16252
+Processed 18000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.145098237_145098237/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.144154506_144154506/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.143389471_143389471/1	MT	16243
+Chromosomal sequence could not be extracted for	SRR9016926.156563036_156563036/1	MT	1
+Processed 18000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.147829945_147829945/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.148592689_148592689/1	MT	2
+Chromosomal sequence could not be extracted for	SRR9016926.158290516_158290516/1	MT	16239
+Chromosomal sequence could not be extracted for	SRR9016926.146092430_146092430/1	MT	16214
+Chromosomal sequence could not be extracted for	SRR9016926.151250424_151250424/1	MT	16230
+Chromosomal sequence could not be extracted for	SRR9016926.151087705_151087705/1	MT	1
+Processed 20000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.148793326_148793326/1	MT	16210
+Chromosomal sequence could not be extracted for	SRR9016926.152496881_152496881/1	MT	16216
+Chromosomal sequence could not be extracted for	SRR9016926.150386603_150386603/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.149200478_149200478/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.150387026_150387026/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.149257470_149257470/1	MT	16270
+Chromosomal sequence could not be extracted for	SRR9016926.149268639_149268639/1	MT	16270
+Chromosomal sequence could not be extracted for	SRR9016926.150823594_150823594/1	MT	1
+Processed 19000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.150411911_150411911/1	MT	16256
+Processed 19000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.155052920_155052920/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.152638779_152638779/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.153011026_153011026/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.153128554_153128554/1	MT	16220
+Processed 19000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.154037747_154037747/1	MT	16251
+Chromosomal sequence could not be extracted for	SRR9016926.156606536_156606536/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.154303939_154303939/1	MT	16216
+Chromosomal sequence could not be extracted for	SRR9016926.166590124_166590124/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.154827990_154827990/1	MT	16223
+Processed 21000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.158736445_158736445/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.159066026_159066026/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.159095890_159095890/1	MT	1
+Processed 20000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.170510820_170510820/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.162484121_162484121/1	MT	16217
+Processed 20000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.158701326_158701326/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.159973335_159973335/1	MT	16211
+Chromosomal sequence could not be extracted for	SRR9016926.162075421_162075421/1	MT	16253
+Processed 20000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.162274757_162274757/1	MT	1
+Processed 20000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.161577102_161577102/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.161635854_161635854/1	MT	16212
+Chromosomal sequence could not be extracted for	SRR9016926.164191019_164191019/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.163615850_163615850/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.174451460_174451460/1	MT	1
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.163791551_163791551/1	MT	1
+Processed 21000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.176114020_176114020/1	MT	16238
+Chromosomal sequence could not be extracted for	SRR9016926.176258612_176258612/1	MT	1
+Processed 21000000 sequence pairs so far
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.168670211_168670211/1	MT	16269
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.170841913_170841913/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.167076055_167076055/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.172181272_172181272/1	MT	16271
+Chromosomal sequence could not be extracted for	SRR9016926.170142163_170142163/1	MT	16224
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.172467816_172467816/1	MT	16245
+Chromosomal sequence could not be extracted for	SRR9016926.179631164_179631164/1	MT	1
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.170827491_170827491/1	MT	16243
+Chromosomal sequence could not be extracted for	SRR9016926.168669503_168669503/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.173582800_173582800/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.172067565_172067565/1	MT	16213
+Chromosomal sequence could not be extracted for	SRR9016926.172467811_172467811/1	MT	16245
+Chromosomal sequence could not be extracted for	SRR9016926.175218089_175218089/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.170509694_170509694/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.173388549_173388549/1	MT	16261
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.173764701_173764701/1	MT	1
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.172019687_172019687/1	MT	16213
+Chromosomal sequence could not be extracted for	SRR9016926.174711411_174711411/1	MT	1
+Processed 23000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.173408958_173408958/1	MT	16261
+Chromosomal sequence could not be extracted for	SRR9016926.176754107_176754107/1	MT	16242
+Chromosomal sequence could not be extracted for	SRR9016926.177340083_177340083/1	MT	1
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.179900953_179900953/1	MT	16243
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.178230293_178230293/1	MT	1
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.177776178_177776178/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.177779306_177779306/1	MT	16204
+Chromosomal sequence could not be extracted for	SRR9016926.177780922_177780922/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.181775352_181775352/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.177599175_177599175/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.178976503_178976503/1	MT	1
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.184035160_184035160/1	MT	16208
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.184803144_184803144/1	MT	16254
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.181184775_181184775/1	MT	16234
+Chromosomal sequence could not be extracted for	SRR9016926.183295605_183295605/1	MT	1
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.180946566_180946566/1	MT	16237
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.194113316_194113316/1	MT	16200
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.188367032_188367032/1	MT	1
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.195314164_195314164/1	MT	16266
+Chromosomal sequence could not be extracted for	SRR9016926.186895141_186895141/1	MT	16212
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.190804841_190804841/1	MT	1
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.187230999_187230999/1	MT	1
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.192874353_192874353/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.188904618_188904618/1	MT	1
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.189677410_189677410/1	MT	16243
+Processed 25000000 sequence pairs so far
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.194918520_194918520/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.194768065_194768065/1	MT	16249
+Chromosomal sequence could not be extracted for	SRR9016926.195386592_195386592/1	MT	16199
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.196710256_196710256/1	MT	16218
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.193540194_193540194/1	MT	16241
+Chromosomal sequence could not be extracted for	SRR9016926.193648858_193648858/1	MT	1
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.203809948_203809948/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.194252666_194252666/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.198746800_198746800/1	MT	1
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.200161336_200161336/1	MT	16237
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.194251854_194251854/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.195466023_195466023/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.196572474_196572474/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.194780222_194780222/1	MT	16249
+Chromosomal sequence could not be extracted for	SRR9016926.201016265_201016265/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.195072790_195072790/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.201276385_201276385/1	MT	1
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.200109555_200109555/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.198968989_198968989/1	MT	16236
+Chromosomal sequence could not be extracted for	SRR9016926.202359832_202359832/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.207797252_207797252/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.200956395_200956395/1	MT	1
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.198730850_198730850/1	MT	1
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.208429524_208429524/1	MT	16199
+Chromosomal sequence could not be extracted for	SRR9016926.203999112_203999112/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.201016677_201016677/1	MT	1
+Processed 25000000 sequence pairs so far
+Processed 25000000 sequence pairs so far
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.202075218_202075218/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.201616543_201616543/1	MT	16229
+Chromosomal sequence could not be extracted for	SRR9016926.207798048_207798048/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.203567466_203567466/1	MT	16242
+Processed 26000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.203961855_203961855/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.203361654_203361654/1	MT	16247
+Processed 27000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.210029091_210029091/1	MT	1
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.206529767_206529767/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.217781588_217781588/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.213363072_213363072/1	MT	16250
+Chromosomal sequence could not be extracted for	SRR9016926.213542920_213542920/1	MT	16271
+Chromosomal sequence could not be extracted for	SRR9016926.207801519_207801519/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.213764281_213764281/1	MT	1
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.207252662_207252662/1	MT	16235
+Chromosomal sequence could not be extracted for	SRR9016926.210037394_210037394/1	MT	1
+Processed 26000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.213377595_213377595/1	MT	16250
+Chromosomal sequence could not be extracted for	SRR9016926.211564229_211564229/1	MT	1
+Processed 27000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.212556853_212556853/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.216425592_216425592/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.216500841_216500841/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.216883897_216883897/1	MT	16251
+Chromosomal sequence could not be extracted for	SRR9016926.210257318_210257318/1	MT	16215
+Chromosomal sequence could not be extracted for	SRR9016926.213038146_213038146/1	MT	1
+Processed 27000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.217490499_217490499/1	MT	1
+Processed 28000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.216485538_216485538/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.221376384_221376384/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.226421100_226421100/1	MT	16237
+Processed 27000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.222629025_222629025/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.218578730_218578730/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.223154321_223154321/1	MT	16226
+Processed 27000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.228023268_228023268/1	MT	16207
+Processed 28000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.219717106_219717106/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.224888409_224888409/1	MT	1
+Processed 28000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.222898397_222898397/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.222549066_222549066/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.220292854_220292854/1	MT	16229
+Chromosomal sequence could not be extracted for	SRR9016926.223947869_223947869/1	MT	16213
+Processed 29000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.224028781_224028781/1	MT	16217
+Processed 28000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.228645451_228645451/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.223096030_223096030/1	MT	16205
+Processed 28000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.231299648_231299648/1	MT	1
+Processed 28000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.228061269_228061269/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.236143836_236143836/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.228187250_228187250/1	MT	16215
+Processed 29000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.233840552_233840552/1	MT	16246
+Processed 29000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.235415171_235415171/1	MT	1
+Processed 29000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.232438202_232438202/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.236545611_236545611/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.230749854_230749854/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.241976292_241976292/1	MT	16208
+Chromosomal sequence could not be extracted for	SRR9016926.239081968_239081968/1	MT	16247
+Processed 29000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.232224078_232224078/1	MT	16222
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.240433425_240433425/1	MT	16237
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.240032475_240032475/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.233807094_233807094/1	MT	16246
+Chromosomal sequence could not be extracted for	SRR9016926.237243530_237243530/1	MT	16265
+Chromosomal sequence could not be extracted for	SRR9016926.235027383_235027383/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.234416310_234416310/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.245581212_245581212/1	MT	16217
+Chromosomal sequence could not be extracted for	SRR9016926.242876384_242876384/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.243474360_243474360/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.239070333_239070333/1	MT	16247
+Chromosomal sequence could not be extracted for	SRR9016926.244290753_244290753/1	MT	16234
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.247792780_247792780/1	MT	1
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.240084834_240084834/1	MT	16241
+Chromosomal sequence could not be extracted for	SRR9016926.247940892_247940892/1	MT	16213
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.238906879_238906879/1	MT	16231
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.250619220_250619220/1	MT	1
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.247746105_247746105/1	MT	16268
+Processed 31000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.240433806_240433806/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.244212741_244212741/1	MT	16245
+Chromosomal sequence could not be extracted for	SRR9016926.252275892_252275892/1	MT	1
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.250299616_250299616/1	MT	16251
+Chromosomal sequence could not be extracted for	SRR9016926.246436749_246436749/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.254606268_254606268/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.247235653_247235653/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.245104623_245104623/1	MT	1
+Processed 31000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.245425407_245425407/1	MT	16239
+Chromosomal sequence could not be extracted for	SRR9016926.245454679_245454679/1	MT	1
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.248807013_248807013/1	MT	3
+Chromosomal sequence could not be extracted for	SRR9016926.254828680_254828680/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.254744721_254744721/1	MT	1
+Processed 32000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.247227390_247227390/1	MT	1
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.254550587_254550587/1	MT	16249
+Processed 31000000 sequence pairs so far
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.256351843_256351843/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.251304807_251304807/1	MT	16247
+Processed 32000000 sequence pairs so far
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.256073890_256073890/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.256154602_256154602/1	MT	16214
+Chromosomal sequence could not be extracted for	SRR9016926.263492508_263492508/1	MT	16230
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.259354467_259354467/1	MT	16250
+Chromosomal sequence could not be extracted for	SRR9016926.262152568_262152568/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.253110022_253110022/1	MT	1
+Processed 33000000 sequence pairs so far
+Processed 32000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.256079047_256079047/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.259192189_259192189/1	MT	16210
+Chromosomal sequence could not be extracted for	SRR9016926.264639857_264639857/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.262155091_262155091/1	MT	16221
+Chromosomal sequence could not be extracted for	SRR9016926.260127842_260127842/1	MT	16272
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.265244241_265244241/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.260835701_260835701/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.268068180_268068180/1	MT	16262
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.268855364_268855364/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.262010234_262010234/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.262829333_262829333/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.260153439_260153439/1	MT	16272
+Chromosomal sequence could not be extracted for	SRR9016926.270730132_270730132/1	MT	16244
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.259677926_259677926/1	MT	16247
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.269148201_269148201/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.269739793_269739793/1	MT	16234
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.265055077_265055077/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.266253762_266253762/1	MT	1
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.262025534_262025534/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.262145382_262145382/1	MT	16215
+Processed 34000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.274074736_274074736/1	MT	1
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.265603279_265603279/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.264225574_264225574/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.271412899_271412899/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.275287384_275287384/1	MT	16219
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.275594329_275594329/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.270531333_270531333/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.272910403_272910403/1	MT	1
+Processed 34000000 sequence pairs so far
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.279577236_279577236/1	MT	16244
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.275265307_275265307/1	MT	16219
+Chromosomal sequence could not be extracted for	SRR9016926.279163104_279163104/1	MT	16227
+Chromosomal sequence could not be extracted for	SRR9016926.270231487_270231487/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.279358624_279358624/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.279374433_279374433/1	MT	1
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.269794974_269794974/1	MT	16219
+Processed 35000000 sequence pairs so far
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.282814468_282814468/1	MT	16237
+Chromosomal sequence could not be extracted for	SRR9016926.275982621_275982621/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.273611471_273611471/1	MT	1
+Processed 34000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.282915176_282915176/1	MT	16245
+Chromosomal sequence could not be extracted for	SRR9016926.278278890_278278890/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.284752596_284752596/1	MT	16231
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.277987637_277987637/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.285282836_285282836/1	MT	16209
+Chromosomal sequence could not be extracted for	SRR9016926.285444996_285444996/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.285091856_285091856/1	MT	16220
+Chromosomal sequence could not be extracted for	SRR9016926.278979525_278979525/1	MT	16224
+Chromosomal sequence could not be extracted for	SRR9016926.286057132_286057132/1	MT	16237
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.286716348_286716348/1	MT	1
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.286799384_286799384/1	MT	16220
+Chromosomal sequence could not be extracted for	SRR9016926.275991582_275991582/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.287840780_287840780/1	MT	1
+Processed 36000000 sequence pairs so far
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.288413496_288413496/1	MT	1
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.282820762_282820762/1	MT	16237
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.286272355_286272355/1	MT	16238
+Chromosomal sequence could not be extracted for	SRR9016926.286471427_286471427/1	MT	1
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.285026941_285026941/1	MT	16226
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.281337534_281337534/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.281474614_281474614/1	MT	16254
+Chromosomal sequence could not be extracted for	SRR9016926.293092648_293092648/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.286862045_286862045/1	MT	16256
+Chromosomal sequence could not be extracted for	SRR9016926.284239591_284239591/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.289448891_289448891/1	MT	16213
+Chromosomal sequence could not be extracted for	SRR9016926.293591249_293591249/1	MT	1
+Processed 36000000 sequence pairs so far
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.294672436_294672436/1	MT	16228
+Chromosomal sequence could not be extracted for	SRR9016926.294904752_294904752/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.286127679_286127679/1	MT	16238
+Chromosomal sequence could not be extracted for	SRR9016926.290814643_290814643/1	MT	1
+Processed 37000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.286938983_286938983/1	MT	16249
+Chromosomal sequence could not be extracted for	SRR9016926.296181288_296181288/1	MT	16225
+Processed 37000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.290636154_290636154/1	MT	1
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.298165080_298165080/1	MT	16252
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.293093794_293093794/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.293306154_293306154/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.293361058_293361058/1	MT	16260
+Chromosomal sequence could not be extracted for	SRR9016926.288403262_288403262/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.300553140_300553140/1	MT	1
+Processed 37000000 sequence pairs so far
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14123263 (37.46%) aligned concordantly 0 times
+    13045210 (34.60%) aligned concordantly exactly 1 time
+    10530427 (27.93%) aligned concordantly >1 times
+62.54% overall alignment rate
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14074809 (37.33%) aligned concordantly 0 times
+    13036649 (34.58%) aligned concordantly exactly 1 time
+    10587442 (28.08%) aligned concordantly >1 times
+62.67% overall alignment rate
+Processed 37698900 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.8.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.8.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698900
+Number of paired-end alignments with a unique best hit:	33933875
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	842080
+Sequence pairs did not map uniquely:	2922945
+Sequence pairs which were discarded because genomic sequence could not be extracted:	75
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17098260	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16835540	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332663525
+
+Total methylated C's in CpG context:	49965147
+Total methylated C's in CHG context:	5394960
+Total methylated C's in CHH context:	21012756
+Total methylated C's in Unknown context:	6857695
+
+Total unmethylated C's in CpG context:	10814513
+Total unmethylated C's in CHG context:	278943174
+Total unmethylated C's in CHH context:	966532975
+Total unmethylated C's in Unknown context:	12076782
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+Now waiting for all child processes to complete
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14077005 (37.34%) aligned concordantly 0 times
+    13036894 (34.58%) aligned concordantly exactly 1 time
+    10585002 (28.08%) aligned concordantly >1 times
+62.66% overall alignment rate
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14124238 (37.47%) aligned concordantly 0 times
+    13051418 (34.62%) aligned concordantly exactly 1 time
+    10523245 (27.91%) aligned concordantly >1 times
+62.53% overall alignment rate
+Processed 37698901 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.4.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.4.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698901
+Number of paired-end alignments with a unique best hit:	33936637
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	841592
+Sequence pairs did not map uniquely:	2920672
+Sequence pairs which were discarded because genomic sequence could not be extracted:	85
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17100257	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16836295	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332878710
+
+Total methylated C's in CpG context:	49977324
+Total methylated C's in CHG context:	5396015
+Total methylated C's in CHH context:	21019547
+Total methylated C's in Unknown context:	6856768
+
+Total unmethylated C's in CpG context:	10811751
+Total unmethylated C's in CHG context:	278931207
+Total unmethylated C's in CHH context:	966742866
+Total unmethylated C's in Unknown context:	12077607
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14072449 (37.33%) aligned concordantly 0 times
+    13041619 (34.59%) aligned concordantly exactly 1 time
+    10584833 (28.08%) aligned concordantly >1 times
+62.67% overall alignment rate
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14125664 (37.47%) aligned concordantly 0 times
+    13044609 (34.60%) aligned concordantly exactly 1 time
+    10528628 (27.93%) aligned concordantly >1 times
+62.53% overall alignment rate
+Processed 37698901 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.1.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.1.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698901
+Number of paired-end alignments with a unique best hit:	33936956
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	840655
+Sequence pairs did not map uniquely:	2921290
+Sequence pairs which were discarded because genomic sequence could not be extracted:	65
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17096353	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16840538	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332879093
+
+Total methylated C's in CpG context:	49967277
+Total methylated C's in CHG context:	5393280
+Total methylated C's in CHH context:	21004242
+Total methylated C's in Unknown context:	6860437
+
+Total unmethylated C's in CpG context:	10831664
+Total unmethylated C's in CHG context:	278936780
+Total unmethylated C's in CHH context:	966745850
+Total unmethylated C's in Unknown context:	12079468
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+Processed 37000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	SRR9016926.293228047_293228047/1	MT	1
+Chromosomal sequence could not be extracted for	SRR9016926.293358879_293358879/1	MT	16260
+Processed 37000000 sequence pairs so far
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14079812 (37.35%) aligned concordantly 0 times
+    13034169 (34.57%) aligned concordantly exactly 1 time
+    10584920 (28.08%) aligned concordantly >1 times
+62.65% overall alignment rate
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14123780 (37.46%) aligned concordantly 0 times
+    13050374 (34.62%) aligned concordantly exactly 1 time
+    10524747 (27.92%) aligned concordantly >1 times
+62.54% overall alignment rate
+Processed 37698901 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.3.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.3.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698901
+Number of paired-end alignments with a unique best hit:	33937418
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	842403
+Sequence pairs did not map uniquely:	2919080
+Sequence pairs which were discarded because genomic sequence could not be extracted:	65
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17101133	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16836220	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332842566
+
+Total methylated C's in CpG context:	49969148
+Total methylated C's in CHG context:	5392279
+Total methylated C's in CHH context:	21014446
+Total methylated C's in Unknown context:	6853843
+
+Total unmethylated C's in CpG context:	10814225
+Total unmethylated C's in CHG context:	278983769
+Total unmethylated C's in CHH context:	966668699
+Total unmethylated C's in Unknown context:	12079575
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+Chromosomal sequence could not be extracted for	SRR9016926.300656109_300656109/1	MT	1
+Processed 37000000 sequence pairs so far
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14128898 (37.48%) aligned concordantly 0 times
+    13053176 (34.62%) aligned concordantly exactly 1 time
+    10516827 (27.90%) aligned concordantly >1 times
+62.52% overall alignment rate
+37698901 reads; of these:
+  37698901 (100.00%) were paired; of these:
+    14079809 (37.35%) aligned concordantly 0 times
+    13040461 (34.59%) aligned concordantly exactly 1 time
+    10578631 (28.06%) aligned concordantly >1 times
+62.65% overall alignment rate
+Processed 37698901 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.2.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.2.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698901
+Number of paired-end alignments with a unique best hit:	33939320
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	840804
+Sequence pairs did not map uniquely:	2918777
+Sequence pairs which were discarded because genomic sequence could not be extracted:	73
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17096802	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16842445	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332981881
+
+Total methylated C's in CpG context:	49964031
+Total methylated C's in CHG context:	5392766
+Total methylated C's in CHH context:	21023000
+Total methylated C's in Unknown context:	6859525
+
+Total unmethylated C's in CpG context:	10831129
+Total unmethylated C's in CHG context:	278957795
+Total unmethylated C's in CHH context:	966813160
+Total unmethylated C's in Unknown context:	12079539
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14122662 (37.46%) aligned concordantly 0 times
+    13048586 (34.61%) aligned concordantly exactly 1 time
+    10527652 (27.93%) aligned concordantly >1 times
+62.54% overall alignment rate
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14078458 (37.34%) aligned concordantly 0 times
+    13035116 (34.58%) aligned concordantly exactly 1 time
+    10585326 (28.08%) aligned concordantly >1 times
+62.66% overall alignment rate
+Processed 37698900 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.5.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.5.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698900
+Number of paired-end alignments with a unique best hit:	33938304
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	841428
+Sequence pairs did not map uniquely:	2919168
+Sequence pairs which were discarded because genomic sequence could not be extracted:	65
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17101457	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16836782	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332906066
+
+Total methylated C's in CpG context:	49980588
+Total methylated C's in CHG context:	5390681
+Total methylated C's in CHH context:	21020062
+Total methylated C's in Unknown context:	6858948
+
+Total unmethylated C's in CpG context:	10822317
+Total unmethylated C's in CHG context:	278964206
+Total unmethylated C's in CHH context:	966728212
+Total unmethylated C's in Unknown context:	12077667
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14075929 (37.34%) aligned concordantly 0 times
+    13032212 (34.57%) aligned concordantly exactly 1 time
+    10590759 (28.09%) aligned concordantly >1 times
+62.66% overall alignment rate
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14123950 (37.47%) aligned concordantly 0 times
+    13046118 (34.61%) aligned concordantly exactly 1 time
+    10528832 (27.93%) aligned concordantly >1 times
+62.53% overall alignment rate
+Processed 37698900 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.7.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.7.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698900
+Number of paired-end alignments with a unique best hit:	33932473
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	842592
+Sequence pairs did not map uniquely:	2923835
+Sequence pairs which were discarded because genomic sequence could not be extracted:	67
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17097006	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16835400	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332602449
+
+Total methylated C's in CpG context:	49957673
+Total methylated C's in CHG context:	5387152
+Total methylated C's in CHH context:	20999894
+Total methylated C's in Unknown context:	6859342
+
+Total unmethylated C's in CpG context:	10824234
+Total unmethylated C's in CHG context:	278886117
+Total unmethylated C's in CHH context:	966547379
+Total unmethylated C's in Unknown context:	12077516
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14084142 (37.36%) aligned concordantly 0 times
+    13033212 (34.57%) aligned concordantly exactly 1 time
+    10581546 (28.07%) aligned concordantly >1 times
+62.64% overall alignment rate
+37698900 reads; of these:
+  37698900 (100.00%) were paired; of these:
+    14120250 (37.46%) aligned concordantly 0 times
+    13052848 (34.62%) aligned concordantly exactly 1 time
+    10525802 (27.92%) aligned concordantly >1 times
+62.54% overall alignment rate
+Processed 37698900 sequences in total
+
+
+Successfully deleted the temporary files SRR9016926_1.fastq.gz.temp.6.gz_C_to_T.fastq.gz and SRR9016926_2.fastq.gz.temp.6.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	37698900
+Number of paired-end alignments with a unique best hit:	33939011
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	840933
+Sequence pairs did not map uniquely:	2918956
+Sequence pairs which were discarded because genomic sequence could not be extracted:	73
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	17104577	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	16834361	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1332927397
+
+Total methylated C's in CpG context:	49969284
+Total methylated C's in CHG context:	5396244
+Total methylated C's in CHH context:	21013633
+Total methylated C's in Unknown context:	6863570
+
+Total unmethylated C's in CpG context:	10820671
+Total unmethylated C's in CHG context:	278954887
+Total unmethylated C's in CHH context:	966772678
+Total unmethylated C's in Unknown context:	12076247
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+All child process successfully finished.
+
+Right, cleaning up now...
+
+Deleting temporary sequence files...
+SRR9016926_1.fastq.gz.temp.1.gz	SRR9016926_2.fastq.gz.temp.1.gz	SRR9016926_1.fastq.gz.temp.2.gz	SRR9016926_2.fastq.gz.temp.2.gz	SRR9016926_1.fastq.gz.temp.3.gz	SRR9016926_2.fastq.gz.temp.3.gz	SRR9016926_1.fastq.gz.temp.4.gz	SRR9016926_2.fastq.gz.temp.4.gz	SRR9016926_1.fastq.gz.temp.5.gz	SRR9016926_2.fastq.gz.temp.5.gz	SRR9016926_1.fastq.gz.temp.6.gz	SRR9016926_2.fastq.gz.temp.6.gz	SRR9016926_1.fastq.gz.temp.7.gz	SRR9016926_2.fastq.gz.temp.7.gz	SRR9016926_1.fastq.gz.temp.8.gz	SRR9016926_2.fastq.gz.temp.8.gz	
+
+Now merging BAM files SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_pe.bam SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_pe.bam into >>> SRR9016926_1_bismark_bt2_pe.bam <<<
+Merging from file >> SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_pe.bam <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_pe.bam <<
+
+Deleting temporary BAM files...
+/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_pe.bam	/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_pe.bam	
+
+Writing report to /scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1_bismark_bt2_PE_report.txt
+Now merging temporary reports SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_PE_report.txt SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_PE_report.txt into >>> /scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/SRR9016926_1_bismark_bt2_PE_report.txt <<<
+Merging from file >> SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_PE_report.txt <<
+
+Printing a final merged alignment report for all individual sub-reports
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	301591204
+Number of paired-end alignments with a unique best hit:	271493994
+Mapping efficiency:	90.0%
+
+Sequence pairs with no alignments under any condition:	6732487
+Sequence pairs did not map uniquely:	23364723
+Sequence pairs which were discarded because genomic sequence could not be extracted:	568
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	136795845	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	134697581	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	10662681687
+
+Total methylated C's in CpG context:	399750472
+Total methylated C's in CHG context:	43143377
+Total methylated C's in CHH context:	168107580
+Total methylated C's in Unknown context:	54870128
+
+Total unmethylated C's in CpG context:	86570504
+Total unmethylated C's in CHG context:	2231557935
+Total unmethylated C's in CHH context:	7733551819
+Total unmethylated C's in Unknown context:	96624401
+
+C methylated in CpG context:	82.2%
+C methylated in CHG context:	1.9%
+C methylated in CHH context:	2.1%
+C methylated in Unknown context (CN or CHN):	36.2%
+
+
+Deleting temporary report files...
+SRR9016926_1.fastq.gz.temp.1.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.2.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.3.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.4.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.5.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.6.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.7.gz_bismark_bt2_PE_report.txt	SRR9016926_1.fastq.gz.temp.8.gz_bismark_bt2_PE_report.txt	
+
+Bismark completed in 0d 12h 26m 30s
+
+====================
+Bismark run complete
+====================
+
