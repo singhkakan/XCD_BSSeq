@@ -1,0 +1,835 @@
+mkdir: cannot create directory ‘/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract’: File exists
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950173bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950178bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950176bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950175bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950174bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950179bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Creating additional bedGraph file that has known Ensembl chromosome names replaced to work with the UCSC genome browser
+This option:
+- prefixes chromosome names with 'chr'
+- changes 'MT' to 'chrM'
+
+Using these input files: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		SRR950177bedgraph.gz
+output directory:		>/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/<
+remove whitespaces:		yes
+CX context:			yes
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		100G
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Using the following files as Input:
+/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz	/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz
+
+Writing bedGraph to file: SRR950178bedgraph.gz
+Writing bedGraph to file: SRR950175bedgraph.gz
+Writing bedGraph to file: SRR950176bedgraph.gz
+Writing bedGraph to file: SRR950173bedgraph.gz
+Writing bedGraph to file: SRR950174bedgraph.gz
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950178bedgraph.gz.bismark.cov.gz
+
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950176bedgraph.gz.bismark.cov.gz
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Writing bedGraph to file: SRR950179bedgraph.gz
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Writing bedGraph to file: SRR950177bedgraph.gz
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950175bedgraph.gz.bismark.cov.gz
+
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950179bedgraph.gz.bismark.cov.gz
+
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950173bedgraph.gz.bismark.cov.gz
+
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950177bedgraph.gz.bismark.cov.gz
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Also writing out a coverage file including counts methylated and unmethylated residues to file: SRR950174bedgraph.gz.bismark.cov.gz
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Changed directory to /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Now writing methylation information for file >>CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Finished writing out individual chromosome files for CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Finished writing out individual chromosome files for CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Finished writing out individual chromosome files for CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Now writing methylation information for file >>CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Now writing methylation information for file >>CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CHH_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Now writing methylation information for file >>CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CHH_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Finished writing out individual chromosome files for CHH_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Finished writing out individual chromosome files for CpG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Now writing methylation information for file >>CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CpG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CpG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CHH_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Now writing methylation information for file >>CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CpG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CHH_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CpG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+
+Sorting input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950178_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Finally, creating a UCSC compatible version of the bedGraph file. This shouldn't take long...
+     ==============     ==============     ==============     ==============     ==============
+Writing a new version of the bedGraph file compatible to UCSC  genomes to file >SRR950178bedgraph_UCSC.bedGraph.gz<
+Chromosomes names will start with 'chr'
+Chromosome MT (Ensembl mitochondrial DNA http://www.ensembl.org/Homo_sapiens/Location/Chromosome?chr=MT;r=MT:1-16569) will be renamed to 'chrM'
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+
+Sorting input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950179_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Finally, creating a UCSC compatible version of the bedGraph file. This shouldn't take long...
+     ==============     ==============     ==============     ==============     ==============
+Writing a new version of the bedGraph file compatible to UCSC  genomes to file >SRR950179bedgraph_UCSC.bedGraph.gz<
+Chromosomes names will start with 'chr'
+Chromosome MT (Ensembl mitochondrial DNA http://www.ensembl.org/Homo_sapiens/Location/Chromosome?chr=MT;r=MT:1-16569) will be renamed to 'chrM'
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+
+Sorting input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950177_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Finally, creating a UCSC compatible version of the bedGraph file. This shouldn't take long...
+     ==============     ==============     ==============     ==============     ==============
+Writing a new version of the bedGraph file compatible to UCSC  genomes to file >SRR950177bedgraph_UCSC.bedGraph.gz<
+Chromosomes names will start with 'chr'
+Chromosome MT (Ensembl mitochondrial DNA http://www.ensembl.org/Homo_sapiens/Location/Chromosome?chr=MT;r=MT:1-16569) will be renamed to 'chrM'
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp by positions (using -S of 100G)
+
+All done. Finished UCSC conversion.
+
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp by positions (using -S of 100G)
+
+All done. Finished UCSC conversion.
+
+
+All done. Finished UCSC conversion.
+
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+
+Sorting input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950176_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Finally, creating a UCSC compatible version of the bedGraph file. This shouldn't take long...
+     ==============     ==============     ==============     ==============     ==============
+Writing a new version of the bedGraph file compatible to UCSC  genomes to file >SRR950176bedgraph_UCSC.bedGraph.gz<
+Chromosomes names will start with 'chr'
+Chromosome MT (Ensembl mitochondrial DNA http://www.ensembl.org/Homo_sapiens/Location/Chromosome?chr=MT;r=MT:1-16569) will be renamed to 'chrM'
+Finished writing out individual chromosome files for CHH_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Finished writing out individual chromosome files for CpG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+
+Sorting input file CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+
+All done. Finished UCSC conversion.
+
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CHH_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+Now replacing whitespaces in the sequence ID field of the Bismark methylation extractor output /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz prior to bedGraph conversion
+
+Attempting to write to file /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Successfully deleted the temporary input file CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+
+Sorting input file CHG_context_SRR950173_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp by positions (using -S of 100G)
+Now writing methylation information for file >>CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt<< to individual files for each chromosome
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp by positions (using -S of 100G)
+Finished writing out individual chromosome files for CpG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr4.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr2.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr3.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr6.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr7.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr9.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr13.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr8.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr14.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr15.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr5.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr16.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr11.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr10.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr12.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr19.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrX.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrMT.methXtractor.temp
+CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chrY.methXtractor.temp
+
+Sorting input file CHG_context_SRR950174_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr1.methXtractor.temp by positions (using -S of 100G)
+Successfully deleted the temporary input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr17.methXtractor.temp
+
+Sorting input file CHG_context_SRR950175_1_bismark_bt2_pe.deduplicated.txt.gz.spaces_removed.txt.chr18.methXtractor.temp by positions (using -S of 100G)
+
+gzip: stdout: Cannot allocate memory
+
+gzip: stdout: Cannot allocate memory
+Died at /home/groups/ximenac/XCD_BSSeq/GSE134873/Bismark-0.24.2/bismark2bedGraph line 487.
+Output will be written into the directory: /scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/
+Merging individual CpG calls into a single CpG dinucleotide entity is currently only supported if CpG-context is selected only (lose the option --CX)
+slurmstepd: error: Detected 1 oom_kill event in StepId=62225067.batch. Some of the step tasks have been OOM Killed.
