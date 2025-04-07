@@ -35,24 +35,133 @@ chr_size <- chr_size[1:22]
 #names(chr_size)[names(chr_size)=='M'] <- 'MT'
 ```
 
-#### Rod photoreceptor datasets
+### 1. WT Mouse whole Embryo E8.5 dataset (PRJNA541237)
+```{r Read in WT Embryo dataset}
+
+names(chr_size) <- gsub('chr','',names(chr_size))
+names(chr_size)[names(chr_size)=='M'] <- 'MT'
+
+bsseq_1.1 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/Meth_Extract/SRR9016926_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+                                  colData = DataFrame(row.names = c("SRR9016926")),
+                                  rmZeroCov = FALSE, 
+                                  strandCollapse = TRUE, 
+                                  verbose = TRUE)
+
+bsseq_1.2 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/Meth_Extract/SRR11806587_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+                                  colData = DataFrame(row.names = c("SRR1180658")),
+                                  rmZeroCov = FALSE, 
+                                  strandCollapse = TRUE, 
+                                  verbose = TRUE)
+
+bsseq_1 <- list(bsseq1.1=bsseq_1.1, bsseq1.2=bsseq_1.2)
+rm(bsseq_1.1, bsseq_1.2)
+
+for (i in 1:length(bsseq_1)) {
+  bsseq_1[[i]] <- sort(bsseq_1[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_1[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_1[[i]])),names(chr_size)))]]
+  bsseq_1[i] <- bsseq_1[[i]][seqnames(bsseq_1[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_1[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_1[[i]]) <- chr_size1
+}
+#Getting Methylation coverage
+regions <- GRanges(seqnames = c("18", "19"), 
+                   ranges = IRanges(start = 3.9 * 10^7 + c(0,400000), 
+                                    width = 1000))
+getCoverage(bsseq_1[[i]], regions = regions, what = "perBase")
+
+saveRDS(bsseq_1, ('/home/groups/ximenac/XCD_BSSeq/PRJNA541237/PRJNA541237.bsseq.rds'))
+
+```
+
+### 2. Mouse Embryo Retina Dataset E11.5, E12.5 (PRJNA521997)
+```{r}
+#Create an empty list to save files in
+bsseq_2.names <- c(paste0(rep("bsseq_2.", 9), 1:9))
+bsseq_2 <- vector("list", length(bsseq_2.names))
+names(bsseq_2) <- bsseq_2.names
+print("Empty list")
+bsseq_2
+
+for (i in 1:length(bsseq_2)) {
+  file_paths[i] = c(paste0("/scratch/groups/ximenac/PRJNA521997/Bismark_Aligned/Local/Meth_Extract/SRR856864", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
+}
+
+for (i in 1:length(bsseq_2)) {
+  bsseq_2[[i]] <- read.bismark(files = c(file_paths[i]),
+                               colData = DataFrame(row.names = paste0(("SRR856864"), i)) ,
+                                  rmZeroCov = FALSE, 
+                                  strandCollapse = TRUE, 
+                                  verbose = TRUE)
+}
+
+for (i in 1:length(bsseq_2)) {
+  bsseq_2[[i]] <- sort(bsseq_2[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_2[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_2[[i]])),names(chr_size)))]]
+  bsseq_2[[i]] <- bsseq_2[[i]][seqnames(bsseq_2[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_2[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_2[[i]]) <- chr_size1
+}
+
+saveRDS(bsseq_2, ('/home/groups/ximenac/XCD_BSSeq/PRJNA521997/PRJNA521997.bsseq.rds'))
+```
+
+
+### 3. Embryo & Neonate Retinae E14.5, E17.5, P3 (PRJNA343691)
+```{r}
+bsseq_3.names <- c(paste0(rep("bsseq_3.", 3), 1:3))
+bsseq_3 <- vector("list", length(bsseq_3.names))
+names(bsseq_3) <- bsseq_3.names
+print("Empty list")
+bsseq_3
+
+for (i in c(699, 700, 702)) {
+  file_paths[i] = c(paste0("/scratch/groups/ximenac/PRJNA343691/Bismark_Aligned/Local/Meth_Extract/SRR4254", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
+}
+for (i in c(699, 700, 702)) {
+  bsseq_3[[i]] <- read.bismark(files = c(file_paths[i]),
+                               colData = DataFrame(row.names = paste0(("SRR4254"), i)) ,
+                                  rmZeroCov = FALSE, 
+                                  strandCollapse = TRUE, 
+                                  verbose = TRUE)
+}
+
+for (i in 1:length(bsseq_3)) {
+  bsseq_3[[i]] <- sort(bsseq_3[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_3[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_3[[i]])),names(chr_size)))]]
+  bsseq_3[[i]] <- bsseq_3[[i]][seqnames(bsseq_3[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_3[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_3[[i]]) <- chr_size1
+}
+
+saveRDS(bsseq_3, ('/home/groups/ximenac/XCD_BSSeq/PRJNA343691/PRJNA343691.bsseq.rds'))
+```
+
+
+
+
+```{r}
+
+```
+
+
+### 12 week Rod photoreceptor datasets (GSE134873)
 ```{r Reading in samples from GSE dataset}
 #Mouse Rod Photo-receptors dataset
 setwd("/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract")
 
 #Reading in data can take up to 2-3 minutes
-bsseq_1.1 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833662_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+bsseq_5.1 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833662_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
                                   colData = DataFrame(row.names = c("SRR9833662"),
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
                                   verbose = TRUE))
-bsseq_1.2 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833663_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+bsseq_5.2 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833663_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
                                   colData = DataFrame(row.names = c("SRR9833663"),
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
                                   verbose = TRUE))
 
-bsseq_1.3 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833664_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+bsseq_5.3 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833664_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
                                   colData = DataFrame(row.names = c("SRR9833664"),
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
@@ -62,17 +171,19 @@ chr_size <- seqlengths(BSgenome.Mmusculus.UCSC.mm10)
 #Removing alternative loci and haplotypes
 chr_size <- chr_size[1:22]
 
+bsseq_5 <- list(bsseq_5.1=bsseq_5.1, bsseq_5.2=bsseq_5.2, bsseq_5.3=bsseq_5.3)
+
 #Reducing BSseq object to 19 chromosomes, X, Y and MT
-for (i in 1:length(bsseq1)) {
-  bsseq1[[i]] <- sort(bsseq1[[i]])
-  chr_size1 <- chr_size[match(names(seqlengths(bsseq1[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq1[[i]])),names(chr_size)))]]
-  bsseq1[[i]] <- bsseq1[[i]][seqnames(bsseq1[[i]]) %in% names(chr_size1),]
-  seqlevels(bsseq1[[i]]) <- names(chr_size1)
-  seqlengths(bsseq1[[i]]) <- chr_size1
-  seqlevels(bsseq1[[i]]) <- seqlevels(bsseq_2.1)  # align seqlevels
-  seqinfo(bsseq1[[i]]) <- seqinfo(bsseq_2.1)  # guaranteed to work to change "chr1" to "1"
-  print(head(seqnames(bsseq1[[i]]), n = 4))
-  print(dim(bsseq1[[i]]))
+for (i in 1:length(bsseq_5)) {
+  bsseq_5[[i]] <- sort(bsseq_5[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_5[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_5[[i]])),names(chr_size)))]]
+  bsseq_5[[i]] <- bsseq_5[[i]][seqnames(bsseq_5[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_5[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_5[[i]]) <- chr_size1
+  seqlevels(bsseq_5[[i]]) <- seqlevels(bsseq_1.1)  # align seqlevels
+  seqinfo(bsseq_5[[i]]) <- seqinfo(bsseq_1.1)  # guaranteed to work to change "chr1" to "1"
+  print(head(seqnames(bsseq_5[[i]]), n = 4))
+  print(dim(bsseq_5[[i]]))
 }
 
 #Getting Methylation coverage
@@ -84,46 +195,15 @@ getCoverage(bsseq1$bsseq_1.3, regions = regions, what = "perBase")
 saveRDS(bsseq1, ('/home/groups/ximenac/XCD_BSSeq/GSE134873/GSE134873.bsseq.rds'))
 ```
 
-#### WT Mouse whole Embryo dataset
-```{r Read in WT Embryo dataset}
 
-names(chr_size) <- gsub('chr','',names(chr_size))
-names(chr_size)[names(chr_size)=='M'] <- 'MT'
-
-bsseq_2.1 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/Meth_Extract/SRR9016926_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
-                                  colData = DataFrame(row.names = c("SRR9016926")),
-                                  rmZeroCov = FALSE, 
-                                  strandCollapse = TRUE, 
-                                  verbose = TRUE)
-
-bsseq_2.2 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA541237/Bismark_Aligned/Local/Meth_Extract/SRR11806587_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
-                                  colData = DataFrame(row.names = c("SRR1180658")),
-                                  rmZeroCov = FALSE, 
-                                  strandCollapse = TRUE, 
-                                  verbose = TRUE)
-
-bsseq2 <- list(bsseq2.1=bsseq_2.1, bsseq2.2=bsseq_2.2)
-
-for (i in 1:length(bsseq2)) {
-  bsseq_2.1 <- sort(bsseq_2.1)
-  chr_size1 <- chr_size[match(names(seqlengths(bsseq_2.1)),names(chr_size))[!is.na(match(names(seqlengths(bsseq_2.1)),names(chr_size)))]]
-  bsseq_2.1 <- bsseq_2.1[seqnames(bsseq_2.1) %in% names(chr_size1),]
-  seqlevels(bsseq_2.1) <- names(chr_size1)
-  seqlengths(bsseq_2.1) <- chr_size1
-}
-
-saveRDS(bsseq2, ('/home/groups/ximenac/XCD_BSSeq/PRJNA541237/PRJNA541237.bsseq.rds'))
-
-```
-
-### HSC Dataset
+### HSC Dataset (PRJNA214817)
 ```{r}
-bsseq_3.1 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/SRR950173_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+bsseq_6.1 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/SRR950173_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
                                   colData = DataFrame(row.names = c("SRR950173")),
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
                                   verbose = TRUE)
-bsseq_3.2 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/SRR950174_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
+bsseq_6.2 <- read.bismark(files = c('/scratch/groups/ximenac/PRJNA214817/Bismark_Aligned/Local/Meth_Extract/SRR950174_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
                                   colData = DataFrame(row.names = c("SRR950174")),
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
@@ -140,14 +220,14 @@ regions <- GRanges(seqnames = c("19", "19"),
                    ranges = IRanges(start = 3.938 * 10^7 + c(0,120000), 
                                     width = 1000))
 
-bsseq3 <- list(bsseq_3.1=bsseq_3.1, bsseq_3.2=bsseq_3.2)
-for (i in 1:length(bsseq3)) {
-  bsseq3[[i]] <- sort(bsseq3[[i]])
-  chr_size1 <- chr_size[match(names(seqlengths(bsseq3[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq3[[i]])),names(chr_size)))]]
-  bsseq3[[i]] <- bsseq3[[i]][seqnames(bsseq3[[i]]) %in% names(chr_size1),]
-  seqlevels(bsseq3[[i]]) <- names(chr_size1)
-  seqlengths(bsseq3[[i]]) <- chr_size1
-  print(getCoverage(bsseq3[[i]], regions = regions, what = "perBase"))
+bsseq_6 <- list(bsseq_6.1=bsseq_6.1, bsseq_6.2=bsseq_6.2)
+for (i in 1:length(bsseq_6)) {
+  bsseq_6[[i]] <- sort(bsseq_6[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_6[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_6[[i]])),names(chr_size)))]]
+  bsseq_6[[i]] <- bsseq_6[[i]][seqnames(bsseq_6[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_6[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_6[[i]]) <- chr_size1
+  print(getCoverage(bsseq_6[[i]], regions = regions, what = "perBase"))
 }
 
 #Warning: GRanges object contains 36519 out-of-bound ranges located on sequences 4, 8, 13, 14, and 17. Note that ranges located on a sequence whose length is unknown (NA) or on a circular sequence are not considered out-of-bound (use seqlengths() and isCircular() to get the lengths and circularity flags of the underlying sequences). You can use trim() to trim these ranges. See ?`trim,GenomicRanges-method` for more information.
@@ -158,38 +238,40 @@ for (i in 1:length(bsseq3)) {
 ```
 
 
+## Smoothing ##
+
 #### Smoothing - Rod Photoreceptor
 ```{r Running smoothing - Rod Photoreceptor}
 #Warning: Only use multicore=6 when you have requested more than 6 cores from sherlock to start the interactive r session
 mcp <- MulticoreParam(workers=6, progressbar = TRUE,log = TRUE)
 
-bsseq1 <- readRDS("/home/groups/ximenac/XCD_BSSeq/GSE134873/GSE134873.bsseq.rds")
+bsseq_5 <- readRDS("/home/groups/ximenac/XCD_BSSeq/GSE134873/GSE134873.bsseq.rds")
 
 #bis.smoothed = list()
-bis.smoothed1.1 <- BSmooth(BSseq = bsseq1$bsseq_1.1,
+bis.smoothed5.1 <- BSmooth(BSseq = bsseq_5$bsseq_5.1,
                                BPPARAM = mcp,
                         ns = 70,
                         h = 1000,
                         verbose=TRUE)
-bis.smoothed1.1 <- bis.smoothed1.1[getCoverage(bis.smoothed1.1, type='Cov') > 1,]
-saveRDS(bis.smoothed1.1, file=('GSE134873_62_smoothed.rds'))
+bis.smoothed5.1 <- bis.smoothed1.1[getCoverage(bis.smoothed5.1, type='Cov') > 1,]
+saveRDS(bis.smoothed5.1, file=('GSE134873_62_smoothed.rds'))
 
 
-bis.smoothed1.2 <- BSmooth(BSseq = bsseq1$bsseq_1.2,
+bis.smoothed5.2 <- BSmooth(BSseq = bsseq_5$bsseq_5.2,
                                BPPARAM = mcp,
                         ns = 70,
                         h = 1000,
                         verbose=TRUE)
-bis.smoothed1.2 <- bis.smoothed1.2[getCoverage(bis.smoothed1.2, type='Cov') > 1,]
-saveRDS(bis.smoothed1.2, file=('GSE134873_63_smoothed.rds'))
+bis.smoothed5.2 <- bis.smoothed1.2[getCoverage(bis.smoothed5.2, type='Cov') > 1,]
+saveRDS(bis.smoothed5.2, file=('GSE134873_63_smoothed.rds'))
 
-bis.smoothed1.3 <- BSmooth(BSseq = bsseq1$bsseq_1.3,
+bis.smoothed5.3 <- BSmooth(BSseq = bsseq_5$bsseq_5.3,
                                BPPARAM = mcp,
                         ns = 70,
                         h = 1000,
                         verbose=TRUE)
-bis.smoothed1.3 <- bis.smoothed1.3[getCoverage(bis.smoothed1.3, type='Cov') > 1,]
-saveRDS(bis.smoothed1.3, file=('GSE134873_64_smoothed.rds'))
+bis.smoothed5.3 <- bis.smoothed5.3[getCoverage(bis.smoothed5.3, type='Cov') > 1,]
+saveRDS(bis.smoothed5.3, file=('GSE134873_64_smoothed.rds'))
 
 ```
 
@@ -200,28 +282,28 @@ saveRDS(bis.smoothed1.3, file=('GSE134873_64_smoothed.rds'))
 
 
 
-##### WT E8.5 Embryo dataset Smoothing
+#### WT E8.5 Embryo dataset Smoothing
 ```{r Smoothing}
-bsseq2 <- readRDS("/home/groups/ximenac/XCD_BSSeq/PRJNA541237/PRJNA541237.bsseq.rds")
+bsseq_1 <- readRDS("/home/groups/ximenac/XCD_BSSeq/PRJNA541237/PRJNA541237.bsseq.rds")
 mcp <- MulticoreParam(workers=6, progressbar = TRUE,log = TRUE)
 
-bis.smoothed2 = list()
+bis.smoothed1 = list()
 
-for (i in 1:length(bsseq2)) {
-bis.smoothed2[[i]] <- BSmooth(BSseq = bsseq2[[i]],
+for (i in 1:length(bsseq_1)) {
+bis.smoothed1[[i]] <- BSmooth(BSseq = bsseq_1[[i]],
                                BPPARAM = mcp,
                         ns = 70,
                         h = 1000,
                         verbose=TRUE)
-bis.smoothed2[[i]] <- bis.smoothed2[[i]][getCoverage(bis.smoothed2[[i]], type='Cov') > 1,]
-saveRDS(bis.smoothed2[[i]], file=paste0(i,'PRJNA54_smoothed.rds'))
+bis.smoothed1[[i]] <- bis.smoothed1[[i]][getCoverage(bis.smoothed1[[i]], type='Cov') > 1,]
+saveRDS(bis.smoothed1[[i]], file=paste0(i,'PRJNA541237_smoothed.rds'))
 }
 
 
 ```
 
 
-##### HSC Dataset Smoothing
+#### HSC Dataset Smoothing
 ```{r Run the smoothing algorithm}
 
 #Running smoothing
