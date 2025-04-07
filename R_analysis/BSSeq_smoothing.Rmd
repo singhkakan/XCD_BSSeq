@@ -119,16 +119,20 @@ bsseq_3 <- vector("list", length(bsseq_3.names))
 names(bsseq_3) <- bsseq_3.names
 print("Empty list")
 bsseq_3
-
+count <- 1
+file_paths = list()
 for (i in c(699, 700, 702)) {
-  file_paths[i] = c(paste0("/scratch/groups/ximenac/PRJNA343691/Bismark_Aligned/Local/Meth_Extract/SRR4254", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
+  file_paths[[count]] = c(paste0("/scratch/groups/ximenac/PRJNA343691/Bismark_Aligned/Local/Meth_Extract/SRR4254", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
+  count <- count+1
 }
+count <- 1
 for (i in c(699, 700, 702)) {
-  bsseq_3[[i]] <- read.bismark(files = c(file_paths[i]),
+  bsseq_3[[count]] <- read.bismark(files = c(file_paths[[count]]),
                                colData = DataFrame(row.names = paste0(("SRR4254"), i)) ,
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
                                   verbose = TRUE)
+  count <- count+1
 }
 
 for (i in 1:length(bsseq_3)) {
@@ -139,6 +143,12 @@ for (i in 1:length(bsseq_3)) {
   seqlengths(bsseq_3[[i]]) <- chr_size1
 }
 
+#Getting Methylation coverage to test if data that was read in is accurate
+regions <- GRanges(seqnames = c("18", "19"), 
+                   ranges = IRanges(start = 3.9 * 10^7 + c(0,400000), 
+                                    width = 1000))
+getCoverage(bsseq_3[[3]], regions = regions, what = "perBase")
+bsseq_3
 saveRDS(bsseq_3, ('/home/groups/ximenac/XCD_BSSeq/PRJNA343691/PRJNA343691.bsseq.rds'))
 ```
 
