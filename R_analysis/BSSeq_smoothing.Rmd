@@ -113,7 +113,7 @@ saveRDS(bsseq_2, ('/home/groups/ximenac/XCD_BSSeq/PRJNA521997/PRJNA521997.bsseq.
 
 
 ### 3. Embryo & Neonate Retinae E14.5, E17.5, P3 (PRJNA343691)
-```{r}
+```{r Reading in and sorting PRJNA34 dataset}
 bsseq_3.names <- c(paste0(rep("bsseq_3.", 3), 1:3))
 bsseq_3 <- vector("list", length(bsseq_3.names))
 names(bsseq_3) <- bsseq_3.names
@@ -153,17 +153,50 @@ saveRDS(bsseq_3, ('/home/groups/ximenac/XCD_BSSeq/PRJNA343691/PRJNA343691.bsseq.
 ```
 
 
+### 4. 10 week old mice Rods (N=2) and Cones (N=2) (PRJNA294311)
+```{r Reading in and sorting samples from PRJNA29 dataset}
+bsseq_4.names <- c(paste0(rep("bsseq_4.", 4), 1:4))
+bsseq_4 <- vector("list", length(bsseq_4.names))
+names(bsseq_4) <- bsseq_4.names
+print("Empty list")
+bsseq_4
+count <- 1
+file_paths = list()
+for (i in c(46, 47, 50, 51)) {
+  file_paths[[count]] = c(paste0("/scratch/groups/ximenac/PRJNA294311/Bismark_Aligned/Local/Meth_Extract/SRR27228", i, "_bismark_bt2.deduplicated.CpG_report.txt.gz"))
+  count <- count+1
+}
+count <- 1
+for (i in c(46, 47, 50, 51)) {
+  bsseq_4[[count]] <- read.bismark(files = c(file_paths[[count]]),
+                               colData = DataFrame(row.names = paste0(("SRR27228"), i)) ,
+                                  rmZeroCov = FALSE, 
+                                  strandCollapse = TRUE, 
+                                  verbose = TRUE)
+  count <- count+1
+}
+for (i in 1:length(bsseq_4)) {
+  bsseq_4[[i]] <- sort(bsseq_4[[i]])
+  chr_size1 <- chr_size[match(names(seqlengths(bsseq_4[[i]])),names(chr_size))[!is.na(match(names(seqlengths(bsseq_4[[i]])),names(chr_size)))]]
+  bsseq_4[[i]] <- bsseq_4[[i]][seqnames(bsseq_4[[i]]) %in% names(chr_size1),]
+  seqlevels(bsseq_4[[i]]) <- names(chr_size1)
+  seqlengths(bsseq_4[[i]]) <- chr_size1
+}
 
-
-```{r}
-
+#Getting Methylation coverage to test if data that was read in is accurate
+regions <- GRanges(seqnames = c("18", "19"), 
+                   ranges = IRanges(start = 3.9 * 10^7 + c(0,400000), 
+                                    width = 1000))
+getCoverage(bsseq_4[[3]], regions = regions, what = "perBase")
+bsseq_4
+saveRDS(bsseq_4, ('/home/groups/ximenac/XCD_BSSeq/PRJNA294311/PRJNA294311.bsseq.rds'))
 ```
 
 
-### 12 week Rod photoreceptor datasets (GSE134873)
+### 5. 12 week Rod photoreceptor datasets (GSE134873)
 ```{r Reading in samples from GSE dataset}
 #Mouse Rod Photo-receptors dataset
-setwd("/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract")
+
 
 #Reading in data can take up to 2-3 minutes
 bsseq_5.1 <- read.bismark(files = c('/scratch/groups/ximenac/GSE134873/Bismark_Aligned/Local/Meth_Extract/SRR9833662_1_val_1_val_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz'), 
