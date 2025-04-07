@@ -79,15 +79,15 @@ saveRDS(bsseq_1, ('/home/groups/ximenac/XCD_BSSeq/PRJNA541237/PRJNA541237.bsseq.
 bsseq_2.names <- c(paste0(rep("bsseq_2.", 9), 1:9))
 bsseq_2 <- vector("list", length(bsseq_2.names))
 names(bsseq_2) <- bsseq_2.names
-print("Empty list")
-bsseq_2
 
+#Generate file paths
+file_paths = list()
 for (i in 1:length(bsseq_2)) {
-  file_paths[i] = c(paste0("/scratch/groups/ximenac/PRJNA521997/Bismark_Aligned/Local/Meth_Extract/SRR856864", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
+  file_paths[[i]] = c(paste0("/scratch/groups/ximenac/PRJNA521997/Bismark_Aligned/Local/Meth_Extract/SRR856864", i, "_1_bismark_bt2_pe.deduplicated.CpG_report.txt.gz"))
 }
-
+#Read in files into a bsseq object (This will take about 5-10 minutes)
 for (i in 1:length(bsseq_2)) {
-  bsseq_2[[i]] <- read.bismark(files = c(file_paths[i]),
+  bsseq_2[[i]] <- read.bismark(files = file_paths[[i]],
                                colData = DataFrame(row.names = paste0(("SRR856864"), i)) ,
                                   rmZeroCov = FALSE, 
                                   strandCollapse = TRUE, 
@@ -102,6 +102,12 @@ for (i in 1:length(bsseq_2)) {
   seqlengths(bsseq_2[[i]]) <- chr_size1
 }
 
+#Getting Methylation coverage to test if data that was read in is accurate
+regions <- GRanges(seqnames = c("18", "19"), 
+                   ranges = IRanges(start = 3.9 * 10^7 + c(0,400000), 
+                                    width = 1000))
+getCoverage(bsseq_2[[3]], regions = regions, what = "perBase")
+bsseq_2
 saveRDS(bsseq_2, ('/home/groups/ximenac/XCD_BSSeq/PRJNA521997/PRJNA521997.bsseq.rds'))
 ```
 
