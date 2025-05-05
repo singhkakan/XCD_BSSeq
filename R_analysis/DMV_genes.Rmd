@@ -1,0 +1,793 @@
+---
+title: "DMV_genes"
+author: "Shruti Singh Kakan"
+date: "2025-04-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading Required libraries
+```{r Loading Required libraries, message=FALSE, warning=FALSE, paged.print=FALSE}
+#.libPaths('/home/users/singhkak/R/x86_64-pc-linux-gnu-library/4.2')
+#remotes::install_version("fastmap", version="1.2.0")
+#library(GenomicScores)
+#BiocManager::install("methylKit")
+library(methylKit)
+library(matrixStats)
+library(dplyr)
+library(Biostrings)
+library(bsseq)
+library(BSgenome.Mmusculus.UCSC.mm10)
+library(rtracklayer)
+library(GenomicRanges)
+library(BiocParallel)
+library(parallel)
+library(pheatmap)
+library(RColorBrewer)
+library(GenomicRanges)
+library(IRanges)
+library(org.Mm.eg.db)
+library(pheatmap)
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)
+library(TxDb.Mmusculus.UCSC.mm39.refGene)
+
+mcp <- MulticoreParam(workers=6, progressbar = TRUE,log = TRUE)
+```
+
+
+#### Loading other dependencies: sliding windows
+```{r}
+# Load the sliding window (1kb) file
+windows_1kb <- read.delim("/home/groups/ximenac/XCD_BSSeq/GSE134873/mouse_genome_no_patches/Ensmble/windows_1kb_NoPATCH.bed", header = FALSE, stringsAsFactors = FALSE)
+names(windows_1kb) <- c("seqnames", "start", "end")
+
+windowsGR <- makeGRangesFromDataFrame(windows_1kb, keep.extra.columns = TRUE,
+                                      seqnames.field = "seqnames",
+                                      start.field = "start",
+                                      end.field = "end",
+                                      starts.in.df.are.0based = FALSE)
+
+```
+
+###### Identifying DMV genes ##################
+
+```{r}
+base_path <- "/home/groups/ximenac/XCD_BSSeq/R_analysis/"
+
+# Define input files for methylation data
+input_files_by_type <- list(
+  HSC = c('PRJNA214817_73_smoothed.rds', 'PRJNA214817_74_smoothed.rds'),
+  Rods = c("1_PRJNA294311_smoothed.rds", "2_PRJNA294311_smoothed.rds"),
+  Rods12 = c("1_GSE134873_smoothed.rds", "2_GSE134873_smoothed.rds", "3_GSE134873_smoothed.rds"),
+  Cones = c("3_PRJNA294311_smoothed.rds","4_PRJNA294311_smoothed.rds"),
+  E8.5 = c('1PRJNA541237_smoothed.rds', '2PRJNA541237_smoothed.rds'),
+  RPC_E11.5 = c("1PRJNA521997_E11smoothed.rds","2PRJNA521997_E11smoothed.rds", "4PRJNA521997_E11smoothed.rds"),
+  RPC_E12.5 =c("6PRJNA521997_smoothed.rds", "7PRJNA521997_smoothed.rds", "8PRJNA521997_smoothed.rds")
+)
+
+```
+
+
+# Function to make GRanges From DataFrame
+```{r}
+makeGRangesFromDataFrame <- function(df, keep.extra.columns = TRUE) {
+  # Input validation
+  required_cols <- c("seqnames", "start", "end")
+  if (!all(required_cols %in% colnames(df))) {
+    stop("Data frame must contain columns: seqnames, start, and end")
+  }
+  
+  # Ensure start and end are numeric
+  df$start <- as.numeric(df$start)
+  df$end <- as.numeric(df$end)
+  
+  # Create the GRanges object
+  gr <- GRanges(
+    seqnames = df$seqnames,
+    ranges = IRanges(start = df$start, end = df$end)
+  )
+  
+  # Add metadata columns if keep.extra.columns is TRUE
+  if (keep.extra.columns) {
+    extra_cols <- setdiff(colnames(df), c(required_cols))
+    if (length(extra_cols) > 0) {
+      mcols(gr) <- df[, extra_cols, drop = FALSE]
+    }
+  }
+  
+  return(gr)
+}
+
+```
+
+
+# Function to Read DMV files
+```{r}
+# Read DMV files
+read_dmv_file <- function(file_path) {
+  bed <- read.delim(file_path, 
+                    header = TRUE, 
+                    comment.char = "#", 
+                    stringsAsFactors = FALSE)
+  colnames(bed) <- c("seqnames", "start", "end", "CpG_count")
+  return(bed)
+}
+```
+
+
+# Read in Bed files with DMV info
+```{r}
+base_path <- "/home/groups/ximenac/XCD_BSSeq/R_analysis/"
+
+rods2m_bed <- read_dmv_file(paste0(base_path, "Rods2m_DMVs_with_CpG.bed"))
+rods3m_bed <- read_dmv_file(paste0(base_path, "Rods3m_DMVs_with_CpG.bed"))
+hsc_bed <- read_dmv_file(paste0(base_path, "HSC_DMVs_with_CpG.bed"))
+e8.5_bed <- read_dmv_file(paste0(base_path, "E8.5_DMVs_with_CpG.bed"))
+RPC_e11.5_bed <- read_dmv_file(paste0(base_path, "RPC_E11.5_DMVs_with_CpG.bed"))
+RPC_e12.5_bed <- read_dmv_file(paste0(base_path, "RPC_E12.5_DMVs_with_CpG.bed"))
+RPC_e14.5_bed <- read_dmv_file(paste0(base_path, "RPC_E14.5_DMVs_with_CpG.bed"))
+RPC_e17.5_bed <- read_dmv_file(paste0(base_path, "RPC_E17.5_DMVs_with_CpG.bed"))
+RPC_p3_bed <- read_dmv_file(paste0(base_path, "RPC_P3_DMVs_with_CpG.bed"))
+cones2m_bed <- read_dmv_file(paste0(base_path, "Cones2m_DMVs_with_CpG.bed"))
+
+
+```
+
+# Convert to GRanges  
+```{r}
+rods2m_gr <- makeGRangesFromDataFrame(rods2m_bed)
+rods3m_gr <- makeGRangesFromDataFrame(rods3m_bed)
+hsc_gr <- makeGRangesFromDataFrame(hsc_bed)
+e8.5_gr <- makeGRangesFromDataFrame(e8.5_bed)
+rpc_e11.5_gr <- makeGRangesFromDataFrame(RPC_e11.5_bed)
+rpc_e12.5_gr <- makeGRangesFromDataFrame(RPC_e12.5_bed)
+rpc_E14.5_gr <- makeGRangesFromDataFrame(RPC_e14.5_bed)
+rpc_E17.5_gr <- makeGRangesFromDataFrame(RPC_e17.5_bed)
+rpc_p3_gr <- makeGRangesFromDataFrame(RPC_p3_bed)
+cones2m_gr <- makeGRangesFromDataFrame(cones2m_bed)
+
+```
+
+# Find Rods DMVs that don't overlap with other cell types
+```{r}
+
+#DMVs unique to rods, i.e. only present in photoreceptors
+other_dmvs_rod <- c(hsc_gr, e8.5_gr, rpc_e11.5_gr, rpc_e12.5_gr, rpc_E14.5_gr, rpc_E17.5_gr, rpc_p3_gr)
+unique_rods_12 <- rods3m_gr[!overlapsAny(rods3m_gr, unique(other_dmvs_rod))]
+str(unique_rods_12)
+#Rods DMV present in all other samples
+#shared_rods_12 <- rods3m_gr[overlapsAny(rods3m_gr, unique(other_dmvs_rod))]
+
+shared_rods_12 <- intersect(rods3m_gr, hsc_gr) %>% 
+  intersect(e8.5_gr) %>% 
+  intersect(rpc_e11.5_gr)%>%
+  intersect(rpc_e12.5_gr) %>% 
+  intersect(rpc_E14.5_gr) %>%
+  intersect(rpc_E17.5_gr) %>%
+  intersect(rpc_p3_gr)
+
+str(shared_rods_12)
+
+####Writing shared and unique DMV ranges to bed file####
+export.bed(unique_rods_12,con='unique_rods12_DMVs.bed')
+## or in the case of a GRangesList
+export.bed(shared_rods_12,con='shared_rods12_DMVs.bed')
+
+#DMVs unique to cones
+other_dmvs_cones <- c(hsc_gr, e8.5_gr, rpc_e11.5_gr, rpc_e12.5_gr, rpc_E14.5_gr, rpc_E17.5_gr, rpc_p3_gr)
+unique_cones_10 <- cones2m_gr[!overlapsAny(cones2m_gr, unique(other_dmvs_cones))]
+#Cones DMV shared with all
+shared_cones_10 <- cones2m_gr[overlapsAny(cones2m_gr, unique(other_dmvs_cones))]
+shared_cones_10 <- intersect(cones2m_gr, hsc_gr) %>% 
+  intersect(e8.5_gr) %>% 
+  intersect(rpc_e11.5_gr)%>%
+  intersect(rpc_e12.5_gr) %>% 
+  intersect(rpc_E14.5_gr) %>%
+  intersect(rpc_E17.5_gr) %>%
+  intersect(rpc_p3_gr)
+
+####Writing shared and unique DMV ranges to bed file####
+export.bed(unique_cones_10,con='unique_cones10_DMVs.bed')
+## or in the case of a GRangesList
+export.bed(shared_cones_10,con='shared_cones10_DMVs.bed')
+
+```
+
+# Function to examine methylation data coverage
+### Define function to process methylation data (Modified process_methylation function with debugging)
+```{r}
+examine_methylation_coverage <- function(bis) {
+    gr <- granges(bis)
+    coverage_summary <- data.frame(
+        chromosome = seqlevels(gr),
+        start = tapply(start(gr), seqnames(gr), min),
+        end = tapply(end(gr), seqnames(gr), max),
+        n_positions = tapply(start(gr), seqnames(gr), length)
+    )
+    return(coverage_summary)
+}
+```
+
+# Function to extend gene coordinates with strand consideration
+```{r}
+
+extend_gene_coordinates <- function(gene_windows, upstream = 1000, downstream = 1000) {
+    extended_windows <- gene_windows
+    # Handle positive and negative strands differently
+    pos_strand <- strand(gene_windows)@unlistData@values == "+" | strand(gene_windows)@unlistData@values == "*"
+    
+    # For positive strand genes:
+    # - extend upstream (5') from start
+    # - extend downstream (3') from end
+    start_pos <- start(gene_windows)
+    end_pos <- end(gene_windows) 
+    
+    # Adjust coordinates based on strand
+    new_starts <- ifelse(pos_strand,
+                        (start_pos) - upstream,  # positive strand: extend 5' upstream
+                        (start_pos) - downstream) # negative strand: extend 3' downstream
+    
+    new_ends <- ifelse(pos_strand,
+                      (end_pos) + downstream,    # positive strand: extend 3' downstream
+                      (end_pos) + upstream)      # negative strand: extend 5' upstream
+    
+    x <- IRangesList(
+        start = new_starts,
+        end = new_ends
+        #width = abs(new_starts-new_ends)
+    )
+    ranges(extended_windows) <- as.list(x)
+    return(extended_windows)
+}
+
+```
+
+
+# Load gene info from UCSC & Add gene symbols
+```{r}
+# Load gene info from UCSC
+txdb <- TxDb.Mmusculus.UCSC.mm39.refGene
+genes <- genes(txdb,
+                 single.strand.genes.only=FALSE)
+
+# Add gene symbols
+symbols <- mapIds(org.Mm.eg.db,
+                 keys = mcols(genes)$gene_id,
+                 column = "SYMBOL",
+                 keytype = "ENTREZID",
+                 multiVals = "first")
+mcols(genes)$symbol <- symbols
+
+#genes@unlistData@elementMetadata <- genes@elementMetadata
+#genes_ext <- extend_gene_coordinates(genes)
+
+```
+
+
+# Function to Standardize chromosome names 
+```{r}
+standardize_seqlevels <- function(gr) {
+    current_levels <- seqlevels(gr)
+    new_levels <- sub("^chr", "", current_levels)
+    new_levels <- sub("^M", "MT", new_levels)
+    #new_levels[new_levels == "MT"] <- "M"
+    seqlevels(gr) <- new_levels
+    standard_chromosomes <- c(1:19, "X", "Y", "MT")
+    gr <- gr[seqnames(gr) %in% standard_chromosomes]
+    gr <- dropSeqlevels(gr, setdiff(seqlevels(gr), standard_chromosomes), pruning.mode="coarse")
+    return(gr)
+}
+```
+
+### Standardize chromosome names & Extend gene coordinates by 1kb on each side for unique Rods
+```{r}
+
+######### Unique to Rods ###########
+# Standardize chromosome names
+dmv_regions_unique <- standardize_seqlevels(unique_rods_12)
+genes_std <- standardize_seqlevels(genes)
+
+# Extend gene coordinates by 1kb on each side
+#genes_extended_uDMV_rods@unlistData@ranges@start <- genes_extended_uDMV_rods@unlistData@ranges@start - 1000
+
+#genes_extended_uDMV_rods <- flank(genes_extended_uDMV_rods, width=1000, both=TRUE)
+genes_extended <- resize(genes_std, width=width(genes_std)+2000, fix="center")
+
+#genes_extended <- extend_gene_coordinates(genes_std)
+
+######### Rod DMV genes shared with others ##########
+dmv_regions_shared <- standardize_seqlevels(shared_rods_12)
+
+```
+
+
+### Find overlaps between DMVs and extended genes
+```{r}
+# Find overlaps between DMVs and extended Rod genes (Rod Exclusive and Rod shared DMV genes)
+overlaps_rod_unique <- findOverlaps(dmv_regions_unique, genes_extended)
+overlaps_rod_shared <- findOverlaps(dmv_regions_shared, genes_extended)
+```
+
+
+### Standardize chromosome names & Extend gene coordinates by 1kb on each side for unique to cones
+```{r}
+######### Unique to Cones ###########
+# Standardize chromosome names
+dmv_unique_cones <- standardize_seqlevels(unique_cones_10)
+
+######### Cone DMV genes shared with others ##########
+dmv_cones_shared <- standardize_seqlevels(shared_cones_10)
+```
+
+### Find overlaps between DMVs and extended genes for Cones
+```{r}
+# Find overlaps between DMVs and extended Rod genes (Rod Exclusive and Rod shared DMV genes)
+overlaps_cones_unique <- findOverlaps(dmv_unique_cones, genes_extended)
+overlaps_cones_shared <- findOverlaps(dmv_cones_shared, genes_extended)
+```
+
+
+#Function to create overlap dataframe
+```{r}
+
+
+overlaps = overlaps_rod_shared
+genes_gr = genes_extended
+dmv_gr = dmv_regions_shared
+
+createOverlapDataFrame <- function(overlaps, genes_gr, dmv_gr) {
+  # Validate inputs
+  if (!is(overlaps, "Hits")) {
+    stop("overlaps must be a Hits object")
+  }
+  
+  # Extract hits
+  query_hits <- queryHits(overlaps)
+  subject_hits <- subjectHits(overlaps)
+  
+  # Create data frame with available information
+  overlap_df <- data.frame(
+    gene_id = genes_gr@elementMetadata@listData$gene_id[subject_hits],
+    gene_symbol = genes_gr@elementMetadata@listData$symbol[subject_hits],
+    #cpg_count = dmv_gr$CpG_count[query_hits],
+    chr = seqnames(dmv_gr)[query_hits],
+    dmv_start = start(dmv_gr)[query_hits],
+    dmv_end = end(dmv_gr)[query_hits],
+    stringsAsFactors = FALSE
+  )
+  
+  # Add indices for reference
+  overlap_df$query_index <- query_hits
+  overlap_df$subject_index <- subject_hits
+  
+  return(overlap_df)
+}
+```
+
+
+```{r}
+######Rod uDMV and shared DMV genes ###########
+overlap_df_rods_unique <- createOverlapDataFrame(
+  overlaps = overlaps_rod_unique,
+  genes_gr = genes_extended,
+  dmv_gr = dmv_regions_unique
+)
+overlap_df_rods_unique <- overlap_df_rods_unique[-which(overlap_df_rods_unique$gene_symbol %in% c("Rnu6", "Snora19", "Mir3084-2", "Mir3084-1", "Mir684-1")),]
+write.csv(overlap_df_rods_unique, file="Rod_uDMV_genes_mm39.csv")
+
+overlap_df_rods_shared <- createOverlapDataFrame(
+  overlaps = overlaps_rod_shared,
+  genes_gr = genes_extended,
+  dmv_gr = dmv_regions_shared
+)
+overlap_df_rods_shared <- overlap_df_rods_shared[-which(overlap_df_rods_shared$gene_symbol %in% c("Rnu6", "Snora19", "Mir3084-2", "Mir3084-1", "Mir684-1")),]
+write.csv(overlap_df_rods_shared, file="Rod_DMV_shared_genes_mm39.csv")
+
+######Cones uDMV and shared DMV genes ###########
+overlap_df_cones_unique <- createOverlapDataFrame(
+  overlaps = overlaps_cones_unique,
+  genes_gr = genes_extended,
+  dmv_gr = dmv_unique_cones
+)
+overlap_df_cones_unique <-  overlap_df_cones_unique[-which(overlap_df_cones_unique$gene_symbol %in% c("Rnu6", "Snora19", "Mir3084-2", "Mir3084-1", "Mir684-1")),]
+write.csv(overlap_df_cones_unique, file="Cones_uDMV_genes_mm39.csv")
+
+overlap_df_cones_shared <- createOverlapDataFrame(
+  overlaps = overlaps_cones_shared,
+  genes_gr = genes_extended,
+  dmv_gr = dmv_cones_shared
+)
+overlap_df_cones_shared <- overlap_df_cones_shared[-which(overlap_df_cones_shared$gene_symbol %in% c("Rnu6", "Snora19", "Mir3084-2", "Mir3084-1", "Mir684-1")),]
+write.csv(overlap_df_cones_shared, file="Cones_DMV_shared_genes_mm39.csv")
+
+```
+
+
+## How does gene expression data correlate with DMV associated genes
+```{r}
+Rod_uDMV_genes <- read.table("Rod_uDMV_genes_mm39.csv", header=TRUE, sep=',', row.names = 1)
+
+CPM <- read.delim("Mouse_FSPR_WT_Development_Gene_nCPM_ENSv98.tsv", header = TRUE, sep = "\t", quote = "\"", row.names = 1)
+CPM_P10 <- CPM[,c(5,22:25)]
+CPM_P10$Average_CPM <- rowMeans(CPM_P10[,2:5])
+colnames(CPM_P10)[1] <- "gene_symbol"
+Rod_uDMV_genes <- dplyr::right_join(Rod_uDMV_genes, CPM_P10[which(CPM_P10$gene_symbol %in% Rod_uDMV_genes$gene_symbol),c(1:5)], by="gene_symbol", multiple="first")
+
+CPM_P10[which(CPM_P10$gene_symbol %in% Rod_uDMV_genes$gene_symbol),c(1,6)]
+
+heatmap_df <- Rod_uDMV_genes[,c(2,8:11)]
+heatmap_df <- heatmap_df[!duplicated(heatmap_df$gene_symbol),]
+rownames(heatmap_df) <- heatmap_df$gene_symbol
+heatmap_df <- heatmap_df[,-1]
+heatmap_df[is.na(heatmap_df)] = 0
+#heatmap_df <- heatmap_df[(rowSums(heatmap_df))>0.5,]
+
+p <- pheatmap(t(log(heatmap_df+0.5)), scale="row", cutree_cols=5)
+p
+#Get the corresponding clusters of the genes based on their expression values
+#Here cluster 1 is lowest expression, cluster 2-3 are medium expression and cluster 4-5 are high expression
+heatmap_df.clust <- cbind(heatmap_df,
+                          cluster = cutree(p$tree_col, 
+                                       k = 5))
+
+heatmap_df.clust$Exp_Group <- ifelse(heatmap_df.clust$cluster == 1, "Low Expression", ifelse(heatmap_df.clust$cluster %in% c(2,3), "Medium Expression", "High Expression"))
+
+```
+
+
+```{r}
+
+```
+
+
+#Function to create Genomic Ranges object from overlap data frame
+```{r}
+overlapToGRanges <- function(overlap_df, genes_gr) {
+  # Create GRanges object
+  overlap_df_ <- overlap_df[-which(overlap_df$gene_symbol %in% c("Rnu6","Mir684-1", "Gm4064", "Gm10256", "Snora19", "Mir3084-2", "Mir3084-1")),]
+  gr <- GRanges(
+    seqnames = overlap_df$chr,
+    ranges = IRanges(
+      start = overlap_df$dmv_start,
+      end = overlap_df$dmv_end
+    ),
+    strand = strand(genes_gr)[overlap_df$subject_index]@unlistData  # Get strand from original genes
+  )
+  
+  # Add all other columns as metadata
+  metadata_cols <- setdiff(
+    colnames(overlap_df),
+    c("chr", "dmv_start", "dmv_end")
+  )
+  
+  mcols(gr) <- overlap_df[, metadata_cols]#, drop=FALSE]
+  
+  return(gr)
+}
+
+```
+
+# Convert overlap data frame to GRanges with strand information
+```{r}
+# Convert overlap data frame to GRanges with strand information
+overlap_gr <- overlapToGRanges(overlap_df, genes_extended)
+overlap_gr
+saveRDS(overlap_gr, "/home/groups/ximenac/XCD_BSSeq/R_analysis/overlap_gr.rds")
+# bpairs where there is both a DMV and a gene (extended)
+
+# Search for 'rho' in the gene_symbol metadata of overlap_gr
+rho_matches <- grepl("rho", mcols(overlap_gr)$gene_symbol, ignore.case = TRUE)
+
+# Subset GRanges object for rows with 'rho'
+rho_overlap <- overlap_gr[rho_matches]
+```
+
+### Check and print the result
+```{r}
+if (length(rho_overlap) > 0) {
+  print("Overlap information for genes containing 'rho':")
+  print(rho_overlap)
+} else {
+  print("No overlaps found for genes containing 'rho'.")
+}
+
+#found Rho in overlaps_gr 
+
+# # Create overlap data frame with gene names and cell types
+# overlap_df <- data.frame(
+#     gene = genes_extended$symbol[subjectHits(overlaps)],
+#     dmv_region = dmv_regions_std$celltype[queryHits(overlaps)]
+# )
+
+# # Get rod-specific genes
+# rod_genes <- overlap_df$gene[overlap_df$dmv_region == "Rods"]
+# rod_genes_idx <- unique(rod_genes)
+
+# # Create rod-specific windows
+# rod_specific_windows <- genes_extended[genes_extended$symbol %in% rod_genes_idx]
+# #227 windows 
+```
+
+
+# Function to process methylation 2
+```{r}
+process_methylation <- function(input_files, gene_windows, n_bins = 20) {
+  # Load methylation data
+  bis <- readRDS(input_files[1])
+  options(matrixStats.useNames = FALSE)
+  
+  # Print summary
+  cat("\nProcessing details:\n")
+  cat("BSseq object:", length(bis), "positions\n")
+  cat("Gene regions:", length(gene_windows), "regions\n")
+  
+  # Calculate bin size
+  window_size <- 2000  # 1kb upstream + 1kb downstream
+  bin_size <- window_size %/% n_bins
+  cat("Window size:", window_size, "bp (1kb each side of TSS)\n")
+  cat("Bin size:", bin_size, "bp\n")
+  
+  # Initialize matrix
+  all_methylation <- matrix(NA,
+                           nrow = length(gene_windows),
+                           ncol = n_bins)
+  rownames(all_methylation) <- gene_windows$gene_symbol
+  colnames(all_methylation) <- paste0("bin", seq_len(n_bins))
+  
+  # Process each gene
+  for(j in seq_along(gene_windows)) {
+    current_gene <- gene_windows[j]
+    is_positive <- as.character(strand(current_gene)) %in% c("+", "*")
+    
+    # Get TSS position based on strand
+    tss_pos <- if(is_positive) start(current_gene) else end(current_gene)
+    
+    # Debug first few genes
+    if(j <= 3) {
+      cat("\nProcessing gene:", current_gene$gene_symbol, "\n")
+      cat("Strand:", as.character(strand(current_gene)), "\n")
+      cat("TSS position:", tss_pos, "\n")
+      cat("Chromosome:", as.character(seqnames(current_gene)), "\n")
+    }
+    
+    # Process bins
+    for(i in seq_len(n_bins)) {
+      # Calculate bin coordinates relative to TSS
+      if(is_positive) {
+        bin_start <- tss_pos - 1000 + (i-1) * bin_size
+        bin_end <- bin_start + bin_size - 1
+      } else {
+        bin_start <- tss_pos + 1000 - (i * bin_size)
+        bin_end <- bin_start + bin_size - 1
+      }
+      
+      bin_range <- GRanges(
+        seqnames = seqnames(current_gene),
+        ranges = IRanges(start = bin_start, end = bin_end),
+        strand = strand(current_gene)
+      )
+      seqlevels(bin_range) <- seqlevels(bis)
+      
+      # Debug first gene's bins
+      if(j == 1 && i <= 3) {
+        cat("Bin", i, "coordinates:", bin_start, "-", bin_end, "\n")
+      }
+      
+      tryCatch({
+        meth <- suppressWarnings(
+          getMeth(bis, 
+                 regions = bin_range, 
+                 type = "smooth", 
+                 what = "perRegion")
+        )
+        if(length(meth) > 0) {
+          all_methylation[j, i] <- meth
+          if(j == 1 && i <= 3) {
+            cat("Methylation value:", meth, "\n")
+          }
+        }
+      }, error = function(e) {
+        if(j <= 3) {
+          message("Error for gene ", current_gene$gene_symbol, 
+                 " bin ", i, ": ", conditionMessage(e))
+        }
+      })
+    }
+    
+    if(j %% 10 == 0) {
+      message("Processed ", j, " of ", length(gene_windows), " genes")
+    }
+  }
+  
+  return(all_methylation)
+}
+```
+
+
+### Rho specific DMVs -  this process takes a loong time > 1 hour!
+```{r}
+# Process methylation for genes that overlap with rod-specific DMVs
+rod_methylation <- process_methylation(input_files_by_type$Rods, overlap_gr, n_bins = 20)
+saveRDS(rod_methylation, file = "rod_methylation_matrix.RDS")
+rod_methylation <- readRDS("rod_methylation_matrix.RDS")
+
+# Search for genes with 'rho' in their name (case-insensitive)
+rho_matches <- grepl("Lbhd1", rownames(rod_methylation), ignore.case = TRUE)
+
+# Subset the matrix for matching genes
+rho_genes <- rod_methylation[rho_matches, ]
+
+# Check and print results
+if (length(rho_genes) > 0) {
+  cat("Methylation values for genes containing 'rho':\n")
+  print(rho_genes)
+} else {
+  cat("No genes containing 'rho' were found.\n")
+}
+
+# Replace NAs with a chosen value (e.g., zero or the row mean)
+rod_methylation_no_na <- rod_methylation
+for (i in 1:nrow(rod_methylation_no_na)) {
+  rod_methylation_no_na[i, is.na(rod_methylation_no_na[i, ])] <- mean(rod_methylation_no_na[i, ], na.rm = TRUE)
+}
+
+```
+
+### Calculate 1kb upstream and downstream of TSS
+
+```{r}
+region_start <- tss_pos - 1000
+region_end <- tss_pos + 1000
+
+cat("\nGene:", lbhd1_gene$symbol,
+    "\nStrand:", strand_lbhd1,
+    "\nTSS position:", tss_pos,
+    "\n2kb region around TSS:", region_start, "-", region_end)
+
+# Extract TSS and calculate 2kb region
+tss <- ifelse(as.character(strand(rho_gene)) == "+", 
+              start(rho_gene), 
+              end(rho_gene))
+
+# Calculate 1kb upstream and downstream
+tss_region <- c(tss - 1000, tss + 1000)
+
+cat("\nTSS position:", tss,
+    "\n2kb region around TSS:", tss_region[1], "-", tss_region[2])
+
+```
+
+
+```{r}
+
+```
+
+
+### Process methylation for genes that overlap with rod-specific DMVs
+```{r}
+# Process methylation for genes that overlap with rod-specific DMVs
+rod_methylation <- process_methylation(input_files_by_type$Rods, overlap_gr, n_bins = 20)
+saveRDS(rod_methylation, file = "rod_methylation_matrix.RDS")
+rod_methylation <- readRDS("rod_methylation_matrix.RDS")
+
+# Search for genes with 'rho' in their name (case-insensitive)
+rho_matches <- grepl("Lbhd1", rownames(rod_methylation), ignore.case = TRUE)
+
+# Subset the matrix for matching genes
+rho_genes <- rod_methylation[rho_matches, ]
+```
+
+
+
+```{r}
+# Check and print results
+if (length(rho_genes) > 0) {
+  cat("Methylation values for genes containing 'rho':\n")
+  print(rho_genes)
+} else {
+  cat("No genes containing 'rho' were found.\n")
+}
+```
+
+
+```{r}
+# Replace NAs with a chosen value (e.g., zero or the row mean)
+rod_methylation_no_na <- rod_methylation
+for (i in 1:nrow(rod_methylation_no_na)) {
+  rod_methylation_no_na[i, is.na(rod_methylation_no_na[i, ])] <- mean(rod_methylation_no_na[i, ], na.rm = TRUE)
+}
+
+# Calculate 1kb upstream and downstream of TSS
+region_start <- tss_pos - 1000
+region_end <- tss_pos + 1000
+
+cat("\nGene:", lbhd1_gene$symbol,
+    "\nStrand:", strand_lbhd1,
+    "\nTSS position:", tss_pos,
+    "\n2kb region around TSS:", region_start, "-", region_end)
+
+```
+
+
+# Extract TSS and calculate 2kb region
+```{r}
+# Extract TSS and calculate 2kb region
+tss <- ifelse(as.character(strand(rho_gene)) == "+", 
+              start(rho_gene), 
+              end(rho_gene))
+
+# Calculate 1kb upstream and downstream
+tss_region <- c(tss - 1000, tss + 1000)
+
+cat("\nTSS position:", tss,
+    "\n2kb region around TSS:", tss_region[1], "-", tss_region[2])
+
+```
+
+# Function to create Excel-ready methylation data
+```{r}
+# Function to create Excel-ready methylation data
+create_methylation_excel <- function(overlap_gr, methylation_matrix) {
+  # Get TSS positions
+  tss_positions <- ifelse(
+    as.character(strand(overlap_gr)) == "+",
+    start(overlap_gr),
+    end(overlap_gr)
+  )
+  
+  # Create base data frame with gene info
+  base_data <- data.frame(
+    gene_symbol = mcols(overlap_gr)$gene_symbol,
+    chromosome = as.character(seqnames(overlap_gr)),
+    strand = strand(overlap_gr),
+    range_2kb = paste(tss_positions - 1000, tss_positions + 1000, sep = "-"),
+    cpg_count = mcols(overlap_gr)$cpg_count
+  )
+  
+  # Add methylation values for each bin
+  bin_data <- as.data.frame(methylation_matrix)
+  colnames(bin_data) <- paste0("bin", 1:ncol(methylation_matrix))
+  
+  # Combine all data
+  final_data <- cbind(base_data, bin_data)
+  
+  # Write to CSV
+  write.csv(
+    final_data,
+    file = "methylation_data_with_bins.csv",
+    row.names = FALSE,
+    quote = FALSE
+  )
+  
+  return(final_data)
+}
+
+methylation_excel <- create_methylation_excel(overlap_gr, rod_methylation)
+
+```
+
+### Plotting heatmap
+```{r}
+# Plot heatmap
+pheatmap(
+  mat = rod_methylation,  # Original matrix with NAs
+  color = colorRampPalette(c("blue", "white", "red"))(100),  # Gradient colors
+  cluster_rows = FALSE,    # Disable clustering of rows
+  cluster_cols = FALSE,    # Keep bin order fixed
+  main = "Methylation Heatmap for Rod Genes",
+  show_rownames = TRUE,    # Show gene names
+  show_colnames = TRUE,    # Show bin names
+  na_col = "grey",         # Set grey for NAs
+  fontsize_row = 8,        # Adjust font size for gene labels
+  fontsize_col = 10        # Adjust font size for bins
+)
+
+dev.off()
+
+# Plot heatmap
+plot_methylation_heatmap(rod_methylation_clean, "Rod-Specific Gene Methylation")
+
+```
